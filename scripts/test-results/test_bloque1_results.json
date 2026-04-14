@@ -1,0 +1,496 @@
+{
+  "dolares_todos": {
+    "status": "OK",
+    "http": 200,
+    "data": [
+      {
+        "moneda": "USD",
+        "casa": "oficial",
+        "nombre": "Oficial",
+        "compra": 1345,
+        "venta": 1395,
+        "fechaActualizacion": "2026-04-10T17:01:00.000Z"
+      },
+      {
+        "moneda": "USD",
+        "casa": "blue",
+        "nombre": "Blue",
+        "compra": 1375,
+        "venta": 1390,
+        "fechaActualizacion": "2026-04-11T18:01:00.000Z"
+      },
+      {
+        "moneda": "USD",
+        "casa": "bolsa",
+        "nombre": "Bolsa",
+        "compra": 1408.1,
+        "venta": 1415.2,
+        "fechaActualizacion": "2026-04-11T18:01:00.000Z"
+      },
+      {
+        "moneda": "USD",
+        "casa": "contadoconliqui",
+        "nombre": "Contado con liquidación",
+        "compra": 1470.4,
+        "venta": 1470.8,
+        "fechaActualizacion": "2026-04-11T18:01:00.000Z"
+      },
+      {
+        "moneda": "USD",
+        "casa": "mayorista",
+        "nombre": "Mayorista",
+        "compra": 1361,
+        "venta": 1370,
+        "fechaActualizacion": "2026-04-10T16:02:00.000Z",
+        "variacion": -0.8
+      },
+      {
+        "moneda": "USD",
+        "casa": "cripto",
+        "nombre": "Cripto",
+        "compra": 1469.6,
+        "venta": 1469.7,
+        "fechaActualizacion": "2026-04-11T18:01:00.000Z"
+      },
+      {
+        "moneda": "USD",
+        "casa": "tarjeta",
+        "nombre": "Tarjeta",
+        "compra": 1748.5,
+        "venta": 1813.5,
+        "fechaActualizacion": "2026-04-10T17:01:00.000Z"
+      }
+    ]
+  },
+  "dolar_blue": {
+    "status": "OK",
+    "http": 200,
+    "data": {
+      "moneda": "USD",
+      "casa": "blue",
+      "nombre": "Blue",
+      "compra": 1375,
+      "venta": 1390,
+      "fechaActualizacion": "2026-04-11T18:01:00.000Z"
+    }
+  },
+  "bcra_monetarias_lista": {
+    "status": "OK",
+    "total_vars": 1000
+  },
+  "bcra_var_1": {
+    "status": "OK",
+    "name": "Reservas internacionales",
+    "data": [
+      {
+        "idVariable": 1,
+        "detalle": [
+          {
+            "fecha": "2026-04-08",
+            "valor": 44759.0
+          },
+          {
+            "fecha": "2026-04-07",
+            "valor": 44445.0
+          },
+          {
+            "fecha": "2026-04-06",
+            "valor": 44248.0
+          }
+        ]
+      }
+    ]
+  },
+  "bcra_var_15": {
+    "status": "OK",
+    "name": "Base monetaria",
+    "data": [
+      {
+        "idVariable": 15,
+        "detalle": [
+          {
+            "fecha": "2026-04-08",
+            "valor": 41265125.0
+          },
+          {
+            "fecha": "2026-04-07",
+            "valor": 41976449.0
+          },
+          {
+            "fecha": "2026-04-06",
+            "valor": 41983916.0
+          }
+        ]
+      }
+    ]
+  },
+  "bcra_var_7": {
+    "status": "OK",
+    "name": "Tasa BADLAR",
+    "data": [
+      {
+        "idVariable": 7,
+        "detalle": [
+          {
+            "fecha": "2026-04-09",
+            "valor": 23.25
+          },
+          {
+            "fecha": "2026-04-08",
+            "valor": 24.9375
+          },
+          {
+            "fecha": "2026-04-07",
+            "valor": 25.3125
+          }
+        ]
+      }
+    ]
+  },
+  "bcra_var_8": {
+    "status": "OK",
+    "name": "Tasa TM20",
+    "data": [
+      {
+        "idVariable": 8,
+        "detalle": [
+          {
+            "fecha": "2026-04-09",
+            "valor": 23.375
+          },
+          {
+            "fecha": "2026-04-08",
+            "valor": 25.1875
+          },
+          {
+            "fecha": "2026-04-07",
+            "valor": 25.625
+          }
+        ]
+      }
+    ]
+  },
+  "bcra_var_12": {
+    "status": "OK",
+    "name": "Tasa depositos 30d",
+    "data": [
+      {
+        "idVariable": 12,
+        "detalle": [
+          {
+            "fecha": "2026-04-09",
+            "valor": 23.23
+          },
+          {
+            "fecha": "2026-04-08",
+            "valor": 24.29
+          },
+          {
+            "fecha": "2026-04-07",
+            "valor": 24.52
+          }
+        ]
+      }
+    ]
+  },
+  "bcra_var_4": {
+    "status": "OK",
+    "name": "TC minorista",
+    "data": [
+      {
+        "idVariable": 4,
+        "detalle": [
+          {
+            "fecha": "2026-04-10",
+            "valor": 1399.42
+          },
+          {
+            "fecha": "2026-04-09",
+            "valor": 1409.92
+          },
+          {
+            "fecha": "2026-04-08",
+            "valor": 1412.02
+          }
+        ]
+      }
+    ]
+  },
+  "bcra_var_5": {
+    "status": "OK",
+    "name": "TC mayorista",
+    "data": [
+      {
+        "idVariable": 5,
+        "detalle": [
+          {
+            "fecha": "2026-04-10",
+            "valor": 1373.9
+          },
+          {
+            "fecha": "2026-04-09",
+            "valor": 1383.23
+          },
+          {
+            "fecha": "2026-04-08",
+            "valor": 1387.03
+          }
+        ]
+      }
+    ]
+  },
+  "bcra_cambiarias": {
+    "status": "OK",
+    "fecha": "2026-04-10",
+    "monedas": 39,
+    "data": [
+      {
+        "codigoMoneda": "ARS",
+        "descripcion": "PESO",
+        "tipoPase": 0.00073,
+        "tipoCotizacion": 0.0
+      },
+      {
+        "codigoMoneda": "AUD",
+        "descripcion": "DOLAR AUSTRALIA",
+        "tipoPase": 0.7074,
+        "tipoCotizacion": 969.138
+      },
+      {
+        "codigoMoneda": "AWG",
+        "descripcion": "FLORIN (ANTILLAS HOLANDESAS)",
+        "tipoPase": 0.558659,
+        "tipoCotizacion": 765.363128
+      },
+      {
+        "codigoMoneda": "BOB",
+        "descripcion": "BOLIVIANOS",
+        "tipoPase": 0.145254,
+        "tipoCotizacion": 198.997749
+      },
+      {
+        "codigoMoneda": "BRL",
+        "descripcion": "REAL",
+        "tipoPase": 0.199056,
+        "tipoCotizacion": 272.707367
+      },
+      {
+        "codigoMoneda": "CAD",
+        "descripcion": "DOLAR CANADIEN.",
+        "tipoPase": 0.723014,
+        "tipoCotizacion": 990.528523
+      },
+      {
+        "codigoMoneda": "CHF",
+        "descripcion": "FRANCO SUIZO",
+        "tipoPase": 1.266624,
+        "tipoCotizacion": 1735.275491
+      },
+      {
+        "codigoMoneda": "CLP",
+        "descripcion": "PESO CHILENO",
+        "tipoPase": 0.001118,
+        "tipoCotizacion": 1.531479
+      },
+      {
+        "codigoMoneda": "CNH",
+        "descripcion": "YUAN CNH RENMINBI OFF SHORE",
+        "tipoPase": 0.146494,
+        "tipoCotizacion": 200.697313
+      },
+      {
+        "codigoMoneda": "CNY",
+        "descripcion": "YUAN CNY RENMINBI",
+        "tipoPase": 0.146417,
+        "tipoCotizacion": 200.591525
+      }
+    ]
+  },
+  "riesgo_pais": {
+    "status": "OK",
+    "data": {
+      "valor": 557,
+      "fecha": "2026-04-09"
+    }
+  },
+  "serie_ipc": {
+    "status": "OK",
+    "serie_id": "103.1_I2N_2016_M_15",
+    "description": "IPC-GBA. Núcleo. Base abr 2016. Mensual",
+    "data": [
+      [
+        "2025-10-01",
+        9836.1396
+      ],
+      [
+        "2025-11-01",
+        10107.6944
+      ],
+      [
+        "2025-12-01",
+        10407.4143
+      ],
+      [
+        "2026-01-01",
+        10683.2854
+      ],
+      [
+        "2026-02-01",
+        10991.1691
+      ]
+    ]
+  },
+  "serie_emae": {
+    "status": "OK",
+    "serie_id": "143.3_NO_PR_2004_A_21",
+    "description": "EMAE. Base 2004",
+    "data": [
+      [
+        "2025-09-01",
+        151.83984439466224
+      ],
+      [
+        "2025-10-01",
+        152.59573745863372
+      ],
+      [
+        "2025-11-01",
+        147.72352773408562
+      ],
+      [
+        "2025-12-01",
+        153.46285317997496
+      ],
+      [
+        "2026-01-01",
+        149.0409020924211
+      ]
+    ]
+  },
+  "eonet_open": {
+    "status": "OK",
+    "count": 5,
+    "events": [
+      {
+        "title": "Typhoon Sinlaku",
+        "categories": [
+          "Severe Storms"
+        ],
+        "coords": [
+          151.1,
+          9
+        ],
+        "date": "2026-04-11T12:00:00Z"
+      },
+      {
+        "title": "rx-Northern Scupp EWO Prescribed Fire, Waukesha, Wisconsin",
+        "categories": [
+          "Wildfires"
+        ],
+        "coords": [
+          -88.483243,
+          42.9227232
+        ],
+        "date": "2026-04-09T15:09:00Z"
+      },
+      {
+        "title": "HARRISON Wildfire, Osage, Oklahoma",
+        "categories": [
+          "Wildfires"
+        ],
+        "coords": [
+          -96.849207,
+          36.568752
+        ],
+        "date": "2026-04-09T13:08:00Z"
+      },
+      {
+        "title": "JOY Wildfire, Osage, Oklahoma",
+        "categories": [
+          "Wildfires"
+        ],
+        "coords": [
+          -96.232358,
+          36.471122
+        ],
+        "date": "2026-04-09T11:29:00Z"
+      },
+      {
+        "title": "Rx Cherokee 3464 Prescribed Fire, Cherokee, Texas",
+        "categories": [
+          "Wildfires"
+        ],
+        "coords": [
+          -95.13378,
+          31.56518
+        ],
+        "date": "2026-04-09T10:30:00Z"
+      }
+    ]
+  },
+  "eonet_fires": {
+    "status": "OK",
+    "count": 3,
+    "events": [
+      {
+        "title": "rx-Northern Scupp EWO Prescribed Fire, Waukesha, Wisconsin",
+        "categories": [
+          "Wildfires"
+        ],
+        "coords": [
+          -88.483243,
+          42.9227232
+        ],
+        "date": "2026-04-09T15:09:00Z"
+      },
+      {
+        "title": "HARRISON Wildfire, Osage, Oklahoma",
+        "categories": [
+          "Wildfires"
+        ],
+        "coords": [
+          -96.849207,
+          36.568752
+        ],
+        "date": "2026-04-09T13:08:00Z"
+      },
+      {
+        "title": "JOY Wildfire, Osage, Oklahoma",
+        "categories": [
+          "Wildfires"
+        ],
+        "coords": [
+          -96.232358,
+          36.471122
+        ],
+        "date": "2026-04-09T11:29:00Z"
+      }
+    ]
+  },
+  "bluelytics": {
+    "status": "OK",
+    "data": {
+      "oficial": {
+        "value_avg": 1374.0,
+        "value_sell": 1399.0,
+        "value_buy": 1349.0
+      },
+      "blue": {
+        "value_avg": 1380.0,
+        "value_sell": 1390.0,
+        "value_buy": 1370.0
+      },
+      "oficial_euro": {
+        "value_avg": 1493.5,
+        "value_sell": 1521.0,
+        "value_buy": 1466.0
+      },
+      "blue_euro": {
+        "value_avg": 1500.0,
+        "value_sell": 1511.0,
+        "value_buy": 1489.0
+      },
+      "last_update": "2026-04-10T19:45:56.551625-03:00"
+    }
+  }
+}

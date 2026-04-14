@@ -1,0 +1,12 @@
+httpx
+feedparser
+apify-client
+anthropic
+fastapi
+uvicorn[standard]
+python-dotenv
+reportlab
+psycopg[binary]
+psycopg_pool
+youtube-transcript-api
+yt-dlp

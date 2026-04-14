@@ -1,0 +1,92 @@
+{
+  "Ambito Economia": {
+    "status": "OK",
+    "items_count": 20,
+    "latest_title": "Todos los descuentos de Cuenta DNI disponibles este fin de semana",
+    "latest_date": "Sat, 11 Apr 2026 14:00:00 -0300",
+    "all_titles": [
+      "Todos los descuentos de Cuenta DNI disponibles este fin de semana",
+      "Plazo fijo: ¿Cuánta ganancia se obtiene al invertir $400.000 durante 30 días?",
+      "El supermercado argentino con hasta 50% de descuento en productos de belleza hoy, 11 de abril",
+      "Plazo fijo en abril 2026: cuánto gano si invierto $600.000 a 30 días",
+      "El mejor consejo para conseguir tu ahorro en dólares: de qué trata el \"método de barrido\"",
+      "La industria automotriz pidió relanzar con urgencia el acuerdo bilateral con Brasil, ante el aluvión de productos chinos",
+      "Dólar atrasado, inflación al alza y caída de salarios: advierten por una \"anomalía\" que tensiona el modelo de Javier Milei",
+      "Cuánto cuesta llenar el tanque de nafta con la suba del petróleo por la guerra en Medio Oriente",
+      "El descuento en carnicerías que no podés perderte en abril con esta aplicación",
+      "La canasta básica trepó 3,4% en CABA y una familia porteña necesitó $2.342.860 en marzo para ser de clase media"
+    ]
+  },
+  "El Cronista": {
+    "status": "OK",
+    "items_count": 73,
+    "latest_title": "Exportaciones: los factores que empiezan a empujar las ventas a Brasil",
+    "latest_date": "Sat, 11 Apr 2026 20:41:56 +0000",
+    "all_titles": [
+      "Exportaciones: los factores que empiezan a empujar las ventas a Brasil",
+      "Se conoce la inflación de marzo: qué número anticipan las principales consultoras",
+      "El nuevo requisito para mantener el Certificado de Discapacidad que todos los beneficiarios deben cumplir desde ahora",
+      "La interna de la Corte presiona las divisiones en el Gobierno por la discusión de las vacantes",
+      "“Más ambiciosos”: cuál es el futuro del programa económico, según uno de los especialistas más escuchados",
+      "Vuelve Montblanc al país y ya prepara la apertura de su segunda tienda",
+      "Tarjeta SUBE: cómo pagar un 55% menos en trenes y colectivos en abril 2026",
+      "Cambian las clases para siempre: eliminan dos materias clave de todos los colegios del país",
+      "Revés para la CGT: la Justicia dirimió el fuero que debe resolver el futuro de la Reforma Laboral",
+      "H&M avanza con su desembarco y se suma a la ola de marcas que vuelven a la Argentina"
+    ]
+  },
+  "El Economista Finanzas": {
+    "status": "OK",
+    "items_count": 20,
+    "latest_title": "Los números del mercado indican que EE.UU. es el que va perdiendo la guerra",
+    "latest_date": "Fri, 10 Apr 2026 18:43:00 -0300",
+    "all_titles": [
+      "Los números del mercado indican que EE.UU. es el que va perdiendo la guerra",
+      "\"Baño de inversión\", el original spot de Banco Provincia para posicionarse en el mercado financiero",
+      "Incómodas preguntas de Wall Street por la economía de Milei y el reclamo del Fondo para liberar los US$ 1.000 M",
+      "Ven bien las cuentas externas argentinas, los bonos suben y el riesgo baja más",
+      "El mundo vibra y la Argentina tiene el menor riesgo país en un mes",
+      "Incertidumbre con pocos cambios ante el chicken game entre EE.UU. e Irán",
+      "El Tesoro le compró US$ 3.658 millones directamente al Central y se esfuma la \"acumulación\" de reservas",
+      "Mercados en duda: inversores creen que el petróleo seguirá alto durante bastante tiempo",
+      "Caputo no deja un peso suelto: todo lo que emitió el BCRA para comprar dólares lo absorbió el Tesoro",
+      "Caputo tiene ganas de patearle el trasero a un banco inglés"
+    ]
+  },
+  "El Economista Economia": {
+    "status": "OK",
+    "items_count": 20,
+    "latest_title": "Hernán Lacunza: \"Tras estabilizar y comenzar las reformas, el desafío del Gobierno es abordar a tiempo las luces amarillas\"",
+    "latest_date": "Sat, 11 Apr 2026 17:00:00 -0300",
+    "all_titles": [
+      "Hernán Lacunza: \"Tras estabilizar y comenzar las reformas, el desafío del Gobierno es abordar a tiempo las luces amarillas\"",
+      "Ante el creciente proteccionismo global, los exportadores reclaman que le saquen \"el pie de encima\"",
+      "Argentina frente al boom de los data centers: ¿nuevo \"campo\" digital u otra economía de enclave?",
+      "¿Qué tanto refleja la realidad la reciente baja de la pobreza?",
+      "Está pasando algo \"bastante excepcional\" en la economía: así lo explica un informe",
+      "En un país federal, el plan económico tiene tantos conductores como provincias haya",
+      "\"Entramos al punto dulce\": Daza anticipa un escenario \"extraordinario\" y pide no apostar a un dólar más alto",
+      "Flybondi admite que no puede pagar sueldos y crece la tensión por vuelos cancelados",
+      "Plazos fijos en Argentina: ¿Cuánto están pagando estos 29 bancos?",
+      "\"No hicimos nada ilegal\": la respuesta de los funcionarios de Caputo por los créditos hipotecarios"
+    ]
+  },
+  "El Economista Internacional": {
+    "status": "OK",
+    "items_count": 20,
+    "latest_title": "Quién es Silvia Salis, la \"anti-Meloni\" de la centroizquierda italiana",
+    "latest_date": "Fri, 10 Apr 2026 14:35:00 -0300",
+    "all_titles": [
+      "Quién es Silvia Salis, la \"anti-Meloni\" de la centroizquierda italiana",
+      "Orbán, ¿se queda o se va?: cuáles son los posibles escenarios de cara a las elecciones del domingo en Hungría",
+      "Minerales críticos y geopolítica: la oportunidad estratégica detrás del acuerdo UE-Mercosur",
+      "Actis: \"Irán ha ganado la guerra de Ormuz porque Trump no sabe cómo lograr que el estrecho vuelva a su flujo natural\"",
+      "La derecha planetaria tiene los ojos puestos en Budapest: qué pasará en Hungría este domingo",
+      "SHOCK en el estrecho de Ormuz: Irán amenaza con romper tregua y hay 800 buques varados",
+      "IRÁN REDOBLA LA AMENAZA: \"14 millones están listos para morir\" tras el ultimátum de Trump",
+      "El lunes 6 de abril de 2026, a las 20:00 horas de Washington, el mundo entrará en una zona de sombra",
+      "Es \"topo\" de Putin, aliado de Milei y megáfono de Trump: Viktor Orban se juega la vida en 168 horas",
+      "La inserción de la Argentina en un mundo en guerra por la energía"
+    ]
+  }
+}

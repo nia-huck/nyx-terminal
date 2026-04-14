@@ -1,0 +1,58 @@
+{
+  "___INSTRUCCIONES___": "Copiar mcpServers al archivo claude_desktop_config.json de Claude Desktop",
+
+  "OPCION_1_BASICA": {
+    "mcpServers": {
+      "apify": {
+        "command": "npx",
+        "args": ["-y", "@apify/mcp-server-apify"],
+        "env": {
+          "APIFY_TOKEN": "apify_api_YOUR_TOKEN_HERE"
+        }
+      }
+    }
+  },
+
+  "OPCION_2_NYX_TERMINAL_FREE": {
+    "mcpServers": {
+      "apify": {
+        "command": "npx",
+        "args": [
+          "-y", "@apify/mcp-server-apify",
+          "--actors",
+          "apify/rag-web-browser,apify/google-trends-scraper,trudax/reddit-scraper-lite,lukaskrivka/article-extractor-smart"
+        ],
+        "env": {
+          "APIFY_TOKEN": "apify_api_YOUR_TOKEN_HERE"
+        }
+      }
+    }
+  },
+
+  "OPCION_3_NYX_TERMINAL_PAID": {
+    "___NOTA___": "Requiere plan pago de Apify para Twitter y Google News",
+    "mcpServers": {
+      "apify": {
+        "command": "npx",
+        "args": [
+          "-y", "@apify/mcp-server-apify",
+          "--actors",
+          "apify/rag-web-browser,apify/google-trends-scraper,trudax/reddit-scraper-lite,lukaskrivka/article-extractor-smart,apidojo/tweet-scraper,easyapi/google-news-scraper"
+        ],
+        "env": {
+          "APIFY_TOKEN": "apify_api_YOUR_TOKEN_HERE"
+        }
+      }
+    }
+  },
+
+  "OPCION_4_STREAMABLE_HTTP": {
+    "___NOTA___": "Formato URL para Claude Desktop con Streamable HTTP (alternativo)",
+    "mcpServers": {
+      "apify": {
+        "url": "https://mcp.apify.com/sse?token=apify_api_YOUR_TOKEN_HERE",
+        "transport": "sse"
+      }
+    }
+  }
+}

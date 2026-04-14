@@ -1,0 +1,1260 @@
+{
+  "twitter_actors_found": [
+    {
+      "id": "apidojo/tweet-scraper",
+      "title": "🏯 Tweet Scraper V2 - X / Twitter Scraper",
+      "users": 48061,
+      "runs": 136937919,
+      "is_free": true,
+      "found_via": "twitter"
+    },
+    {
+      "id": "apidojo/twitter-scraper-lite",
+      "title": "Twitter (X.com) Scraper Unlimited: No Limits",
+      "users": 21277,
+      "runs": 11824055,
+      "is_free": true,
+      "found_via": "twitter"
+    },
+    {
+      "id": "kaitoeasyapi/twitter-x-data-tweet-scraper-pay-per-result-cheapest",
+      "title": "Tweet Scraper|$0.25/1K Tweets | Pay-Per Result | No Rate Limits",
+      "users": 10419,
+      "runs": 35024184,
+      "is_free": true,
+      "found_via": "twitter"
+    },
+    {
+      "id": "gentle_cloud/twitter-tweets-scraper",
+      "title": "Twitter Tweets Scraper",
+      "users": 4123,
+      "runs": 5223805,
+      "is_free": true,
+      "found_via": "twitter"
+    },
+    {
+      "id": "kaitoeasyapi/premium-x-follower-scraper-following-data",
+      "title": "Twitter (X) Follower Scraper | $0.1 / 1K | Email| No Rate Limit",
+      "users": 4097,
+      "runs": 519985,
+      "is_free": true,
+      "found_via": "twitter"
+    },
+    {
+      "id": "novi/tiktok-user-info-api",
+      "title": "Tiktok User Profile API",
+      "users": 2076,
+      "runs": 539689,
+      "is_free": true,
+      "found_via": "x.com scraper"
+    },
+    {
+      "id": "xtdata/twitter-x-scraper",
+      "title": "X.com Twitter API Scraper",
+      "users": 1982,
+      "runs": 157772,
+      "is_free": true,
+      "found_via": "twitter"
+    },
+    {
+      "id": "api-ninja/x-twitter-advanced-search",
+      "title": "X (Twitter) Advanced Search Scraper 𝕏",
+      "users": 1438,
+      "runs": 330857,
+      "is_free": true,
+      "found_via": "x.com scraper"
+    },
+    {
+      "id": "karamelo/twitter-trends-scraper",
+      "title": "Twitter Trends Scraper",
+      "users": 1028,
+      "runs": 167004,
+      "is_free": true,
+      "found_via": "tweet scraper"
+    },
+    {
+      "id": "scrape.badger/twitter-tweets-scraper",
+      "title": "Twitter/X Tweets Scraper: Tweets,  Retweets, Lists & More!",
+      "users": 963,
+      "runs": 499092,
+      "is_free": true,
+      "found_via": "tweet scraper"
+    },
+    {
+      "id": "pratikdani/twitter-posts-scraper",
+      "title": "Twitter Posts Scraper",
+      "users": 675,
+      "runs": 377481,
+      "is_free": true,
+      "found_via": "tweet scraper"
+    },
+    {
+      "id": "watcher.data/search-x-by-keywords",
+      "title": "Search X By Keywords",
+      "users": 646,
+      "runs": 23641,
+      "is_free": true,
+      "found_via": "twitter"
+    },
+    {
+      "id": "fastcrawler/tweet-x-twitter-scraper-0-2-1k-pay-per-result-v2",
+      "title": "Tweet(X)/Twitter scraper|$0.2/1K| Pay-Per Result v2",
+      "users": 577,
+      "runs": 224373,
+      "is_free": true,
+      "found_via": "tweets"
+    },
+    {
+      "id": "api-ninja/x-twitter-followers-scraper",
+      "title": "X (Twitter) Followers Scraper",
+      "users": 389,
+      "runs": 6295,
+      "is_free": true,
+      "found_via": "tweet scraper"
+    },
+    {
+      "id": "powerai/twitter-search-scraper",
+      "title": "Twitter Search Scraper",
+      "users": 353,
+      "runs": 10359,
+      "is_free": true,
+      "found_via": "twitter search"
+    }
+  ],
+  "twitter_actors_tested": [
+    {
+      "id": "kaitoeasyapi/twitter-x-data-tweet-scraper-pay-per-result-cheapest",
+      "works": true,
+      "input": {
+        "searchTerms": [
+          "BCRA"
+        ],
+        "maxTweets": 5
+      },
+      "count": 180,
+      "sample_keys": [
+        "type",
+        "id",
+        "url",
+        "twitterUrl",
+        "text",
+        "source",
+        "retweetCount",
+        "replyCount",
+        "likeCount",
+        "quoteCount",
+        "viewCount",
+        "createdAt",
+        "lang",
+        "bookmarkCount",
+        "isReply"
+      ]
+    },
+    {
+      "id": "gentle_cloud/twitter-tweets-scraper",
+      "works": true,
+      "input": {
+        "searchTerms": [
+          "BCRA"
+        ],
+        "maxTweets": 5
+      },
+      "count": 20,
+      "sample_keys": [
+        "bookmark_count",
+        "created_at",
+        "conversation_id_str",
+        "entities",
+        "extended_entities",
+        "favorite_count",
+        "favorited",
+        "full_text",
+        "is_quote_status",
+        "lang",
+        "possibly_sensitive",
+        "possibly_sensitive_editable",
+        "quote_count",
+        "reply_count",
+        "retweet_count"
+      ]
+    },
+    {
+      "id": "kaitoeasyapi/premium-x-follower-scraper-following-data",
+      "works": false,
+      "reason": "no_compatible_input"
+    },
+    {
+      "id": "novi/tiktok-user-info-api",
+      "works": false,
+      "reason": "no_compatible_input"
+    },
+    {
+      "id": "xtdata/twitter-x-scraper",
+      "works": true,
+      "input": {
+        "searchTerms": [
+          "BCRA"
+        ],
+        "maxTweets": 5
+      },
+      "count": 639,
+      "sample_keys": [
+        "id",
+        "url",
+        "twitterUrl",
+        "author",
+        "full_text",
+        "favorite_count",
+        "retweet_count",
+        "reply_count",
+        "quote_count",
+        "bookmark_count",
+        "bookmarked",
+        "conversation_id_str",
+        "created_at",
+        "display_text_range",
+        "entities"
+      ]
+    },
+    {
+      "id": "apidojo/twitter-scraper-lite",
+      "works": true,
+      "input": {
+        "searchTerms": [
+          "BCRA"
+        ],
+        "maxTweets": 5
+      },
+      "count": 10,
+      "sample_keys": [
+        "demo"
+      ]
+    }
+  ],
+  "news_actors_found": [
+    {
+      "id": "lukaskrivka/article-extractor-smart",
+      "title": "Smart Article Extractor",
+      "users": 7272,
+      "runs": 6492346,
+      "found_via": "article scraper"
+    },
+    {
+      "id": "easyapi/google-news-scraper",
+      "title": "Google News Scraper",
+      "users": 1332,
+      "runs": 253759,
+      "found_via": "google news"
+    },
+    {
+      "id": "data_xplorer/google-news-scraper-fast",
+      "title": "Google News Scraper (Pay Per Event)",
+      "users": 674,
+      "runs": 100772,
+      "found_via": "google news"
+    },
+    {
+      "id": "scrapestorm/google-news-scraper-fast-cheap-pay-per-results",
+      "title": "Google News Scraper Fast & cheap ⭐ (Pay per results) 📰⚡",
+      "users": 650,
+      "runs": 13061,
+      "found_via": "google news"
+    },
+    {
+      "id": "extremescrapes/wordpress-articles-scraper",
+      "title": "WordPress Articles Scraper",
+      "users": 124,
+      "runs": 821,
+      "found_via": "article scraper"
+    },
+    {
+      "id": "easyapi/article-content-extractor",
+      "title": "Article Content Extractor 📄",
+      "users": 98,
+      "runs": 1946,
+      "found_via": "article scraper"
+    },
+    {
+      "id": "scrapestorm/pubmed-articles-scraper---pay-per-results",
+      "title": "PubMed Articles Scraper 📚🎓 - Pay per results",
+      "users": 96,
+      "runs": 1532,
+      "found_via": "article scraper"
+    },
+    {
+      "id": "futurizerush/google-news-scraper",
+      "title": "Google News Scraper",
+      "users": 88,
+      "runs": 951,
+      "found_via": "google news"
+    },
+    {
+      "id": "muhammetakkurtt/cointelegraph-news-scraper",
+      "title": "Cointelegraph News Scraper",
+      "users": 84,
+      "runs": 1297,
+      "found_via": "news scraper"
+    },
+    {
+      "id": "automation-lab/google-news-scraper",
+      "title": "Google News Scraper",
+      "users": 76,
+      "runs": 1721,
+      "found_via": "google news"
+    }
+  ],
+  "article_extractor_test": {
+    "works": true,
+    "count": 21,
+    "sample": [
+      {
+        "title": "Créditos hipotecarios cayeron un 10% interanual",
+        "url": "https://www.ambito.com/real-estate/creditos-hipotecarios-cayeron-un-10-interanual-el-mercado-inmobiliario-duda-su-rebote-n6265281",
+        "date": "2026-04-11T20:26:00.000Z"
+      },
+      {
+        "title": "el tipo de cambio real se ubica en su menor nivel desde 2017, ¿cerca de un piso o irá por nuevos mínimos?",
+        "url": "https://www.ambito.com/finanzas/dolar-el-tipo-cambio-real-se-ubica-su-menor-nivel-2017-cerca-un-piso-o-ira-nuevos-minimos-n6264791",
+        "date": "2026-04-11T20:26:00.000Z"
+      },
+      {
+        "title": "los jóvenes que señaron el departamento son socios de la desarrolladora que construyó el edificio de la calle Miró",
+        "url": "https://www.ambito.com/politica/caso-adorni-los-jovenes-que-senaron-el-departamento-son-socios-la-desarrolladora-que-construyo-el-edificio-la-calle-miro-n6265017",
+        "date": "2026-04-11T20:26:00.000Z"
+      },
+      {
+        "title": "Los gobernadores blindan las reformas de Javier Milei pero crece la preocupación por el deterioro en las provincias",
+        "url": "https://www.ambito.com/ambito-nacional/los-gobernadores-blindan-las-reformas-javier-milei-pero-crece-la-preocupacion-el-deterioro-las-provincias-n6265272",
+        "date": "2026-04-11T20:26:00.000Z"
+      },
+      {
+        "title": "La misión Artemis 2 regresó con éxito a la Tierra tras su viaje a la Luna y amerizó en el Pacífico",
+        "url": "https://www.ambito.com/mundo/hoy-regresa-la-mision-artemis-2-la-tierra-que-hora-sera-y-como-seguirlo-vivo-n6265139",
+        "date": "2026-04-11T20:26:00.000Z"
+      }
+    ]
+  },
+  "rag_results": {
+    "twitter_bcra": {
+      "status": "OK",
+      "count": 5,
+      "results": [
+        {
+          "title": "?",
+          "url": "?",
+          "text": "Something went wrong, but don’t fret — let’s give it another shot.\n\n  \n\nTry again\n\n![⚠️](https://abs-0.twimg.com/emoji/v2/svg/26a0.svg) Some privacy related extensions may cause issues on x.com. Please disable them and try again."
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "Something went wrong, but don’t fret — let’s give it another shot.\n\n  \n\nTry again\n\n![⚠️](https://abs-0.twimg.com/emoji/v2/svg/26a0.svg) Some privacy related extensions may cause issues on x.com. Please disable them and try again."
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "Something went wrong, but don’t fret — let’s give it another shot.\n\n  \n\nTry again\n\n![⚠️](https://abs-0.twimg.com/emoji/v2/svg/26a0.svg) Some privacy related extensions may cause issues on x.com. Please disable them and try again."
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "Something went wrong, but don’t fret — let’s give it another shot.\n\n  \n\nTry again\n\n![⚠️](https://abs-0.twimg.com/emoji/v2/svg/26a0.svg) Some privacy related extensions may cause issues on x.com. Please disable them and try again."
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "Something went wrong, but don’t fret — let’s give it another shot.\n\n  \n\nTry again\n\n![⚠️](https://abs-0.twimg.com/emoji/v2/svg/26a0.svg) Some privacy related extensions may cause issues on x.com. Please disable them and try again."
+        }
+      ]
+    },
+    "twitter_banco_central": {
+      "status": "OK",
+      "count": 5,
+      "results": [
+        {
+          "title": "?",
+          "url": "?",
+          "text": "Something went wrong, but don’t fret — let’s give it another shot.\n\n  \n\nTry again\n\n![⚠️](https://abs-0.twimg.com/emoji/v2/svg/26a0.svg) Some privacy related extensions may cause issues on x.com. Please disable them and try again."
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "Something went wrong, but don’t fret — let’s give it another shot.\n\n  \n\nTry again\n\n![⚠️](https://abs-0.twimg.com/emoji/v2/svg/26a0.svg) Some privacy related extensions may cause issues on x.com. Please disable them and try again."
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "Something went wrong, but don’t fret — let’s give it another shot.\n\n  \n\nTry again\n\n![⚠️](https://abs-0.twimg.com/emoji/v2/svg/26a0.svg) Some privacy related extensions may cause issues on x.com. Please disable them and try again."
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "Something went wrong, but don’t fret — let’s give it another shot.\n\n  \n\nTry again\n\n![⚠️](https://abs-0.twimg.com/emoji/v2/svg/26a0.svg) Some privacy related extensions may cause issues on x.com. Please disable them and try again."
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "Something went wrong, but don’t fret — let’s give it another shot.\n\n  \n\nTry again\n\n![⚠️](https://abs-0.twimg.com/emoji/v2/svg/26a0.svg) Some privacy related extensions may cause issues on x.com. Please disable them and try again."
+        }
+      ]
+    },
+    "google_news_ar": {
+      "status": "OK",
+      "count": 10,
+      "results": [
+        {
+          "title": "?",
+          "url": "?",
+          "text": "La Argentina resiste la volatilidad global mientras el Gobierno busca reactivar la economía con una baja de tasas - Infobae\n\n[Economía](/economia/)\n\n# La Argentina resiste la volatilidad global mientras el Gobierno busca reactivar la economía con una baja de tasas\n\n## Los bonos argentinos repuntaron y el riesgo país se acercó a 550 puntos pese a la incertidumbre mundial. En paralelo, el equipo económico inyecta liquidez para estimular la actividad económica\n\n![Luis Beldi](https://www.infobae.com"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "La inflación aceleró en el cierre de marzo y el Gobierno confía en una medida clave para frenarla en abril - Infobae\n\n[Economía](/economia/)\n\n# La inflación aceleró en el cierre de marzo y el Gobierno confía en una medida clave para frenarla en abril\n\n## Los aumentos de alimentos y bebidas ganaron ritmo a fin del mes pasado y complican el índice general. Economía confía en que la decisión de YPF de no aumentar las naftas por 45 días ayude en abril\n\n![Lucrecia Eterovich](https://www.infobae.com/r"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "Últimas noticias económicas de Argentina 2026: Perspectiva macroeconómica y financiera del mercado local - Bloomberg Línea\n\n# Noticia Últimas noticias económicas de Argentina 2026: Perspectiva macroeconómica y financiera del mercado local - Bloomberg Línea\n\n### Últimas noticias económicas de Latam\n\nPUBLICIDAD\n\nSeleccione un país\n\n[![Bloomberg Línea](/pf/resources/images/fallback-logo-black-720x100.png?d=2297 \"Bloomberg Línea\")](/)\n\nIngresar\n\n[![Falic Media](https://cloudfront-us-east-1.images.ar"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "VIDEO | Llegan más dólares, pero los precios siguen sin aflojar\n\n[iProfesional![Logo home iProfesional](/images/iprofesional.svg)](/ \"iProfesional - Últimas noticias, actualidad, economía, finanzas sobre Argentina y el mundo\")\n\nBuscar\n\n*   9/4/2026\n\nALERTA\n\n# VIDEO | Panorama económico financiero en menos de 90 segundos\n\nMarzo habría cerrado cerca del 3%: hay más dólares para sostener el tipo de cambio, pero combustibles y costos siguen pegando en precios\n\n**[iProfesional](/index.php/)** | **[Fi"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "La economía creció 4,4% – Página|12 [Omitir para ir al contenido principal](#main)\n\n* * *\n\n[![Pagina 12](/pf//resources/p12logo-50-anos-del-golpe-desktop.svg?d=91)](/ \"Pagina 12\")\n\n* * *\n\n* * *\n\n* * *\n\n[![Pagina 12](/pf//resources/p12logo-50-anos-del-golpe-desktop.svg?d=91)](/ \"Pagina 12\")\n\n[\n\nMIRÁ\n\n* * *\n\n\n\n](/argentina12)\n\nVolver\n\n*   [Edición Impresa](/edicion-impresa)\n*   [50 Años del Golpe](/50-anos-del-golpe)\n*   [El País](/el-pais)\n*   [Economía](/economia)\n*   [Sociedad](/sociedad)\n*   ["
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "Dólares, deuda e inflación: alertas sobre el modelo económico argentino - Radio C\n\nSábado, 11 de abril\n\n*   [](https://www.instagram.com/radioc107.3)[](https://www.youtube.com/channel/UCl9f84wFJESUr5Efu6UqwfQ)[](https://api.whatsapp.com/send?phone=+5492944535816&text=Hola!)\n\n[![](../../../images/logo/logo_1771440983_69960b57a20d1.png)](../../../index.php)\n\n## Último Momento :\n\n[Generales](../../../categoria.php?cod=1)\n\n## Dólares, deuda e inflación: alertas sobre el modelo económico argentino\n\nL"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "Instagram"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "InstagramInstagramCloseAudio is mutedAudio is mutedVerifiedMore optionsVerifiedLoad more commentsLikeCommentShareSaveClipClipCarouselClipCarouselCarouselDown chevron icon    \n\n[\n\n](/)\n\n[Log In](/accounts/login/?next=%2Fp%2FDW84OXfjLbY%2F&source=desktop_nav)\n\n[Sign Up](/accounts/emailsignup/)\n\n*   ![](https://scontent-lga3-1.cdninstagram.com/v/t51.82787-15/670437292_18548709277070634_4323763145007485033_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=109&ig_cache_key=Mzg3MjIxNjkyNzY3ODgwNTQwNw%3D%3D.3-ccb7-5&c"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "La economía argentina es de las que más crece, pero alerta sobre un dato financiero negativo - LA NACION\n\nCERRAR\n\nCERRAR\n\nSECCIONES\n\n[\n\n](/ \"Ir a la página principal\")\n\n_![LA NACION](/pf/resources/images/la-nacion.webp?d=1979)_\n\n# La paradoja de la economía argentina: es de las que más crece en la región, pero la de mayor “vulnerabilidad financiera” según el BID\n\n## Son conclusiones de un reciente informe del Banco Interamericano de Desarrollo; espera una expansión del 2,1% este año en América L"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "Noticias de Economía - LA NACION\n\nCERRAR\n\nCERRAR\n\nSECCIONES\n\n[\n\n](/ \"Ir a la página principal\")\n\n_![LA NACION](/pf/resources/images/la-nacion.webp?d=1979)_\n\n# Economía![Economía](https://www.lanacion.com.ar/resizer/v2/logo-comunidad-de-UGKYTICJHBA6TMO4WDXJ2XGENE.png?auth=b79ccd88f3a0aa4bc959ea90de320080b8ee165e93221f99af6d4c0a239d35a1&width=285&quality=70&smart=false)\n\n*   [Campo](/economia/campo/ \"Ir a Campo\")\n*   [Comercio Exterior](/economia/comercio-exterior/ \"Ir a Comercio Exterior\")\n*   [E"
+        }
+      ]
+    },
+    "bcra_resoluciones": {
+      "status": "OK",
+      "count": 5,
+      "results": [
+        {
+          "title": "?",
+          "url": "?",
+          "text": "El Banco Central flexibiliza el cepo al dólar para personas y empresas | Perfil\n\nsábado 11 de abril de 2026\n\n*   [Business](https://www.perfil.com/seccion/bloomberg)\n*   [Noticias](https://noticias.perfil.com)\n*   [Caras](https://caras.perfil.com)\n*   [Exitoína](https://exitoina.perfil.com)\n*   [Perfil Brasil](https://brasil.perfil.com)\n\n[](/ \"Ir al inicio\")\n\n*   [Últimas Noticias](https://www.perfil.com/ultimo-momento)\n*   [Política](https://www.perfil.com/seccion/politica)\n*   [Opinión](https:"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "El BCRA eliminó el tope para retirar efectivo en el exterior con tarjetas argentinas - www.eLe-Ve.com.ar                  \n\n[![eLe-Ve](/dist/fast/logoe.png)](http://www.ele-ve.com.ar/)\n\nULTIMAS NOTICIAS\n\n[El BCRA eliminó el tope para retirar efectivo en el exterior con tarjetas argentinas](El-BCRA-elimino-el-tope-para-retirar-efectivo-en-el-exterior-con-tarjetas-argentinas.html)\n\n[La mora de las familias subió y ya roza el 30% en entidades no financieras](La-mora-de-las-familias-subio-y-ya-roza-"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "BOLETIN OFICIAL REPUBLICA ARGENTINA - BANCO CENTRAL DE LA REPÚBLICA ARGENTINA - Comunicación “B” 13147/2026\n\n![](/images/loader.gif)\n\n×\n\n[](/contacto)\n\n[![Instagram](/images/instagram.png)](https://www.instagram.com/boletinoficialarg)\n\n[![Twitter](/images/twitter.png)](https://twitter.com/boletin_oficial)\n\n* * *\n\n###### Edición del\n\n###### **10 de Abril de 2026**\n\n* * *\n\n###### **Ediciones Anteriores**\n\nBúsqueda avanzada\n\n![](/images/132-aniversario.png)\n\n##### Secciones\n\n*   [![](/images/sectio"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "BOLETIN OFICIAL REPUBLICA ARGENTINA - BANCO CENTRAL DE LA REPÚBLICA ARGENTINA - Comunicación “A” 8416/2026\n\n![](/images/loader.gif)\n\n×\n\n[](/contacto)\n\n[![Instagram](/images/instagram.png)](https://www.instagram.com/boletinoficialarg)\n\n[![Twitter](/images/twitter.png)](https://twitter.com/boletin_oficial)\n\n* * *\n\n###### Edición del\n\n###### **10 de Abril de 2026**\n\n* * *\n\n###### **Ediciones Anteriores**\n\nBúsqueda avanzada\n\n![](/images/132-aniversario.png)\n\n##### Secciones\n\n*   [![](/images/section"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "Buscador de Comunicaciones | BCRA\n\n[Inicio](https://www.bcra.gob.ar/) » [Sistema Financiero](https://www.bcra.gob.ar/sistema-financiero/)\n\n[Inicio](https://www.bcra.gob.ar/) » [Sistema Financiero](https://www.bcra.gob.ar/sistema-financiero/)\n\n# Buscador de Comunicaciones\n\n*   Por tipo y número\n*   |     |     |\n    | --- | --- |\n    | A B C P | Buscar |\n    \n\n*   Por tipo y fecha\n*   A B C P desde  hasta  Buscar\n\n*   Por fecha\n*   desde  hasta  Buscar\n\n*   Por tipo y circular asociada\n*   A B C "
+        }
+      ]
+    },
+    "paro_camioneros": {
+      "status": "OK",
+      "count": 5,
+      "results": [
+        {
+          "title": "?",
+          "url": "?",
+          "text": "InstagramInstagramCloseVerifiedMore optionsVerifiedLoad more commentsLikeCommentShareSaveCarouselCarouselClipClipDown chevron icon  \n\n[\n\n](/)\n\n[Log In](/accounts/login/?next=%2Freel%2FDWUEDI7j9H4%2F&source=desktop_nav)\n\n[Sign Up](/accounts/emailsignup/)\n\n![](https://scontent-atl3-3.cdninstagram.com/v/t51.71878-15/657458213_807672129070110_8162844650363000937_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=108&ig_cache_key=Mzg2MDcyODU4ODQ5NzA0ODA1Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "09 ABR 2026 Camioneros alertan sobre posible paralización nacional - YouTube\n\n[](/ \"YouTube\")[](/ \"YouTube\")\n\n[About](https://www.youtube.com/about/)[Press](https://www.youtube.com/about/press/)[Copyright](https://www.youtube.com/about/copyright/)[Contact us](/t/contact_us/)[Creators](https://www.youtube.com/creators/)[Advertise](https://www.youtube.com/ads/)[Developers](https://developers.google.com/youtube)[Terms](/t/terms)[Privacy](/t/privacy)[Policy & Safety](https://www.youtube.com/about/po"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "Camiones en las banquinas: el reclamo de transportistas frenó exportaciones en plena cosecha y generó pérdidas millonarias - Infobae\n\n[Economía](/economia/)\n\n# Camiones en las banquinas: el reclamo de transportistas frenó exportaciones en plena cosecha y generó pérdidas millonarias\n\n## Más de 20 accesos permanecen interrumpidos en terminales clave mientras crecen los sobrecostos logísticos y se complican los embarques al exterior\n\n[Seguir en![Icono de Google para seguir en redes sociales](https:"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "🛑 SIN ACUERDO: CONTINÚA EL PARO DE CAMIONEROS EN GENERAL BELGRANO Los camioneros autoconvocados de General Belgrano ratificaron este viernes que no hubo acuerdo en las negociaciones y confirmaron la continuidad del paro iniciado este jueves en la rotonda que une las rutas 29 y 41, por tiempo indeterminado. La medida de fuerza se mantiene firme tras considerar “insostenible” la situación del sector, marcada por los constantes aumentos del gasoil y la falta de actualización en las tarifas de trans"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "InstagramInstagramCloseVerifiedMore optionsVerifiedLoad more commentsLikeCommentShareSaveClipClipClipClipClipClipDown chevron icon  \n\n[\n\n](/)\n\n[Log In](/accounts/login/?next=%2Freel%2FDW2LTaZlL9W%2F&source=desktop_nav)\n\n[Sign Up](/accounts/emailsignup/)\n\n![](https://scontent-lga3-3.cdninstagram.com/v/t51.82787-15/662344321_18354564646229437_2699992661560411162_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=106&ig_cache_key=Mzg3MDMzMDY0MjI5OTY2NjI2MjE4MzU0NTY0NjQwMjI5NDM3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=e"
+        }
+      ]
+    },
+    "boletin_oficial": {
+      "status": "OK",
+      "count": 5,
+      "results": [
+        {
+          "title": "?",
+          "url": "?",
+          "text": "BOLETIN OFICIAL REPUBLICA ARGENTINA - MINISTERIO DE SALUD SECRETARÍA NACIONAL DE DISCAPACIDAD - Resolución 13/2026\n\n![](/images/loader.gif)\n\n×\n\n[](/contacto)\n\n[![Instagram](/images/instagram.png)](https://www.instagram.com/boletinoficialarg)\n\n[![Twitter](/images/twitter.png)](https://twitter.com/boletin_oficial)\n\n* * *\n\n###### Edición del\n\n###### **10 de Abril de 2026**\n\n* * *\n\n###### **Ediciones Anteriores**\n\nBúsqueda avanzada\n\n![](/images/132-aniversario.png)\n\n##### Secciones\n\n*   [![](/images"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "BOLETIN OFICIAL REPUBLICA ARGENTINA - MINISTERIO DE CAPITAL HUMANO SECRETARÍA DE EDUCACIÓN - Resolución 172/2026\n\n![](/images/loader.gif)\n\n×\n\n[](/contacto)\n\n[![Instagram](/images/instagram.png)](https://www.instagram.com/boletinoficialarg)\n\n[![Twitter](/images/twitter.png)](https://twitter.com/boletin_oficial)\n\n* * *\n\n###### Edición del\n\n###### **10 de Abril de 2026**\n\n* * *\n\n###### **Ediciones Anteriores**\n\nBúsqueda avanzada\n\n![](/images/132-aniversario.png)\n\n##### Secciones\n\n*   [![](/images/s"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "BOLETIN OFICIAL REPUBLICA ARGENTINA - MINISTERIO DE ECONOMÍA - Resolución 410/2026\n\n![](/images/loader.gif)\n\n×\n\n[](/contacto)\n\n[![Instagram](/images/instagram.png)](https://www.instagram.com/boletinoficialarg)\n\n[![Twitter](/images/twitter.png)](https://twitter.com/boletin_oficial)\n\n* * *\n\n###### Edición del\n\n###### **10 de Abril de 2026**\n\n* * *\n\n###### **Ediciones Anteriores**\n\nBúsqueda avanzada\n\n![](/images/132-aniversario.png)\n\n##### Secciones\n\n*   [![](/images/sections/number1-on.png)](/secc"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "BOLETIN OFICIAL REPUBLICA ARGENTINA - ADMINISTRACIÓN NACIONAL DE LA SEGURIDAD SOCIAL - Resolución 81/2026\n\n![](/images/loader.gif)\n\n×\n\n[](/contacto)\n\n[![Instagram](/images/instagram.png)](https://www.instagram.com/boletinoficialarg)\n\n[![Twitter](/images/twitter.png)](https://twitter.com/boletin_oficial)\n\n* * *\n\n###### Edición del\n\n###### **10 de Abril de 2026**\n\n* * *\n\n###### **Ediciones Anteriores**\n\nBúsqueda avanzada\n\n![](/images/132-aniversario.png)\n\n##### Secciones\n\n*   [![](/images/sections"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "BOLETIN OFICIAL REPUBLICA ARGENTINA - PROCEDIMIENTOS ADMINISTRATIVOS - Decreto 139/2026\n\n![](/images/loader.gif)\n\n×\n\n[](/contacto)\n\n[![Instagram](/images/instagram.png)](https://www.instagram.com/boletinoficialarg)\n\n[![Twitter](/images/twitter.png)](https://twitter.com/boletin_oficial)\n\n* * *\n\n###### Edición del\n\n###### **10 de Abril de 2026**\n\n* * *\n\n###### **Ediciones Anteriores**\n\nBúsqueda avanzada\n\n![](/images/132-aniversario.png)\n\n##### Secciones\n\n*   [![](/images/sections/number1-on.png)]("
+        }
+      ]
+    },
+    "infobae_economia": {
+      "status": "OK",
+      "count": 5,
+      "results": [
+        {
+          "title": "?",
+          "url": "?",
+          "text": "El Gobierno precisa retomar rápidamente la agenda económica: desinflación y mejora del consumo serán prioridades - Infobae\n\n[Economía](/economia/)\n\n# El Gobierno precisa retomar rápidamente la agenda económica: desinflación y mejora del consumo serán prioridades\n\n## Los escándalos que ganaron los titulares en los últimos días obligan al Presidente a cambiar el foco de atención. La crisis que atravesó Macri a esta altura de su mandato debería ser un gran aprendizaje para no dejar pasar un nuevo t"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "Cuántos dólares van a comprar los argentinos en 2026 según un gigante de Wall Street - Infobae\n\n[Economía](/economia/)\n\n# Cuántos dólares van a comprar los argentinos en 2026 según un gigante de Wall Street\n\n## Morgan Stanley hizo sus proyecciones para el mercado cambiario local y aseguró que el país necesitará nuevas fuentes de divisas como mecanismo compensatorio\n\n![Ludmila Di Grande](https://www.infobae.com/resizer/v2/https%3A%2F%2Fauthor-service-images-prod-us-east-1.publishing.aws.arc.pub%2"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "¿La Argentina está cara en dólares?: cuál el costo de vida respecto de otros países de la región - Infobae\n\n[Economía](/economia/)\n\n# ¿La Argentina está cara en dólares?: cuál el costo de vida respecto de otros países de la región\n\n## Un informe privado comparó los precios de distintos rubros en varios países de América Latina y detectó aquellos en los cuales Argentina aún mantiene ventaja\n\n[Seguir en![Icono de Google para seguir en redes sociales](https://www.infobae.com/assets/images/icons/Ico"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "AUH y todos los planes sociales de ANSES: de cuánto son en abril 2026 tras los aumentos - Infobae\n\n[Economía](/economia/)\n\n# AUH y todos los planes sociales de ANSES: de cuánto son en abril 2026 tras los aumentos\n\n## La Administración Nacional de la Seguridad Social actualizó los valores de las principales prestaciones sociales en abril de 2026, con ajustes en las asignaciones en línea con la inflación y el nuevo esquema oficial\n\n[Seguir en![Icono de Google para seguir en redes sociales](https:/"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "La inflación aceleró en el cierre de marzo y el Gobierno confía en una medida clave para frenarla en abril - Infobae\n\n[Economía](/economia/)\n\n# La inflación aceleró en el cierre de marzo y el Gobierno confía en una medida clave para frenarla en abril\n\n## Los aumentos de alimentos y bebidas ganaron ritmo a fin del mes pasado y complican el índice general. Economía confía en que la decisión de YPF de no aumentar las naftas por 45 días ayude en abril\n\n![Lucrecia Eterovich](https://www.infobae.com/r"
+        }
+      ]
+    },
+    "sindicatos_cgt": {
+      "status": "OK",
+      "count": 3,
+      "results": [
+        {
+          "title": "?",
+          "url": "?",
+          "text": "La CGT confirmó el paro contra la reforma laboral y atribuyó el cierre de FATE al “fracaso del plan económico del Gobierno” - Infobae\n\n[Política](/politica/)\n\n# La CGT confirmó el paro contra la reforma laboral y atribuyó el cierre de FATE al “fracaso del plan económico del Gobierno”\n\n## En una conferencia de prensa, la cúpula cegetista ratificó la huelga de 24 horas prevista para este jueves, cuando Diputados trate el proyecto, y advirtió que “este es el comienzo”. También se exhortó a los dipu"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "La CGT ratificó el paro contra la reforma laboral y adelantó que \"va a estar parada la Argentina de una punta a la otra\"\n\nMás previsiones: [El tiempo en Sevilla](https://oneweather.org/es/seville/25_days/)\n\n[![Agora Logo 2024 fondo claro](https://elagora.digital/wp-content/uploads/2024/03/Agora-Logo-2024-fondo-claro-e1718134916910.png)](https://elagora.digital)\n\n[Suscribirse](https://elagora.digital/colaborar)\n\nBuscar... \n\n[](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Felagora.dig"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "La CGT ratificó el paro: “Va a ser contundente y paralizará al país de punta a punta” – Página|12 [Omitir para ir al contenido principal](#main)\n\n* * *\n\n[![Pagina 12](/pf//resources/p12logo-50-anos-del-golpe-desktop.svg?d=91)](/ \"Pagina 12\")\n\n* * *\n\n* * *\n\n* * *\n\n[![Pagina 12](/pf//resources/p12logo-50-anos-del-golpe-desktop.svg?d=91)](/ \"Pagina 12\")\n\n[\n\nMIRÁ\n\n* * *\n\n\n\n](/argentina12)\n\nVolver\n\n*   [Edición Impresa](/edicion-impresa)\n*   [50 Años del Golpe](/50-anos-del-golpe)\n*   [El País](/el-p"
+        }
+      ]
+    },
+    "sindicatos_camioneros": {
+      "status": "OK",
+      "count": 3,
+      "results": [
+        {
+          "title": "?",
+          "url": "?",
+          "text": "Camioneros de granos en las rutas: lejos de un acuerdo, analizan nuevas medidas - Cba24n Cargando...\n\nX\n\nEconomía\n\n# Camioneros de granos en las rutas: lejos de un acuerdo, analizan nuevas medidas\n\n## Los transportistas realizan manifestaciones en diferentes puntos del país. La última reunión con las empresas no mostró avances. Se espera una cosecha récord, pero los camiones están parados.\n\nsábado 11 de abril de 2026 10:23[\n\nRedacción Cba24n\n\n\n\n\n\n](/redaccion-cba24n_p61311e4896ecc73053f4e544)\n\nL"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "Camioneros denuncian que trabajan a pérdida y esperan reajuste de la carta flete - Nacionales - ABC Color\n\n[ABC](https://www.abc.com.py/?utm_source=amp-menu-abc&utm_medium=abc-digital-amp&utm_campaign=abc-amp)\n\n*   [Ingresá / Registrate](https://www.abc.com.py/mi-cuenta/login/)\n*   [Nacionales](/nacionales/)\n*   [Mundo](/internacionales/)\n*   [Deportes](/deportes/)\n*   [Espectáculos](/espectaculos/)\n*   [ABC en el Este](/este/)\n*   [Tapa](/edicion-impresa/)\n*   [Epaper](https://ediciones.abc.com"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "InstagramInstagramCloseMore optionsLoad more commentsLikeCommentShareSaveClipClipClipClipClipClipCarouselClipDown chevron icon  \n\n[\n\n](/)\n\n[Log In](/accounts/login/?next=%2Freel%2FDWfgrz1EZBP%2F&source=desktop_nav)\n\n[Sign Up](/accounts/emailsignup/)\n\n![](https://scontent-lga3-3.cdninstagram.com/v/t51.71878-15/656871590_783554684514242_6366367825111312492_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=108&ig_cache_key=Mzg2Mzk1MDc1MzM4NDIwNjQxNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6Inh"
+        }
+      ]
+    }
+  },
+  "google_trends": {
+    "status": "OK",
+    "terms": [
+      {
+        "term": "inflación",
+        "timeline": [
+          {
+            "time": "1775908800",
+            "formattedTime": "Apr 11, 2026 at 12:00 PM",
+            "formattedAxisTime": "Apr 11 at 12:00 PM",
+            "value": [
+              28
+            ],
+            "hasData": [
+              true
+            ],
+            "formattedValue": [
+              "28"
+            ]
+          },
+          {
+            "time": "1775912400",
+            "formattedTime": "Apr 11, 2026 at 1:00 PM",
+            "formattedAxisTime": "Apr 11 at 1:00 PM",
+            "value": [
+              25
+            ],
+            "hasData": [
+              true
+            ],
+            "formattedValue": [
+              "25"
+            ]
+          },
+          {
+            "time": "1775916000",
+            "formattedTime": "Apr 11, 2026 at 2:00 PM",
+            "formattedAxisTime": "Apr 11 at 2:00 PM",
+            "value": [
+              27
+            ],
+            "hasData": [
+              true
+            ],
+            "formattedValue": [
+              "27"
+            ]
+          },
+          {
+            "time": "1775919600",
+            "formattedTime": "Apr 11, 2026 at 3:00 PM",
+            "formattedAxisTime": "Apr 11 at 3:00 PM",
+            "value": [
+              31
+            ],
+            "hasData": [
+              true
+            ],
+            "formattedValue": [
+              "31"
+            ]
+          },
+          {
+            "time": "1775923200",
+            "formattedTime": "Apr 11, 2026 at 4:00 PM",
+            "formattedAxisTime": "Apr 11 at 4:00 PM",
+            "value": [
+              25
+            ],
+            "hasData": [
+              true
+            ],
+            "formattedValue": [
+              "25"
+            ]
+          },
+          {
+            "time": "1775926800",
+            "formattedTime": "Apr 11, 2026 at 5:00 PM",
+            "formattedAxisTime": "Apr 11 at 5:00 PM",
+            "value": [
+              18
+            ],
+            "hasData": [
+              true
+            ],
+            "formattedValue": [
+              "18"
+            ]
+          },
+          {
+            "time": "1775930400",
+            "formattedTime": "Apr 11, 2026 at 6:00 PM",
+            "formattedAxisTime": "Apr 11 at 6:00 PM",
+            "value": [
+              24
+            ],
+            "hasData": [
+              true
+            ],
+            "formattedValue": [
+              "24"
+            ]
+          },
+          {
+            "time": "1775934000",
+            "formattedTime": "Apr 11, 2026 at 7:00 PM",
+            "formattedAxisTime": "Apr 11 at 7:00 PM",
+            "value": [
+              24
+            ],
+            "hasData": [
+              true
+            ],
+            "formattedValue": [
+              "24"
+            ]
+          },
+          {
+            "time": "1775937600",
+            "formattedTime": "Apr 11, 2026 at 8:00 PM",
+            "formattedAxisTime": "Apr 11 at 8:00 PM",
+            "value": [
+              20
+            ],
+            "hasData": [
+              true
+            ],
+            "formattedValue": [
+              "20"
+            ]
+          },
+          {
+            "time": "1775941200",
+            "formattedTime": "Apr 11, 2026 at 9:00 PM",
+            "formattedAxisTime": "Apr 11 at 9:00 PM",
+            "value": [
+              38
+            ],
+            "hasData": [
+              true
+            ],
+            "formattedValue": [
+              "38"
+            ],
+            "isPartial": true
+          }
+        ],
+        "related_queries_top": [
+          {
+            "query": "inflación 2026",
+            "value": 100,
+            "formattedValue": "100",
+            "hasData": true,
+            "link": "/trends/explore?q=inflaci%C3%B3n+2026&date=now+7-d&geo=AR"
+          },
+          {
+            "query": "inflación marzo",
+            "value": 77,
+            "formattedValue": "77",
+            "hasData": true,
+            "link": "/trends/explore?q=inflaci%C3%B3n+marzo&date=now+7-d&geo=AR"
+          },
+          {
+            "query": "inflación marzo 2026",
+            "value": 49,
+            "formattedValue": "49",
+            "hasData": true,
+            "link": "/trends/explore?q=inflaci%C3%B3n+marzo+2026&date=now+7-d&geo=AR"
+          },
+          {
+            "query": "inflación argentina",
+            "value": 46,
+            "formattedValue": "46",
+            "hasData": true,
+            "link": "/trends/explore?q=inflaci%C3%B3n+argentina&date=now+7-d&geo=AR"
+          },
+          {
+            "query": "inflación 2025",
+            "value": 37,
+            "formattedValue": "37",
+            "hasData": true,
+            "link": "/trends/explore?q=inflaci%C3%B3n+2025&date=now+7-d&geo=AR"
+          }
+        ],
+        "related_queries_rising": [
+          {
+            "query": "luis caputo",
+            "value": 29550,
+            "formattedValue": "Breakout",
+            "link": "/trends/explore?q=luis+caputo&date=now+7-d&geo=AR"
+          }
+        ]
+      },
+      {
+        "term": "dólar blue",
+        "timeline": [
+          {
+            "time": "1775908800",
+            "formattedTime": "Apr 11, 2026 at 12:00 PM",
+            "formattedAxisTime": "Apr 11 at 12:00 PM",
+            "value": [
+              54
+            ],
+            "hasData": [
+              true
+            ],
+            "formattedValue": [
+              "54"
+            ]
+          },
+          {
+            "time": "1775912400",
+            "formattedTime": "Apr 11, 2026 at 1:00 PM",
+            "formattedAxisTime": "Apr 11 at 1:00 PM",
+            "value": [
+              61
+            ],
+            "hasData": [
+              true
+            ],
+            "formattedValue": [
+              "61"
+            ]
+          },
+          {
+            "time": "1775916000",
+            "formattedTime": "Apr 11, 2026 at 2:00 PM",
+            "formattedAxisTime": "Apr 11 at 2:00 PM",
+            "value": [
+              53
+            ],
+            "hasData": [
+              true
+            ],
+            "formattedValue": [
+              "53"
+            ]
+          },
+          {
+            "time": "1775919600",
+            "formattedTime": "Apr 11, 2026 at 3:00 PM",
+            "formattedAxisTime": "Apr 11 at 3:00 PM",
+            "value": [
+              62
+            ],
+            "hasData": [
+              true
+            ],
+            "formattedValue": [
+              "62"
+            ]
+          },
+          {
+            "time": "1775923200",
+            "formattedTime": "Apr 11, 2026 at 4:00 PM",
+            "formattedAxisTime": "Apr 11 at 4:00 PM",
+            "value": [
+              44
+            ],
+            "hasData": [
+              true
+            ],
+            "formattedValue": [
+              "44"
+            ]
+          },
+          {
+            "time": "1775926800",
+            "formattedTime": "Apr 11, 2026 at 5:00 PM",
+            "formattedAxisTime": "Apr 11 at 5:00 PM",
+            "value": [
+              25
+            ],
+            "hasData": [
+              true
+            ],
+            "formattedValue": [
+              "25"
+            ]
+          },
+          {
+            "time": "1775930400",
+            "formattedTime": "Apr 11, 2026 at 6:00 PM",
+            "formattedAxisTime": "Apr 11 at 6:00 PM",
+            "value": [
+              34
+            ],
+            "hasData": [
+              true
+            ],
+            "formattedValue": [
+              "34"
+            ]
+          },
+          {
+            "time": "1775934000",
+            "formattedTime": "Apr 11, 2026 at 7:00 PM",
+            "formattedAxisTime": "Apr 11 at 7:00 PM",
+            "value": [
+              44
+            ],
+            "hasData": [
+              true
+            ],
+            "formattedValue": [
+              "44"
+            ]
+          },
+          {
+            "time": "1775937600",
+            "formattedTime": "Apr 11, 2026 at 8:00 PM",
+            "formattedAxisTime": "Apr 11 at 8:00 PM",
+            "value": [
+              43
+            ],
+            "hasData": [
+              true
+            ],
+            "formattedValue": [
+              "43"
+            ]
+          },
+          {
+            "time": "1775941200",
+            "formattedTime": "Apr 11, 2026 at 9:00 PM",
+            "formattedAxisTime": "Apr 11 at 9:00 PM",
+            "value": [
+              30
+            ],
+            "hasData": [
+              true
+            ],
+            "formattedValue": [
+              "30"
+            ],
+            "isPartial": true
+          }
+        ],
+        "related_queries_top": [
+          {
+            "query": "cotización dólar blue",
+            "value": 100,
+            "formattedValue": "100",
+            "hasData": true,
+            "link": "/trends/explore?q=cotizaci%C3%B3n+d%C3%B3lar+blue&date=now+7-d&geo=AR"
+          },
+          {
+            "query": "el dólar blue",
+            "value": 100,
+            "formattedValue": "100",
+            "hasData": true,
+            "link": "/trends/explore?q=el+d%C3%B3lar+blue&date=now+7-d&geo=AR"
+          },
+          {
+            "query": "precio dólar blue",
+            "value": 82,
+            "formattedValue": "82",
+            "hasData": true,
+            "link": "/trends/explore?q=precio+d%C3%B3lar+blue&date=now+7-d&geo=AR"
+          },
+          {
+            "query": "cotización dólar blue hoy",
+            "value": 57,
+            "formattedValue": "57",
+            "hasData": true,
+            "link": "/trends/explore?q=cotizaci%C3%B3n+d%C3%B3lar+blue+hoy&date=now+7-d&geo=AR"
+          },
+          {
+            "query": "precio dólar blue hoy",
+            "value": 54,
+            "formattedValue": "54",
+            "hasData": true,
+            "link": "/trends/explore?q=precio+d%C3%B3lar+blue+hoy&date=now+7-d&geo=AR"
+          }
+        ],
+        "related_queries_rising": []
+      },
+      {
+        "term": "riesgo país",
+        "timeline": [
+          {
+            "time": "1775908800",
+            "formattedTime": "Apr 11, 2026 at 12:00 PM",
+            "formattedAxisTime": "Apr 11 at 12:00 PM",
+            "value": [
+              0
+            ],
+            "hasData": [
+              false
+            ],
+            "formattedValue": [
+              "0"
+            ]
+          },
+          {
+            "time": "1775912400",
+            "formattedTime": "Apr 11, 2026 at 1:00 PM",
+            "formattedAxisTime": "Apr 11 at 1:00 PM",
+            "value": [
+              0
+            ],
+            "hasData": [
+              false
+            ],
+            "formattedValue": [
+              "0"
+            ]
+          },
+          {
+            "time": "1775916000",
+            "formattedTime": "Apr 11, 2026 at 2:00 PM",
+            "formattedAxisTime": "Apr 11 at 2:00 PM",
+            "value": [
+              0
+            ],
+            "hasData": [
+              false
+            ],
+            "formattedValue": [
+              "0"
+            ]
+          },
+          {
+            "time": "1775919600",
+            "formattedTime": "Apr 11, 2026 at 3:00 PM",
+            "formattedAxisTime": "Apr 11 at 3:00 PM",
+            "value": [
+              0
+            ],
+            "hasData": [
+              false
+            ],
+            "formattedValue": [
+              "0"
+            ]
+          },
+          {
+            "time": "1775923200",
+            "formattedTime": "Apr 11, 2026 at 4:00 PM",
+            "formattedAxisTime": "Apr 11 at 4:00 PM",
+            "value": [
+              0
+            ],
+            "hasData": [
+              false
+            ],
+            "formattedValue": [
+              "0"
+            ]
+          },
+          {
+            "time": "1775926800",
+            "formattedTime": "Apr 11, 2026 at 5:00 PM",
+            "formattedAxisTime": "Apr 11 at 5:00 PM",
+            "value": [
+              0
+            ],
+            "hasData": [
+              false
+            ],
+            "formattedValue": [
+              "0"
+            ]
+          },
+          {
+            "time": "1775930400",
+            "formattedTime": "Apr 11, 2026 at 6:00 PM",
+            "formattedAxisTime": "Apr 11 at 6:00 PM",
+            "value": [
+              0
+            ],
+            "hasData": [
+              false
+            ],
+            "formattedValue": [
+              "0"
+            ]
+          },
+          {
+            "time": "1775934000",
+            "formattedTime": "Apr 11, 2026 at 7:00 PM",
+            "formattedAxisTime": "Apr 11 at 7:00 PM",
+            "value": [
+              0
+            ],
+            "hasData": [
+              false
+            ],
+            "formattedValue": [
+              "0"
+            ]
+          },
+          {
+            "time": "1775937600",
+            "formattedTime": "Apr 11, 2026 at 8:00 PM",
+            "formattedAxisTime": "Apr 11 at 8:00 PM",
+            "value": [
+              0
+            ],
+            "hasData": [
+              false
+            ],
+            "formattedValue": [
+              "0"
+            ]
+          },
+          {
+            "time": "1775941200",
+            "formattedTime": "Apr 11, 2026 at 9:00 PM",
+            "formattedAxisTime": "Apr 11 at 9:00 PM",
+            "value": [
+              0
+            ],
+            "hasData": [
+              false
+            ],
+            "formattedValue": [
+              "0"
+            ],
+            "isPartial": true
+          }
+        ],
+        "related_queries_top": [
+          {
+            "query": "riesgo país argentina",
+            "value": 100,
+            "formattedValue": "100",
+            "hasData": true,
+            "link": "/trends/explore?q=riesgo+pa%C3%ADs+argentina&date=now+7-d&geo=AR"
+          },
+          {
+            "query": "riesgo país hoy",
+            "value": 44,
+            "formattedValue": "44",
+            "hasData": true,
+            "link": "/trends/explore?q=riesgo+pa%C3%ADs+hoy&date=now+7-d&geo=AR"
+          },
+          {
+            "query": "riesgo país hoy argentina",
+            "value": 22,
+            "formattedValue": "22",
+            "hasData": true,
+            "link": "/trends/explore?q=riesgo+pa%C3%ADs+hoy+argentina&date=now+7-d&geo=AR"
+          },
+          {
+            "query": "riesgo país de argentina",
+            "value": 14,
+            "formattedValue": "14",
+            "hasData": true,
+            "link": "/trends/explore?q=riesgo+pa%C3%ADs+de+argentina&date=now+7-d&geo=AR"
+          },
+          {
+            "query": "riesgo país en argentina",
+            "value": 13,
+            "formattedValue": "13",
+            "hasData": true,
+            "link": "/trends/explore?q=riesgo+pa%C3%ADs+en+argentina&date=now+7-d&geo=AR"
+          }
+        ],
+        "related_queries_rising": []
+      },
+      {
+        "term": "devaluación",
+        "timeline": [],
+        "related_queries_top": [],
+        "related_queries_rising": []
+      }
+    ]
+  },
+  "reddit_merval": {
+    "status": "OK",
+    "count": 5,
+    "posts": [
+      {
+        "title": "Inversiones seguras primera vez",
+        "url": "https://www.reddit.com/r/merval/comments/1sitr6d/inversiones_seguras_primera_vez/",
+        "score": "?",
+        "comments": 4,
+        "body": "hola buenas tardes, empecé a trabajar y como todavía no pago algún alquiler la mayoría del sueldo lo guardo en pesos todavía, le dije a mí papá si podía comprar dólares pero me habló de hacer una cuenta en Credicoop o banco Santander y ponerlo en inversiones seguras algo así, quería consultarles si "
+      },
+      {
+        "title": "?",
+        "url": "https://www.reddit.com/r/merval/comments/1sitr6d/inversiones_seguras_primera_vez/ofmzx3s/",
+        "score": "?",
+        "comments": "?",
+        "body": "¡Bienvenido! Las publicaciones del tipo \"tengo X y quiero invertir\" o \"¿por dónde empiezo a invertir?\" son muy comunes y repetitivas. Las respuestas suelen ser siempre las mismas, aportando poco a la calidad del sub. Además, normalmente son respuestas incompletas, con recomendaciones sueltas, que no"
+      },
+      {
+        "title": "?",
+        "url": "https://www.reddit.com/r/merval/comments/1sitr6d/inversiones_seguras_primera_vez/ofmszd3/",
+        "score": "?",
+        "comments": "?",
+        "body": "las inversiones seguras son plazos fijos, ya sea tradicionales o UVA.\n\nQue deberias hacer solo vos lo sabes, porque depende de para que queres el dinero, cual es el objetivo de tu inversion/ahorro y cual es tu aversion al riesgo"
+      },
+      {
+        "title": "?",
+        "url": "https://www.reddit.com/r/merval/comments/1sitr6d/inversiones_seguras_primera_vez/ofmubm1/",
+        "score": "?",
+        "comments": "?",
+        "body": "busca mucho sobre renta fija y como funciona. Tenes en pesos y en dolares, de empresas o del estado, nacional o internacional. Seguramente encuentres cosas mucho mejores que un plazo fijo, sea por retornos o por liquidez"
+      },
+      {
+        "title": "?",
+        "url": "https://www.reddit.com/r/merval/comments/1sitr6d/inversiones_seguras_primera_vez/ofmzqvm/",
+        "score": "?",
+        "comments": "?",
+        "body": "no se que opinen en el sub pero este sitio esta buenisimo para mi [https://www.investopedia.com/](https://www.investopedia.com/)"
+      }
+    ]
+  },
+  "website_crawler": {
+    "status": "OK",
+    "count": 4,
+    "pages": [
+      {
+        "title": "?",
+        "url": "https://www.ambito.com/economia",
+        "text_preview": "Noticias de Economía | Ámbito\nSi tenés dudas comunicate\ncon nosotros a\nsuscripciones@ambito.com.ar\nLlamanos al (54) 11 4556-9147/48 o\nal (54) 11 4449-3256 de lunes a\nviernes de 10 a 18"
+      },
+      {
+        "title": "?",
+        "url": "https://www.ambito.com/economia/1",
+        "text_preview": "Noticias de Economía | Ámbito\nSi tenés dudas comunicate\ncon nosotros a\nsuscripciones@ambito.com.ar\nLlamanos al (54) 11 4556-9147/48 o\nal (54) 11 4449-3256 de lunes a\nviernes de 10 a 18"
+      },
+      {
+        "title": "?",
+        "url": "https://www.ambito.com/economia/dura-advertencia-del-economista-camilo-tiscornia-no-es-sostenible-que-la-inflacion-le-gane-al-tipo-cambio-n6265603",
+        "text_preview": "Dura advertencia del economista Camilo Tiscornia: No es sostenible que la inflación le gane al tipo de cambio\nEl director de C&T Consultores, sostuvo que no es sostenible que la inflación le gane al d"
+      },
+      {
+        "title": "?",
+        "url": "https://www.ambito.com/economia/todos-los-descuentos-cuenta-dni-disponibles-este-fin-semana-n6264316",
+        "text_preview": "Todos los descuentos de Cuenta DNI disponibles este fin de semana\nLa billetera digital Cuenta DNI se consolidó como una de las principales herramientas de ahorro para el consumo cotidiano de los argen"
+      }
+    ]
+  }
+}

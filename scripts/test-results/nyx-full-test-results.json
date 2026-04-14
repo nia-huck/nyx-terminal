@@ -1,0 +1,872 @@
+{
+  "test_date": "2026-04-11",
+  "bloque1_apis": {
+    "dolares_todos": {
+      "status": "OK",
+      "http": 200,
+      "data": [
+        {
+          "moneda": "USD",
+          "casa": "oficial",
+          "nombre": "Oficial",
+          "compra": 1345,
+          "venta": 1395,
+          "fechaActualizacion": "2026-04-10T17:01:00.000Z"
+        },
+        {
+          "moneda": "USD",
+          "casa": "blue",
+          "nombre": "Blue",
+          "compra": 1375,
+          "venta": 1390,
+          "fechaActualizacion": "2026-04-11T18:01:00.000Z"
+        },
+        {
+          "moneda": "USD",
+          "casa": "bolsa",
+          "nombre": "Bolsa",
+          "compra": 1408.1,
+          "venta": 1415.2,
+          "fechaActualizacion": "2026-04-11T18:01:00.000Z"
+        },
+        {
+          "moneda": "USD",
+          "casa": "contadoconliqui",
+          "nombre": "Contado con liquidación",
+          "compra": 1470.4,
+          "venta": 1470.8,
+          "fechaActualizacion": "2026-04-11T18:01:00.000Z"
+        },
+        {
+          "moneda": "USD",
+          "casa": "mayorista",
+          "nombre": "Mayorista",
+          "compra": 1361,
+          "venta": 1370,
+          "fechaActualizacion": "2026-04-10T16:02:00.000Z",
+          "variacion": -0.8
+        },
+        {
+          "moneda": "USD",
+          "casa": "cripto",
+          "nombre": "Cripto",
+          "compra": 1469.6,
+          "venta": 1469.7,
+          "fechaActualizacion": "2026-04-11T18:01:00.000Z"
+        },
+        {
+          "moneda": "USD",
+          "casa": "tarjeta",
+          "nombre": "Tarjeta",
+          "compra": 1748.5,
+          "venta": 1813.5,
+          "fechaActualizacion": "2026-04-10T17:01:00.000Z"
+        }
+      ]
+    },
+    "dolar_blue": {
+      "status": "OK",
+      "http": 200,
+      "data": {
+        "moneda": "USD",
+        "casa": "blue",
+        "nombre": "Blue",
+        "compra": 1375,
+        "venta": 1390,
+        "fechaActualizacion": "2026-04-11T18:01:00.000Z"
+      }
+    },
+    "bcra_monetarias_lista": {
+      "status": "OK",
+      "total_vars": 1000
+    },
+    "bcra_var_1": {
+      "status": "OK",
+      "name": "Reservas internacionales",
+      "data": [
+        {
+          "idVariable": 1,
+          "detalle": [
+            {
+              "fecha": "2026-04-08",
+              "valor": 44759.0
+            },
+            {
+              "fecha": "2026-04-07",
+              "valor": 44445.0
+            },
+            {
+              "fecha": "2026-04-06",
+              "valor": 44248.0
+            }
+          ]
+        }
+      ]
+    },
+    "bcra_var_15": {
+      "status": "OK",
+      "name": "Base monetaria",
+      "data": [
+        {
+          "idVariable": 15,
+          "detalle": [
+            {
+              "fecha": "2026-04-08",
+              "valor": 41265125.0
+            },
+            {
+              "fecha": "2026-04-07",
+              "valor": 41976449.0
+            },
+            {
+              "fecha": "2026-04-06",
+              "valor": 41983916.0
+            }
+          ]
+        }
+      ]
+    },
+    "bcra_var_7": {
+      "status": "OK",
+      "name": "Tasa BADLAR",
+      "data": [
+        {
+          "idVariable": 7,
+          "detalle": [
+            {
+              "fecha": "2026-04-09",
+              "valor": 23.25
+            },
+            {
+              "fecha": "2026-04-08",
+              "valor": 24.9375
+            },
+            {
+              "fecha": "2026-04-07",
+              "valor": 25.3125
+            }
+          ]
+        }
+      ]
+    },
+    "bcra_var_8": {
+      "status": "OK",
+      "name": "Tasa TM20",
+      "data": [
+        {
+          "idVariable": 8,
+          "detalle": [
+            {
+              "fecha": "2026-04-09",
+              "valor": 23.375
+            },
+            {
+              "fecha": "2026-04-08",
+              "valor": 25.1875
+            },
+            {
+              "fecha": "2026-04-07",
+              "valor": 25.625
+            }
+          ]
+        }
+      ]
+    },
+    "bcra_var_12": {
+      "status": "OK",
+      "name": "Tasa depositos 30d",
+      "data": [
+        {
+          "idVariable": 12,
+          "detalle": [
+            {
+              "fecha": "2026-04-09",
+              "valor": 23.23
+            },
+            {
+              "fecha": "2026-04-08",
+              "valor": 24.29
+            },
+            {
+              "fecha": "2026-04-07",
+              "valor": 24.52
+            }
+          ]
+        }
+      ]
+    },
+    "bcra_var_4": {
+      "status": "OK",
+      "name": "TC minorista",
+      "data": [
+        {
+          "idVariable": 4,
+          "detalle": [
+            {
+              "fecha": "2026-04-10",
+              "valor": 1399.42
+            },
+            {
+              "fecha": "2026-04-09",
+              "valor": 1409.92
+            },
+            {
+              "fecha": "2026-04-08",
+              "valor": 1412.02
+            }
+          ]
+        }
+      ]
+    },
+    "bcra_var_5": {
+      "status": "OK",
+      "name": "TC mayorista",
+      "data": [
+        {
+          "idVariable": 5,
+          "detalle": [
+            {
+              "fecha": "2026-04-10",
+              "valor": 1373.9
+            },
+            {
+              "fecha": "2026-04-09",
+              "valor": 1383.23
+            },
+            {
+              "fecha": "2026-04-08",
+              "valor": 1387.03
+            }
+          ]
+        }
+      ]
+    },
+    "bcra_cambiarias": {
+      "status": "OK",
+      "fecha": "2026-04-10",
+      "monedas": 39,
+      "data": [
+        {
+          "codigoMoneda": "ARS",
+          "descripcion": "PESO",
+          "tipoPase": 0.00073,
+          "tipoCotizacion": 0.0
+        },
+        {
+          "codigoMoneda": "AUD",
+          "descripcion": "DOLAR AUSTRALIA",
+          "tipoPase": 0.7074,
+          "tipoCotizacion": 969.138
+        },
+        {
+          "codigoMoneda": "AWG",
+          "descripcion": "FLORIN (ANTILLAS HOLANDESAS)",
+          "tipoPase": 0.558659,
+          "tipoCotizacion": 765.363128
+        },
+        {
+          "codigoMoneda": "BOB",
+          "descripcion": "BOLIVIANOS",
+          "tipoPase": 0.145254,
+          "tipoCotizacion": 198.997749
+        },
+        {
+          "codigoMoneda": "BRL",
+          "descripcion": "REAL",
+          "tipoPase": 0.199056,
+          "tipoCotizacion": 272.707367
+        },
+        {
+          "codigoMoneda": "CAD",
+          "descripcion": "DOLAR CANADIEN.",
+          "tipoPase": 0.723014,
+          "tipoCotizacion": 990.528523
+        },
+        {
+          "codigoMoneda": "CHF",
+          "descripcion": "FRANCO SUIZO",
+          "tipoPase": 1.266624,
+          "tipoCotizacion": 1735.275491
+        },
+        {
+          "codigoMoneda": "CLP",
+          "descripcion": "PESO CHILENO",
+          "tipoPase": 0.001118,
+          "tipoCotizacion": 1.531479
+        },
+        {
+          "codigoMoneda": "CNH",
+          "descripcion": "YUAN CNH RENMINBI OFF SHORE",
+          "tipoPase": 0.146494,
+          "tipoCotizacion": 200.697313
+        },
+        {
+          "codigoMoneda": "CNY",
+          "descripcion": "YUAN CNY RENMINBI",
+          "tipoPase": 0.146417,
+          "tipoCotizacion": 200.591525
+        }
+      ]
+    },
+    "riesgo_pais": {
+      "status": "OK",
+      "data": {
+        "valor": 557,
+        "fecha": "2026-04-09"
+      }
+    },
+    "serie_ipc": {
+      "status": "OK",
+      "serie_id": "103.1_I2N_2016_M_15",
+      "description": "IPC-GBA. Núcleo. Base abr 2016. Mensual",
+      "data": [
+        [
+          "2025-10-01",
+          9836.1396
+        ],
+        [
+          "2025-11-01",
+          10107.6944
+        ],
+        [
+          "2025-12-01",
+          10407.4143
+        ],
+        [
+          "2026-01-01",
+          10683.2854
+        ],
+        [
+          "2026-02-01",
+          10991.1691
+        ]
+      ]
+    },
+    "serie_emae": {
+      "status": "OK",
+      "serie_id": "143.3_NO_PR_2004_A_21",
+      "description": "EMAE. Base 2004",
+      "data": [
+        [
+          "2025-09-01",
+          151.83984439466224
+        ],
+        [
+          "2025-10-01",
+          152.59573745863372
+        ],
+        [
+          "2025-11-01",
+          147.72352773408562
+        ],
+        [
+          "2025-12-01",
+          153.46285317997496
+        ],
+        [
+          "2026-01-01",
+          149.0409020924211
+        ]
+      ]
+    },
+    "eonet_open": {
+      "status": "OK",
+      "count": 5,
+      "events": [
+        {
+          "title": "Typhoon Sinlaku",
+          "categories": [
+            "Severe Storms"
+          ],
+          "coords": [
+            151.1,
+            9
+          ],
+          "date": "2026-04-11T12:00:00Z"
+        },
+        {
+          "title": "rx-Northern Scupp EWO Prescribed Fire, Waukesha, Wisconsin",
+          "categories": [
+            "Wildfires"
+          ],
+          "coords": [
+            -88.483243,
+            42.9227232
+          ],
+          "date": "2026-04-09T15:09:00Z"
+        },
+        {
+          "title": "HARRISON Wildfire, Osage, Oklahoma",
+          "categories": [
+            "Wildfires"
+          ],
+          "coords": [
+            -96.849207,
+            36.568752
+          ],
+          "date": "2026-04-09T13:08:00Z"
+        },
+        {
+          "title": "JOY Wildfire, Osage, Oklahoma",
+          "categories": [
+            "Wildfires"
+          ],
+          "coords": [
+            -96.232358,
+            36.471122
+          ],
+          "date": "2026-04-09T11:29:00Z"
+        },
+        {
+          "title": "Rx Cherokee 3464 Prescribed Fire, Cherokee, Texas",
+          "categories": [
+            "Wildfires"
+          ],
+          "coords": [
+            -95.13378,
+            31.56518
+          ],
+          "date": "2026-04-09T10:30:00Z"
+        }
+      ]
+    },
+    "eonet_fires": {
+      "status": "OK",
+      "count": 3,
+      "events": [
+        {
+          "title": "rx-Northern Scupp EWO Prescribed Fire, Waukesha, Wisconsin",
+          "categories": [
+            "Wildfires"
+          ],
+          "coords": [
+            -88.483243,
+            42.9227232
+          ],
+          "date": "2026-04-09T15:09:00Z"
+        },
+        {
+          "title": "HARRISON Wildfire, Osage, Oklahoma",
+          "categories": [
+            "Wildfires"
+          ],
+          "coords": [
+            -96.849207,
+            36.568752
+          ],
+          "date": "2026-04-09T13:08:00Z"
+        },
+        {
+          "title": "JOY Wildfire, Osage, Oklahoma",
+          "categories": [
+            "Wildfires"
+          ],
+          "coords": [
+            -96.232358,
+            36.471122
+          ],
+          "date": "2026-04-09T11:29:00Z"
+        }
+      ]
+    },
+    "bluelytics": {
+      "status": "OK",
+      "data": {
+        "oficial": {
+          "value_avg": 1374.0,
+          "value_sell": 1399.0,
+          "value_buy": 1349.0
+        },
+        "blue": {
+          "value_avg": 1380.0,
+          "value_sell": 1390.0,
+          "value_buy": 1370.0
+        },
+        "oficial_euro": {
+          "value_avg": 1493.5,
+          "value_sell": 1521.0,
+          "value_buy": 1466.0
+        },
+        "blue_euro": {
+          "value_avg": 1500.0,
+          "value_sell": 1511.0,
+          "value_buy": 1489.0
+        },
+        "last_update": "2026-04-10T19:45:56.551625-03:00"
+      }
+    }
+  },
+  "bloque2_rss": {
+    "Ambito Economia": {
+      "status": "OK",
+      "items_count": 20,
+      "latest_title": "Todos los descuentos de Cuenta DNI disponibles este fin de semana",
+      "latest_date": "Sat, 11 Apr 2026 14:00:00 -0300",
+      "all_titles": [
+        "Todos los descuentos de Cuenta DNI disponibles este fin de semana",
+        "Plazo fijo: ¿Cuánta ganancia se obtiene al invertir $400.000 durante 30 días?",
+        "El supermercado argentino con hasta 50% de descuento en productos de belleza hoy, 11 de abril",
+        "Plazo fijo en abril 2026: cuánto gano si invierto $600.000 a 30 días",
+        "El mejor consejo para conseguir tu ahorro en dólares: de qué trata el \"método de barrido\"",
+        "La industria automotriz pidió relanzar con urgencia el acuerdo bilateral con Brasil, ante el aluvión de productos chinos",
+        "Dólar atrasado, inflación al alza y caída de salarios: advierten por una \"anomalía\" que tensiona el modelo de Javier Milei",
+        "Cuánto cuesta llenar el tanque de nafta con la suba del petróleo por la guerra en Medio Oriente",
+        "El descuento en carnicerías que no podés perderte en abril con esta aplicación",
+        "La canasta básica trepó 3,4% en CABA y una familia porteña necesitó $2.342.860 en marzo para ser de clase media"
+      ]
+    },
+    "El Cronista": {
+      "status": "OK",
+      "items_count": 73,
+      "latest_title": "Exportaciones: los factores que empiezan a empujar las ventas a Brasil",
+      "latest_date": "Sat, 11 Apr 2026 20:41:56 +0000",
+      "all_titles": [
+        "Exportaciones: los factores que empiezan a empujar las ventas a Brasil",
+        "Se conoce la inflación de marzo: qué número anticipan las principales consultoras",
+        "El nuevo requisito para mantener el Certificado de Discapacidad que todos los beneficiarios deben cumplir desde ahora",
+        "La interna de la Corte presiona las divisiones en el Gobierno por la discusión de las vacantes",
+        "“Más ambiciosos”: cuál es el futuro del programa económico, según uno de los especialistas más escuchados",
+        "Vuelve Montblanc al país y ya prepara la apertura de su segunda tienda",
+        "Tarjeta SUBE: cómo pagar un 55% menos en trenes y colectivos en abril 2026",
+        "Cambian las clases para siempre: eliminan dos materias clave de todos los colegios del país",
+        "Revés para la CGT: la Justicia dirimió el fuero que debe resolver el futuro de la Reforma Laboral",
+        "H&M avanza con su desembarco y se suma a la ola de marcas que vuelven a la Argentina"
+      ]
+    },
+    "El Economista Finanzas": {
+      "status": "OK",
+      "items_count": 20,
+      "latest_title": "Los números del mercado indican que EE.UU. es el que va perdiendo la guerra",
+      "latest_date": "Fri, 10 Apr 2026 18:43:00 -0300",
+      "all_titles": [
+        "Los números del mercado indican que EE.UU. es el que va perdiendo la guerra",
+        "\"Baño de inversión\", el original spot de Banco Provincia para posicionarse en el mercado financiero",
+        "Incómodas preguntas de Wall Street por la economía de Milei y el reclamo del Fondo para liberar los US$ 1.000 M",
+        "Ven bien las cuentas externas argentinas, los bonos suben y el riesgo baja más",
+        "El mundo vibra y la Argentina tiene el menor riesgo país en un mes",
+        "Incertidumbre con pocos cambios ante el chicken game entre EE.UU. e Irán",
+        "El Tesoro le compró US$ 3.658 millones directamente al Central y se esfuma la \"acumulación\" de reservas",
+        "Mercados en duda: inversores creen que el petróleo seguirá alto durante bastante tiempo",
+        "Caputo no deja un peso suelto: todo lo que emitió el BCRA para comprar dólares lo absorbió el Tesoro",
+        "Caputo tiene ganas de patearle el trasero a un banco inglés"
+      ]
+    },
+    "El Economista Economia": {
+      "status": "OK",
+      "items_count": 20,
+      "latest_title": "Hernán Lacunza: \"Tras estabilizar y comenzar las reformas, el desafío del Gobierno es abordar a tiempo las luces amarillas\"",
+      "latest_date": "Sat, 11 Apr 2026 17:00:00 -0300",
+      "all_titles": [
+        "Hernán Lacunza: \"Tras estabilizar y comenzar las reformas, el desafío del Gobierno es abordar a tiempo las luces amarillas\"",
+        "Ante el creciente proteccionismo global, los exportadores reclaman que le saquen \"el pie de encima\"",
+        "Argentina frente al boom de los data centers: ¿nuevo \"campo\" digital u otra economía de enclave?",
+        "¿Qué tanto refleja la realidad la reciente baja de la pobreza?",
+        "Está pasando algo \"bastante excepcional\" en la economía: así lo explica un informe",
+        "En un país federal, el plan económico tiene tantos conductores como provincias haya",
+        "\"Entramos al punto dulce\": Daza anticipa un escenario \"extraordinario\" y pide no apostar a un dólar más alto",
+        "Flybondi admite que no puede pagar sueldos y crece la tensión por vuelos cancelados",
+        "Plazos fijos en Argentina: ¿Cuánto están pagando estos 29 bancos?",
+        "\"No hicimos nada ilegal\": la respuesta de los funcionarios de Caputo por los créditos hipotecarios"
+      ]
+    },
+    "El Economista Internacional": {
+      "status": "OK",
+      "items_count": 20,
+      "latest_title": "Quién es Silvia Salis, la \"anti-Meloni\" de la centroizquierda italiana",
+      "latest_date": "Fri, 10 Apr 2026 14:35:00 -0300",
+      "all_titles": [
+        "Quién es Silvia Salis, la \"anti-Meloni\" de la centroizquierda italiana",
+        "Orbán, ¿se queda o se va?: cuáles son los posibles escenarios de cara a las elecciones del domingo en Hungría",
+        "Minerales críticos y geopolítica: la oportunidad estratégica detrás del acuerdo UE-Mercosur",
+        "Actis: \"Irán ha ganado la guerra de Ormuz porque Trump no sabe cómo lograr que el estrecho vuelva a su flujo natural\"",
+        "La derecha planetaria tiene los ojos puestos en Budapest: qué pasará en Hungría este domingo",
+        "SHOCK en el estrecho de Ormuz: Irán amenaza con romper tregua y hay 800 buques varados",
+        "IRÁN REDOBLA LA AMENAZA: \"14 millones están listos para morir\" tras el ultimátum de Trump",
+        "El lunes 6 de abril de 2026, a las 20:00 horas de Washington, el mundo entrará en una zona de sombra",
+        "Es \"topo\" de Putin, aliado de Milei y megáfono de Trump: Viktor Orban se juega la vida en 168 horas",
+        "La inserción de la Argentina en un mundo en guerra por la energía"
+      ]
+    }
+  },
+  "bloque3_apify": {
+    "store_twitter_scraper": {
+      "status": "OK",
+      "actors": [
+        {
+          "id": "apidojo/tweet-scraper",
+          "runs": 136937919,
+          "users": 48061
+        },
+        {
+          "id": "apidojo/twitter-scraper-lite",
+          "runs": 11824055,
+          "users": 21277
+        },
+        {
+          "id": "kaitoeasyapi/twitter-x-data-tweet-scraper-pay-per-result-cheapest",
+          "runs": 35024184,
+          "users": 10419
+        }
+      ]
+    },
+    "store_google_news_scraper": {
+      "status": "OK",
+      "actors": [
+        {
+          "id": "easyapi/google-news-scraper",
+          "runs": 253759,
+          "users": 1332
+        },
+        {
+          "id": "data_xplorer/google-news-scraper-fast",
+          "runs": 100772,
+          "users": 674
+        },
+        {
+          "id": "scrapestorm/google-news-scraper-fast-cheap-pay-per-results",
+          "runs": 13061,
+          "users": 650
+        }
+      ]
+    },
+    "store_reddit_scraper": {
+      "status": "OK",
+      "actors": [
+        {
+          "id": "trudax/reddit-scraper-lite",
+          "runs": 2729168,
+          "users": 17947
+        },
+        {
+          "id": "harshmaur/reddit-scraper",
+          "runs": 196650,
+          "users": 1194
+        }
+      ]
+    },
+    "store_google_trends_scraper": {
+      "status": "OK",
+      "actors": [
+        {
+          "id": "apify/google-trends-scraper",
+          "runs": 490185,
+          "users": 7336
+        },
+        {
+          "id": "agenscrape/google-trends-scraper",
+          "runs": 1936,
+          "users": 141
+        },
+        {
+          "id": "easyapi/google-realtime-trends-data-scraper",
+          "runs": 6293,
+          "users": 149
+        }
+      ]
+    },
+    "store_article_extractor": {
+      "status": "OK",
+      "actors": [
+        {
+          "id": "lukaskrivka/article-extractor-smart",
+          "runs": 6492346,
+          "users": 7272
+        },
+        {
+          "id": "scrapestorm/pubmed-articles-scraper---pay-per-results",
+          "runs": 1532,
+          "users": 96
+        },
+        {
+          "id": "easyapi/article-content-extractor",
+          "runs": 1946,
+          "users": 98
+        }
+      ]
+    },
+    "rag_BCRA_tipo_cambio": {
+      "status": "OK",
+      "count": 3,
+      "results": [
+        {
+          "title": "?",
+          "url": "?",
+          "text_preview": "Dólar: el BCRA aprovecha la calma cambiaria y afloja más el cepo para ahorristas y empresas\n\n*   Temas del día\n*   [Dólar](https://www.ambito.com/finanzas/dolar-el-tipo-cambio-real-se-ubica-su-menor-n"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text_preview": "Com. A 8417 – Resumen de los principales cambios en el régimen cambiario\n\n[Facebook](https://www.facebook.com/AduanaNews \"Facebook\") [Instagram](https://www.instagram.com/aduananews/ \"Instagram\") [Lin"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text_preview": "Principales Variables | BCRA\n\n[Inicio](https://www.bcra.gob.ar/) » [Estadísticas e Indicadores](https://www.bcra.gob.ar/estadisticas-indicadores/)\n\n[Inicio](https://www.bcra.gob.ar/) » [Estadísticas e"
+        }
+      ]
+    },
+    "rag_Paro_camioneros": {
+      "status": "OK",
+      "count": 3,
+      "results": [
+        {
+          "title": "?",
+          "url": "?",
+          "text_preview": "\\- YouTube\n\n[](/ \"YouTube\")[](/ \"YouTube\")\n\n[About](https://www.youtube.com/about/)[Press](https://www.youtube.com/about/press/)[Copyright](https://www.youtube.com/about/copyright/)[Contact us](/t/con"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text_preview": "Camiones en las banquinas: el reclamo de transportistas frenó exportaciones en plena cosecha y generó pérdidas millonarias - Infobae\n\n[Economía](/economia/)\n\n# Camiones en las banquinas: el reclamo de"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text_preview": "InstagramInstagramCloseVerifiedMore optionsVerifiedLoad more commentsLikeCommentShareSaveCarouselCarouselClipClipDown chevron icon  \n\n[\n\n](/)\n\n[Log In](/accounts/login/?next=%2Freel%2FDWUEDI7j9H4%2F&s"
+        }
+      ]
+    },
+    "rag_Boletin_Oficial": {
+      "status": "OK",
+      "count": 3,
+      "results": [
+        {
+          "title": "?",
+          "url": "?",
+          "text_preview": "BOLETIN OFICIAL REPUBLICA ARGENTINA - MINISTERIO DE ECONOMÍA - Decreto 219/2026\n\n![](/images/loader.gif)\n\n×\n\n[](/contacto)\n\n[![Instagram](/images/instagram.png)](https://www.instagram.com/boletinofici"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text_preview": "BOLETIN OFICIAL REPUBLICA ARGENTINA - ADMINISTRACIÓN PÚBLICA NACIONAL - Decreto 208/2026\n\n![](/images/loader.gif)\n\n×\n\n[](/contacto)\n\n[![Instagram](/images/instagram.png)](https://www.instagram.com/bol"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text_preview": "BOLETIN OFICIAL REPUBLICA ARGENTINA - PODER EJECUTIVO - Decreto 218/2026\n\n![](/images/loader.gif)\n\n×\n\n[](/contacto)\n\n[![Instagram](/images/instagram.png)](https://www.instagram.com/boletinoficialarg)\n"
+        }
+      ]
+    },
+    "google_news_scraper": {
+      "status": "FAIL",
+      "error": "Input is not valid: Field input.maxItems must be >= 100",
+      "actor": "easyapi/google-news-scraper",
+      "note": "Requires paid Apify plan. Free plan returns 0 items"
+    },
+    "twitter_scraper": {
+      "status": "OK",
+      "actor": "apidojo/tweet-scraper",
+      "count": 10,
+      "tweets": [
+        {
+          "text": "?",
+          "author": "?"
+        },
+        {
+          "text": "?",
+          "author": "?"
+        },
+        {
+          "text": "?",
+          "author": "?"
+        },
+        {
+          "text": "?",
+          "author": "?"
+        },
+        {
+          "text": "?",
+          "author": "?"
+        },
+        {
+          "text": "?",
+          "author": "?"
+        },
+        {
+          "text": "?",
+          "author": "?"
+        },
+        {
+          "text": "?",
+          "author": "?"
+        },
+        {
+          "text": "?",
+          "author": "?"
+        },
+        {
+          "text": "?",
+          "author": "?"
+        }
+      ],
+      "note": "Requires paid Apify plan. Free plan returns noResults=True"
+    },
+    "reddit_scraper": {
+      "status": "OK",
+      "actor": "trudax/reddit-scraper-lite",
+      "count": 5,
+      "posts": [
+        {
+          "title": "Inversiones seguras primera vez",
+          "score": "?",
+          "comments": 2
+        },
+        {
+          "title": "?",
+          "score": "?",
+          "comments": "?"
+        },
+        {
+          "title": "?",
+          "score": "?",
+          "comments": "?"
+        },
+        {
+          "title": "Q&amp;A: THREAD SEMANAL DE CONSULTAS BASICAS",
+          "score": "?",
+          "comments": 65
+        },
+        {
+          "title": "?",
+          "score": "?",
+          "comments": "?"
+        }
+      ]
+    },
+    "google_trends": {
+      "status": "OK",
+      "count": 1,
+      "results": [
+        {
+          "term": "inflacion argentina",
+          "data_points": 0
+        }
+      ],
+      "note": "Works on free plan. Returns interestOverTime_timelineData with weekly values",
+      "structure": {
+        "keys": [
+          "inputUrlOrTerm",
+          "searchTerm",
+          "interestOverTime_timelineData",
+          "interestOverTime_averages",
+          "interestBySubregion",
+          "interestByCity",
+          "relatedTopics_top",
+          "relatedTopics_rising",
+          "relatedQueries_top",
+          "relatedQueries_rising"
+        ],
+        "timeline_format": {
+          "time": "unix_timestamp",
+          "formattedTime": "date_range",
+          "value": [
+            0
+          ],
+          "hasData": [
+            true
+          ]
+        }
+      }
+    }
+  }
+}

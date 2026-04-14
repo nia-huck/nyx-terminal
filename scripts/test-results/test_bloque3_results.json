@@ -1,0 +1,254 @@
+{
+  "store_twitter_scraper": {
+    "status": "OK",
+    "actors": [
+      {
+        "id": "apidojo/tweet-scraper",
+        "runs": 136937919,
+        "users": 48061
+      },
+      {
+        "id": "apidojo/twitter-scraper-lite",
+        "runs": 11824055,
+        "users": 21277
+      },
+      {
+        "id": "kaitoeasyapi/twitter-x-data-tweet-scraper-pay-per-result-cheapest",
+        "runs": 35024184,
+        "users": 10419
+      }
+    ]
+  },
+  "store_google_news_scraper": {
+    "status": "OK",
+    "actors": [
+      {
+        "id": "easyapi/google-news-scraper",
+        "runs": 253759,
+        "users": 1332
+      },
+      {
+        "id": "data_xplorer/google-news-scraper-fast",
+        "runs": 100772,
+        "users": 674
+      },
+      {
+        "id": "scrapestorm/google-news-scraper-fast-cheap-pay-per-results",
+        "runs": 13061,
+        "users": 650
+      }
+    ]
+  },
+  "store_reddit_scraper": {
+    "status": "OK",
+    "actors": [
+      {
+        "id": "trudax/reddit-scraper-lite",
+        "runs": 2729168,
+        "users": 17947
+      },
+      {
+        "id": "harshmaur/reddit-scraper",
+        "runs": 196650,
+        "users": 1194
+      }
+    ]
+  },
+  "store_google_trends_scraper": {
+    "status": "OK",
+    "actors": [
+      {
+        "id": "apify/google-trends-scraper",
+        "runs": 490185,
+        "users": 7336
+      },
+      {
+        "id": "agenscrape/google-trends-scraper",
+        "runs": 1936,
+        "users": 141
+      },
+      {
+        "id": "easyapi/google-realtime-trends-data-scraper",
+        "runs": 6293,
+        "users": 149
+      }
+    ]
+  },
+  "store_article_extractor": {
+    "status": "OK",
+    "actors": [
+      {
+        "id": "lukaskrivka/article-extractor-smart",
+        "runs": 6492346,
+        "users": 7272
+      },
+      {
+        "id": "scrapestorm/pubmed-articles-scraper---pay-per-results",
+        "runs": 1532,
+        "users": 96
+      },
+      {
+        "id": "easyapi/article-content-extractor",
+        "runs": 1946,
+        "users": 98
+      }
+    ]
+  },
+  "rag_BCRA_tipo_cambio": {
+    "status": "OK",
+    "count": 3,
+    "results": [
+      {
+        "title": "?",
+        "url": "?",
+        "text_preview": "Dólar: el BCRA aprovecha la calma cambiaria y afloja más el cepo para ahorristas y empresas\n\n*   Temas del día\n*   [Dólar](https://www.ambito.com/finanzas/dolar-el-tipo-cambio-real-se-ubica-su-menor-n"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text_preview": "Com. A 8417 – Resumen de los principales cambios en el régimen cambiario\n\n[Facebook](https://www.facebook.com/AduanaNews \"Facebook\") [Instagram](https://www.instagram.com/aduananews/ \"Instagram\") [Lin"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text_preview": "Principales Variables | BCRA\n\n[Inicio](https://www.bcra.gob.ar/) » [Estadísticas e Indicadores](https://www.bcra.gob.ar/estadisticas-indicadores/)\n\n[Inicio](https://www.bcra.gob.ar/) » [Estadísticas e"
+      }
+    ]
+  },
+  "rag_Paro_camioneros": {
+    "status": "OK",
+    "count": 3,
+    "results": [
+      {
+        "title": "?",
+        "url": "?",
+        "text_preview": "\\- YouTube\n\n[](/ \"YouTube\")[](/ \"YouTube\")\n\n[About](https://www.youtube.com/about/)[Press](https://www.youtube.com/about/press/)[Copyright](https://www.youtube.com/about/copyright/)[Contact us](/t/con"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text_preview": "Camiones en las banquinas: el reclamo de transportistas frenó exportaciones en plena cosecha y generó pérdidas millonarias - Infobae\n\n[Economía](/economia/)\n\n# Camiones en las banquinas: el reclamo de"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text_preview": "InstagramInstagramCloseVerifiedMore optionsVerifiedLoad more commentsLikeCommentShareSaveCarouselCarouselClipClipDown chevron icon  \n\n[\n\n](/)\n\n[Log In](/accounts/login/?next=%2Freel%2FDWUEDI7j9H4%2F&s"
+      }
+    ]
+  },
+  "rag_Boletin_Oficial": {
+    "status": "OK",
+    "count": 3,
+    "results": [
+      {
+        "title": "?",
+        "url": "?",
+        "text_preview": "BOLETIN OFICIAL REPUBLICA ARGENTINA - MINISTERIO DE ECONOMÍA - Decreto 219/2026\n\n![](/images/loader.gif)\n\n×\n\n[](/contacto)\n\n[![Instagram](/images/instagram.png)](https://www.instagram.com/boletinofici"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text_preview": "BOLETIN OFICIAL REPUBLICA ARGENTINA - ADMINISTRACIÓN PÚBLICA NACIONAL - Decreto 208/2026\n\n![](/images/loader.gif)\n\n×\n\n[](/contacto)\n\n[![Instagram](/images/instagram.png)](https://www.instagram.com/bol"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text_preview": "BOLETIN OFICIAL REPUBLICA ARGENTINA - PODER EJECUTIVO - Decreto 218/2026\n\n![](/images/loader.gif)\n\n×\n\n[](/contacto)\n\n[![Instagram](/images/instagram.png)](https://www.instagram.com/boletinoficialarg)\n"
+      }
+    ]
+  },
+  "google_news_scraper": {
+    "status": "FAIL",
+    "error": "Input is not valid: Field input.maxItems must be >= 100",
+    "actor": "easyapi/google-news-scraper"
+  },
+  "twitter_scraper": {
+    "status": "OK",
+    "actor": "apidojo/tweet-scraper",
+    "count": 10,
+    "tweets": [
+      {
+        "text": "?",
+        "author": "?"
+      },
+      {
+        "text": "?",
+        "author": "?"
+      },
+      {
+        "text": "?",
+        "author": "?"
+      },
+      {
+        "text": "?",
+        "author": "?"
+      },
+      {
+        "text": "?",
+        "author": "?"
+      },
+      {
+        "text": "?",
+        "author": "?"
+      },
+      {
+        "text": "?",
+        "author": "?"
+      },
+      {
+        "text": "?",
+        "author": "?"
+      },
+      {
+        "text": "?",
+        "author": "?"
+      },
+      {
+        "text": "?",
+        "author": "?"
+      }
+    ]
+  },
+  "reddit_scraper": {
+    "status": "OK",
+    "actor": "trudax/reddit-scraper-lite",
+    "count": 5,
+    "posts": [
+      {
+        "title": "Inversiones seguras primera vez",
+        "score": "?",
+        "comments": 2
+      },
+      {
+        "title": "?",
+        "score": "?",
+        "comments": "?"
+      },
+      {
+        "title": "?",
+        "score": "?",
+        "comments": "?"
+      },
+      {
+        "title": "Q&amp;A: THREAD SEMANAL DE CONSULTAS BASICAS",
+        "score": "?",
+        "comments": 65
+      },
+      {
+        "title": "?",
+        "score": "?",
+        "comments": "?"
+      }
+    ]
+  },
+  "google_trends": {
+    "status": "OK",
+    "count": 1,
+    "results": [
+      {
+        "term": "inflacion argentina",
+        "data_points": 0
+      }
+    ]
+  }
+}

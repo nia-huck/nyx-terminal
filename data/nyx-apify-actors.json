@@ -1,0 +1,166 @@
+{
+  "working_free_actors": [
+    {
+      "id": "apify/rag-web-browser",
+      "type": "web_browser",
+      "works": true,
+      "free_plan": true,
+      "notes": "Best universal tool. Searches Google + scrapes top results. Cannot scrape X.com (blocked).",
+      "input_example": {
+        "query": "BCRA resolución tipo cambio Argentina",
+        "maxResults": 5
+      }
+    },
+    {
+      "id": "apify/google-trends-scraper",
+      "type": "google_trends",
+      "works": true,
+      "free_plan": true,
+      "notes": "Returns interestOverTime_timelineData, relatedQueries, interestBySubregion. One term per run.",
+      "input_example": {
+        "searchTerms": [
+          "dólar blue"
+        ],
+        "geo": "AR",
+        "timeRange": "now 7-d"
+      }
+    },
+    {
+      "id": "trudax/reddit-scraper-lite",
+      "type": "reddit",
+      "works": true,
+      "free_plan": true,
+      "notes": "Returns posts with title, url, comments count. Some fields empty on free plan.",
+      "input_example": {
+        "startUrls": [
+          {
+            "url": "https://www.reddit.com/r/merval/hot/"
+          }
+        ],
+        "maxItems": 20
+      }
+    },
+    {
+      "id": "lukaskrivka/article-extractor-smart",
+      "type": "article_extractor",
+      "works": true,
+      "free_plan": true,
+      "notes": "Extracts article text, title, date from news sites. 6.5M runs, very reliable.",
+      "input_example": {
+        "startUrls": [
+          {
+            "url": "https://www.ambito.com/economia"
+          }
+        ],
+        "onlyNewArticles": false,
+        "maxItems": 10
+      }
+    },
+    {
+      "id": "apify/website-content-crawler",
+      "type": "website_crawler",
+      "works": true,
+      "free_plan": true,
+      "notes": "Crawls websites with Playwright. Slow but thorough. Good for sites without RSS.",
+      "input_example": {
+        "startUrls": [
+          {
+            "url": "https://www.ambito.com/economia"
+          }
+        ],
+        "maxCrawlPages": 10
+      }
+    },
+    {
+      "id": "kaitoeasyapi/twitter-x-data-tweet-scraper-pay-per-result-cheapest",
+      "type": "twitter",
+      "works": true,
+      "free_plan": false,
+      "notes": "Works on free trial with limited results. Pay-per-result model. Returns full tweet data.",
+      "input_example": {
+        "searchTerms": [
+          "BCRA"
+        ],
+        "maxTweets": 10
+      }
+    },
+    {
+      "id": "gentle_cloud/twitter-tweets-scraper",
+      "type": "twitter",
+      "works": true,
+      "free_plan": true,
+      "notes": "Alternative Twitter scraper. Returns full_text, favorite_count, retweet_count.",
+      "input_example": {
+        "searchTerms": [
+          "BCRA"
+        ],
+        "maxTweets": 5
+      }
+    },
+    {
+      "id": "xtdata/twitter-x-scraper",
+      "type": "twitter",
+      "works": true,
+      "free_plan": true,
+      "notes": "Returned 639 results in test. Very productive. Keys: full_text, favorite_count, author.",
+      "input_example": {
+        "searchTerms": [
+          "BCRA"
+        ],
+        "maxTweets": 5
+      }
+    }
+  ],
+  "paid_actors_for_later": [
+    {
+      "id": "apidojo/tweet-scraper",
+      "type": "twitter",
+      "requires": "paid plan",
+      "notes": "Most popular (137M runs). Returns 'noResults' on free plan. Needs Apify paid subscription."
+    },
+    {
+      "id": "apidojo/twitter-scraper-lite",
+      "type": "twitter",
+      "requires": "paid plan",
+      "notes": "Returns 'demo' key only on free plan."
+    },
+    {
+      "id": "easyapi/google-news-scraper",
+      "type": "google_news",
+      "requires": "paid plan",
+      "notes": "minItems=100, requires paid Apify plan. Returns 0 items on free."
+    }
+  ],
+  "mcp_config_free": {
+    "mcpServers": {
+      "apify": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@apify/mcp-server-apify",
+          "--actors",
+          "apify/rag-web-browser,apify/google-trends-scraper,trudax/reddit-scraper-lite,lukaskrivka/article-extractor-smart,xtdata/twitter-x-scraper,gentle_cloud/twitter-tweets-scraper"
+        ],
+        "env": {
+          "APIFY_TOKEN": "apify_api_YOUR_TOKEN_HERE"
+        }
+      }
+    }
+  },
+  "mcp_config_full": {
+    "mcpServers": {
+      "apify": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@apify/mcp-server-apify",
+          "--actors",
+          "apify/rag-web-browser,apify/google-trends-scraper,trudax/reddit-scraper-lite,lukaskrivka/article-extractor-smart,xtdata/twitter-x-scraper,gentle_cloud/twitter-tweets-scraper,kaitoeasyapi/twitter-x-data-tweet-scraper-pay-per-result-cheapest,apify/website-content-crawler"
+        ],
+        "env": {
+          "APIFY_TOKEN": "apify_api_YOUR_TOKEN_HERE"
+        }
+      }
+    }
+  }
+}

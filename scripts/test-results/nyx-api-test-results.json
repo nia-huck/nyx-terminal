@@ -1,0 +1,187 @@
+{
+  "dolarapi_todos": {
+    "status": "OK",
+    "http": 200,
+    "count": 7,
+    "sample": [
+      {
+        "moneda": "USD",
+        "casa": "oficial",
+        "nombre": "Oficial",
+        "compra": 1345,
+        "venta": 1395,
+        "fechaActualizacion": "2026-04-10T17:01:00.000Z"
+      },
+      {
+        "moneda": "USD",
+        "casa": "blue",
+        "nombre": "Blue",
+        "compra": 1375,
+        "venta": 1390,
+        "fechaActualizacion": "2026-04-11T18:01:00.000Z"
+      }
+    ]
+  },
+  "dolarapi_blue": {
+    "status": "OK",
+    "http": 200,
+    "data": {
+      "moneda": "USD",
+      "casa": "blue",
+      "nombre": "Blue",
+      "compra": 1375,
+      "venta": 1390,
+      "fechaActualizacion": "2026-04-11T18:01:00.000Z"
+    }
+  },
+  "bcra_monetarias_lista": {
+    "status": "OK",
+    "http": 200,
+    "sample": "{'status': 200, 'metadata': {'resultset': {'count': 1220, 'offset': 0, 'limit': 1000}}, 'results': [{'idVariable': 1, 'descripcion': 'Reservas internacionales', 'categoria': 'Principales Variables', 'tipoSerie': 'Saldos', 'periodicidad': 'D', 'unidadExpresion': 'En millones de USD', 'moneda': 'ME', 'primerFechaInformada': '1996-01-03', 'ultFechaInformada': '2026-04-08', 'ultValorInformado': 44759.0}, {'idVariable': 4, 'descripcion': 'Tipo de cambio minorista (promedio vendedor)', 'categoria': 'P"
+  },
+  "bcra_monetarias_1": {
+    "status": "OK",
+    "http": 200,
+    "sample": "{'status': 200, 'metadata': {'resultset': {'count': 7450, 'offset': 0, 'limit': 5}}, 'results': [{'idVariable': 1, 'detalle': [{'fecha': '2026-04-08', 'valor': 44759.0}, {'fecha': '2026-04-07', 'valor': 44445.0}, {'fecha': '2026-04-06', 'valor': 44248.0}, {'fecha': '2026-04-01', 'valor': 44445.0}, {"
+  },
+  "bcra_monetarias_15": {
+    "status": "OK",
+    "http": 200,
+    "sample": "{'status': 200, 'metadata': {'resultset': {'count': 7451, 'offset': 0, 'limit': 5}}, 'results': [{'idVariable': 15, 'detalle': [{'fecha': '2026-04-08', 'valor': 41265125.0}, {'fecha': '2026-04-07', 'valor': 41976449.0}, {'fecha': '2026-04-06', 'valor': 41983916.0}, {'fecha': '2026-04-01', 'valor': 4"
+  },
+  "bcra_cambiarias": {
+    "status": "OK",
+    "http": 200,
+    "fecha": "2026-04-11",
+    "sample": "{'status': 200, 'results': {'fecha': None, 'detalle': []}}"
+  },
+  "riesgo_pais": {
+    "status": "OK",
+    "http": 200,
+    "endpoint": "https://api.argentinadatos.com/v1/finanzas/indices/riesgo-pais/ultimo",
+    "sample": "{'valor': 557, 'fecha': '2026-04-09'}"
+  },
+  "series_ipc": {
+    "status": "FAIL",
+    "http": 400
+  },
+  "series_emae": {
+    "status": "OK",
+    "http": 200,
+    "serie_id": "143.3_NO_PR_2004_A_21",
+    "sample": "{'data': [['2025-09-01', 151.83984439466224], ['2025-10-01', 152.59573745863372], ['2025-11-01', 147.72352773408562], ['2025-12-01', 153.46285317997496], ['2026-01-01', 149.0409020924211]], 'count': 265, 'meta': [{'frequency': 'month', 'start_date': '2025-09-01', 'end_date': '2026-01-01'}, {'catalog': {'title': 'Datos Programación Macroeconómica'}, 'dataset': {'title': 'Estimador Mensual de Activi"
+  },
+  "nasa_eonet": {
+    "status": "OK",
+    "http": 200,
+    "events_count": 5,
+    "sample": "[{'id': 'EONET_19481', 'title': 'Typhoon Sinlaku', 'description': None, 'link': 'https://eonet.gsfc.nasa.gov/api/v3/events/EONET_19481', 'closed': None, 'categories': [{'id': 'severeStorms', 'title': 'Severe Storms'}], 'sources': [{'id': 'JTWC', 'url': 'https://www.metoc.navy.mil/jtwc/products/wp0426.tcw'}], 'geometry': [{'magnitudeValue': 35.0, 'magnitudeUnit': 'kts', 'date': '2026-04-09T18:00:00"
+  },
+  "nasa_eonet_wildfires": {
+    "status": "OK",
+    "count": 3
+  },
+  "rss_ámbito_economía": {
+    "status": "OK",
+    "items": 20,
+    "latest": "Todos los descuentos de Cuenta DNI disponibles este fin de semana"
+  },
+  "rss_el_cronista": {
+    "status": "OK",
+    "items": 73,
+    "latest": "Se conoce la inflación de marzo: qué número anticipan las principales consultoras"
+  },
+  "rss_el_economista": {
+    "status": "OK",
+    "items": 20,
+    "latest": "Los números del mercado indican que EE.UU. es el que va perdiendo la guerra"
+  },
+  "rss_iprofesional": {
+    "status": "PARTIAL",
+    "note": "0 items",
+    "http": 200
+  },
+  "boletin_oficial": {
+    "status": "FAIL",
+    "error": "Not JSON"
+  },
+  "bluelytics": {
+    "status": "OK",
+    "http": 200,
+    "data": {
+      "oficial": {
+        "value_avg": 1374.0,
+        "value_sell": 1399.0,
+        "value_buy": 1349.0
+      },
+      "blue": {
+        "value_avg": 1380.0,
+        "value_sell": 1390.0,
+        "value_buy": 1370.0
+      },
+      "oficial_euro": {
+        "value_avg": 1493.5,
+        "value_sell": 1521.0,
+        "value_buy": 1466.0
+      },
+      "blue_euro": {
+        "value_avg": 1500.0,
+        "value_sell": 1511.0,
+        "value_buy": 1489.0
+      },
+      "last_update": "2026-04-10T19:45:56.551625-03:00"
+    }
+  },
+  "apify_twitter_actors": {
+    "status": "OK",
+    "count": 4,
+    "actors": [
+      {
+        "name": "tweet-scraper",
+        "username": "apidojo",
+        "runs": 136937919
+      },
+      {
+        "name": "twitter-scraper-lite",
+        "username": "apidojo",
+        "runs": 11824055
+      },
+      {
+        "name": "twitter-x-data-tweet-scraper-pay-per-result-cheapest",
+        "username": "kaitoeasyapi",
+        "runs": 35024184
+      },
+      {
+        "name": "premium-x-follower-scraper-following-data",
+        "username": "kaitoeasyapi",
+        "runs": 519985
+      }
+    ]
+  },
+  "apify_news_actors": {
+    "status": "OK",
+    "count": 3,
+    "actors": [
+      {
+        "name": "google-news-scraper",
+        "username": "easyapi",
+        "runs": 253759
+      },
+      {
+        "name": "google-news-scraper-fast",
+        "username": "data_xplorer",
+        "runs": 100772
+      },
+      {
+        "name": "google-news-scraper-fast-cheap-pay-per-results",
+        "username": "scrapestorm",
+        "runs": 13061
+      }
+    ]
+  },
+  "apify_rag_browser": {
+    "status": "OK",
+    "results": 3,
+    "sample": "{'crawl': {'httpStatusCode': 200, 'httpStatusMessage': 'OK', 'loadedAt': '2026-04-11T20:35:33.728Z', 'uniqueKey': 'Nt4BUGOf33', 'requestStatus': 'handled'}, 'searchResult': {'title': 'Tipos de Cambio', 'description': 'Cotizaciones actualizadas de todas las monedas extranjeras · Cotizaciones por fecha · Tipo de Cambio SML Comunicación \"A\" 4848 · Evolución de una moneda |\\xa0...Read more', 'url': 'h"
+  }
+}

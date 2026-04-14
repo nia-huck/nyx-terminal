@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Nyx Terminal</title>
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+  <!-- Nyx -->
+  <link rel="stylesheet" href="css/nyx.css?v=20260414j">
+  <link rel="stylesheet" href="css/nyx-chat.css?v=20260414d">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%237c3aed'/><text x='16' y='22' font-size='18' font-weight='bold' fill='white' text-anchor='middle' font-family='monospace'>N</text></svg>">
+</head>
+<body>
+
+  <!-- ═══ Background layers ═══ -->
+  <div class="nyx-starfield" aria-hidden="true"></div>
+  <div class="nyx-orb nyx-orb-1" aria-hidden="true"></div>
+  <div class="nyx-orb nyx-orb-2" aria-hidden="true"></div>
+  <div class="nyx-orb nyx-orb-3" aria-hidden="true"></div>
+  <canvas class="nyx-particles" id="nyx-particles" aria-hidden="true"></canvas>
+  <div class="nyx-vignette" aria-hidden="true"></div>
+
+  <!-- ═══ App Shell ═══ -->
+  <!-- Sidebar collapse toggle -->
+  <button class="sidebar-toggle" id="sidebar-toggle" data-i18n-title="sidebar.hide" title="Ocultar panel ([ )">
+    <svg width="8" height="12" viewBox="0 0 8 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="5 1 1 6 5 11"/>
+    </svg>
+  </button>
+
+  <div class="nyx-app">
+
+    <!-- ── Sidebar ── -->
+    <nav class="nyx-sidebar">
+      <div class="nyx-sidebar__logo" data-view="dashboard" title="Nyx Terminal">N</div>
+
+      <div class="nyx-sidebar__nav">
+        <button class="nyx-sidebar__item active" data-view="dashboard" data-tooltip="Dashboard">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+        </button>
+        <button class="nyx-sidebar__item" data-view="map" data-tooltip="Mapa" data-i18n-tooltip="sidebar.map">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg>
+        </button>
+        <button class="nyx-sidebar__item" data-view="mercados" data-tooltip="Mercados" data-i18n-tooltip="sidebar.markets">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </button>
+        <button class="nyx-sidebar__item" data-view="noticias" data-tooltip="Noticias">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 002-2V4a2 2 0 00-2-2H8a2 2 0 00-2 2v16a2 2 0 01-2 2zm0 0a2 2 0 01-2-2v-9c0-1.1.9-2 2-2h2"/><line x1="10" y1="6" x2="18" y2="6"/><line x1="10" y1="10" x2="18" y2="10"/><line x1="10" y1="14" x2="14" y2="14"/></svg>
+        </button>
+        <button class="nyx-sidebar__item" id="btn-live" data-tooltip="Live Monitor">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="2"/><path d="M16.24 7.76a6 6 0 010 8.49"/><path d="M7.76 7.76a6 6 0 000 8.49"/><path d="M19.07 4.93a10 10 0 010 14.14"/><path d="M4.93 4.93a10 10 0 000 14.14"/></svg>
+        </button>
+      </div>
+
+      <div class="nyx-sidebar__bottom">
+        <button class="nyx-sidebar__item nyx-sidebar__item--lang" id="btn-lang" title="Switch language / Cambiar idioma">
+          <span id="lang-label" style="font-size:10px;font-weight:700;letter-spacing:0.05em;line-height:1">EN</span>
+        </button>
+        <button class="nyx-sidebar__item" id="btn-config" data-i18n-title="sidebar.settings" title="Configuracion">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+        </button>
+        <div class="nyx-sidebar__status" id="api-status" title="API desconectada"></div>
+      </div>
+    </nav>
+
+    <!-- ── Main Content ── -->
+    <main class="nyx-main">
+
+      <!-- VIEW: DASHBOARD -->
+      <section class="nyx-view active" id="view-dashboard">
+        <div class="dash-scroll">
+
+          <!-- Row 1: Header + Nyx Index + Agent Insights -->
+          <div class="dash-hero">
+            <div class="dash-hero__left">
+              <div class="dash-hero__top">
+                <h1 class="dash-hero__title">Nyx Terminal</h1>
+                <span class="dash-hero__time" id="dash-time"></span>
+              </div>
+              <div class="dash-insights glass-panel" id="dash-insights">
+                <div class="dash-insights__header">
+                  <svg class="alert-pulse-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                  <span data-i18n="dash.early_warnings">Alertas Tempranas</span>
+                  <span class="alert-counter" id="alert-counter"></span>
+                  <button class="alerts-ask-btn" id="alerts-ask-btn" title="Consultar alertas con Nyx">
+                    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+                    Ask
+                  </button>
+                  <button class="alerts-expand-btn" id="alerts-expand-btn" title="Ver todas las alertas">
+                    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+                  </button>
+                </div>
+                <div class="alert-ticker" id="dash-insights-list">
+                  <div class="alert-ticker__item active" style="--insight-color:hsl(240,5%,35%)">
+                    <span class="alert-ticker__icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg></span>
+                    <div class="alert-ticker__body">
+                      <div class="alert-ticker__category">Sistema</div>
+                      <div class="alert-ticker__text">Cargando datos del motor de análisis...</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="alert-ticker__nav" id="alert-ticker-nav"></div>
+              </div>
+            </div>
+            <div class="dash-hero__index glass-panel" id="nyx-index" style="cursor:pointer" title="Ampliar Indice Nyx">
+              <div class="nyx-idx__label">Indice Nyx</div>
+              <div class="nyx-idx__score" id="nyx-idx-score">--</div>
+              <div class="nyx-idx__bar"><div class="nyx-idx__fill" id="nyx-idx-fill"></div></div>
+              <div class="nyx-idx__nivel" id="nyx-idx-nivel"></div>
+              <button class="expand-btn" data-expand="nyx-index" title="Ampliar" style="position:absolute;top:10px;right:10px;opacity:0;transition:opacity 0.2s">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Row 2: KPI strip — 6 compact cards -->
+          <div class="dash-kpis">
+            <div class="glass-panel kpi">
+              <div class="kpi__top">
+                <span class="kpi__label" data-i18n="dash.kpi.dollar">Dolar Blue</span>
+                <div class="widget-btns">
+                  <button class="ask-nyx" data-ask="Analiza el dolar blue: cotizaciones actuales, spreads vs otros tipos, carry trade y perspectivas" data-cite="Dolar Blue"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></button>
+                  <button class="expand-btn" data-expand="kpi-dolar" title="Ampliar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg></button>
+                </div>
+              </div>
+              <span class="kpi__value" id="kpi-dolar">--</span>
+              <span class="kpi__change" id="kpi-dolar-change"></span>
+              <div class="kpi__spark" id="kpi-dolar-spark"></div>
+            </div>
+            <div class="glass-panel kpi">
+              <div class="kpi__top">
+                <span class="kpi__label" data-i18n="dash.kpi.risk">Riesgo Pais</span>
+                <div class="widget-btns">
+                  <button class="ask-nyx" data-ask="Analiza el riesgo pais: situacion actual, tendencia 90 dias, probabilidad de default y perspectivas" data-cite="Riesgo Pais"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></button>
+                  <button class="expand-btn" data-expand="kpi-riesgo" title="Ampliar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg></button>
+                </div>
+              </div>
+              <span class="kpi__value" id="kpi-riesgo">--</span>
+              <span class="kpi__change" id="kpi-riesgo-change"></span>
+              <div class="kpi__spark" id="kpi-riesgo-spark"></div>
+            </div>
+            <div class="glass-panel kpi">
+              <div class="kpi__top">
+                <span class="kpi__label" data-i18n="dash.kpi.inflation">Inflacion</span>
+                <div class="widget-btns">
+                  <button class="ask-nyx" data-ask="Analiza la inflacion: ultimo mes, tendencia, core vs headline, poder adquisitivo y proyeccion" data-cite="Inflacion"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></button>
+                  <button class="expand-btn" data-expand="kpi-inflacion" title="Ampliar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg></button>
+                </div>
+              </div>
+              <span class="kpi__value" id="kpi-inflacion">--</span>
+              <span class="kpi__change" id="kpi-inflacion-change"></span>
+            </div>
+            <div class="glass-panel kpi">
+              <div class="kpi__top">
+                <span class="kpi__label" data-i18n="dash.kpi.reserves">Reservas</span>
+                <div class="widget-btns">
+                  <button class="ask-nyx" data-ask="Analiza las reservas del BCRA: nivel actual, variacion reciente, tendencia e implicaciones para el tipo de cambio" data-cite="Reservas BCRA"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></button>
+                  <button class="expand-btn" data-expand="kpi-reservas" title="Ampliar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg></button>
+                </div>
+              </div>
+              <span class="kpi__value" id="kpi-reservas">--</span>
+              <span class="kpi__change" id="kpi-reservas-change"></span>
+            </div>
+            <div class="glass-panel kpi">
+              <div class="kpi__top">
+                <span class="kpi__label" data-i18n="dash.kpi.spread">Brecha</span>
+                <div class="widget-btns">
+                  <button class="ask-nyx" data-ask="Analiza la brecha cambiaria blue/oficial: spread actual, evolucion historica, dolar implicito y señales de riesgo" data-cite="Brecha Cambiaria"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></button>
+                  <button class="expand-btn" data-expand="kpi-brecha" title="Ampliar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg></button>
+                </div>
+              </div>
+              <span class="kpi__value" id="kpi-brecha">--</span>
+              <span class="kpi__change" id="kpi-brecha-change"></span>
+              <div class="kpi__spark" id="kpi-brecha-spark"></div>
+            </div>
+            <div class="glass-panel kpi">
+              <div class="kpi__top">
+                <span class="kpi__label">BADLAR</span>
+                <div class="widget-btns">
+                  <button class="ask-nyx" data-ask="Analiza BADLAR y la politica monetaria: tasa actual, corredor, tasa real, carry trade y conveniencia del plazo fijo" data-cite="BADLAR"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></button>
+                  <button class="expand-btn" data-expand="kpi-badlar" title="Ampliar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg></button>
+                </div>
+              </div>
+              <span class="kpi__value" id="kpi-badlar">--</span>
+              <span class="kpi__change" id="kpi-badlar-change"></span>
+              <div class="kpi__spark" id="kpi-badlar-spark"></div>
+            </div>
+          </div>
+
+          <!-- Row 3: Charts -->
+          <div class="dash-charts">
+            <div class="glass-panel chart-card">
+              <div class="chart-card__header">
+                <div>
+                  <span class="chart-card__title" data-i18n="dash.chart.dollar">Dolar Blue vs Oficial</span>
+                  <div class="chart-card__legend">
+                    <span class="chart-legend-dot" style="background:hsl(268,70%,58%)"></span><span>Blue</span>
+                    <span class="chart-legend-dot" style="background:hsl(192,80%,50%)"></span><span data-i18n="dash.legend.official">Oficial</span>
+                    <span class="chart-legend-dot" style="background:hsl(38,92%,50%)"></span><span>MEP</span>
+                  </div>
+                </div>
+                <div style="display:flex;align-items:center;gap:8px">
+                  <div class="timeframe-bar" data-chart="dolar">
+                    <button class="timeframe-btn" data-days="7">7d</button>
+                    <button class="timeframe-btn" data-days="30">30d</button>
+                    <button class="timeframe-btn active" data-days="90">90d</button>
+                  </div>
+                  <div class="widget-btns">
+                    <button class="ask-nyx" data-ask="Analizame la evolucion del dolar blue vs oficial: tendencia, velocidad de cambio, convergencia y proyeccion" data-cite="Chart Dolar Blue vs Oficial"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></button>
+                    <button class="expand-btn" data-expand="chart-dolar" title="Ampliar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg></button>
+                  </div>
+                </div>
+              </div>
+              <div class="chart-card__body"><canvas id="chart-dolar"></canvas></div>
+            </div>
+            <div class="glass-panel chart-card">
+              <div class="chart-card__header">
+                <div>
+                  <span class="chart-card__title" data-i18n="dash.chart.inflation">Inflacion Mensual</span>
+                  <div class="chart-card__legend">
+                    <span class="chart-legend-dot" style="background:hsl(268,70%,58%)"></span><span data-i18n="dash.legend.monthly">Mensual</span>
+                    <span class="chart-legend-dot" style="background:hsl(38,92%,50%)"></span><span data-i18n="dash.legend.average">Promedio</span>
+                  </div>
+                </div>
+                <div style="display:flex;align-items:center;gap:8px">
+                  <span class="chart-card__stat" id="inflacion-stat"></span>
+                  <div class="widget-btns">
+                    <button class="ask-nyx" data-ask="Analizame la serie de inflacion mensual: tendencia, aceleracion, pico historico y comparacion con periodos anteriores" data-cite="Chart Inflacion Mensual"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></button>
+                    <button class="expand-btn" data-expand="chart-inflacion" title="Ampliar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg></button>
+                  </div>
+                </div>
+              </div>
+              <div class="chart-card__body"><canvas id="chart-inflacion"></canvas></div>
+            </div>
+            <div class="glass-panel chart-card">
+              <div class="chart-card__header">
+                <div>
+                  <span class="chart-card__title" data-i18n="dash.chart.risk">Riesgo Pais</span>
+                  <div class="chart-card__legend">
+                    <span class="chart-legend-dot" style="background:hsl(0,78%,58%)"></span><span data-i18n="dash.legend.historical">Historico</span>
+                  </div>
+                </div>
+                <div style="display:flex;align-items:center;gap:8px">
+                  <span class="chart-card__stat" id="riesgo-dash-stat"></span>
+                  <div class="widget-btns">
+                    <button class="ask-nyx" data-ask="Analizame la evolucion reciente del riesgo pais: tendencia, minimos y maximos del periodo, volatilidad y perspectiva" data-cite="Chart Riesgo Pais"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></button>
+                    <button class="expand-btn" data-expand="kpi-riesgo" title="Ampliar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg></button>
+                  </div>
+                </div>
+              </div>
+              <div class="chart-card__body"><canvas id="chart-riesgo-dash"></canvas></div>
+            </div>
+          </div>
+
+          <!-- Row 4: Mini context cards -->
+          <div class="dash-mini">
+            <div class="glass-panel mini-card">
+              <div class="mini-card__top">
+                <div class="mini-card__label" data-i18n="dash.social_sentiment">Sentiment Social</div>
+                <div class="widget-btns">
+                  <button class="ask-nyx" data-ask="Analiza el sentiment social del mercado: tono general, ratio positivo/negativo, keywords trending y que implica" data-cite="Sentiment Social"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></button>
+                </div>
+              </div>
+              <div class="mini-card__value" id="mini-sent-tone">--</div>
+              <div class="mini-card__sub" id="mini-sent-sub"></div>
+              <div class="mini-card__split-bar">
+                <div class="mini-card__split-neg" id="mini-sent-neg"></div>
+                <div class="mini-card__split-pos" id="mini-sent-pos"></div>
+              </div>
+              <div class="mini-card__topics" id="mini-sent-topics"></div>
+            </div>
+            <div class="glass-panel mini-card">
+              <div class="mini-card__top">
+                <div class="mini-card__label" data-i18n="dash.mini.carry">Carry Trade</div>
+                <div class="widget-btns">
+                  <button class="ask-nyx" data-ask="Analiza el carry trade: mejor plazo fijo disponible, rentabilidad vs Blue/MEP/CCL, conveniencia y riesgo" data-cite="Carry Trade"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></button>
+                  <button class="expand-btn" data-expand="mini-carry" title="Ampliar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg></button>
+                </div>
+              </div>
+              <div class="mini-card__value" id="mini-carry-val">--</div>
+              <div class="mini-card__sub" id="mini-carry-sub"></div>
+              <div class="mini-card__rows" id="mini-carry-rows"></div>
+            </div>
+            <div class="glass-panel mini-card">
+              <div class="mini-card__top">
+                <div class="mini-card__label" data-i18n="dash.mini.velocity">Velocidad Dolar</div>
+                <div class="widget-btns">
+                  <button class="ask-nyx" data-ask="Analiza la velocidad del dolar: variaciones 7/30/90 dias, volatilidad, momentum y que señala sobre el tipo de cambio" data-cite="Velocidad Dolar"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></button>
+                  <button class="expand-btn" data-expand="mini-velocity" title="Ampliar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg></button>
+                </div>
+              </div>
+              <div class="mini-card__value" id="mini-vel-val">--</div>
+              <div class="mini-card__sub" id="mini-vel-sub"></div>
+              <div class="mini-card__rows" id="mini-vel-rows"></div>
+            </div>
+            <div class="glass-panel mini-card">
+              <div class="mini-card__top">
+                <div class="mini-card__label" data-i18n="dash.mini.monetary">Base Monetaria</div>
+                <div class="widget-btns">
+                  <button class="ask-nyx" data-ask="Analiza la base monetaria: nivel actual, expansion reciente, multiplicador monetario e implicaciones inflacionarias" data-cite="Base Monetaria"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></button>
+                  <button class="expand-btn" data-expand="mini-monetary" title="Ampliar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg></button>
+                </div>
+              </div>
+              <div class="mini-card__value" id="mini-mon-val">--</div>
+              <div class="mini-card__sub" id="mini-mon-sub"></div>
+              <div class="mini-card__rows" id="mini-mon-rows"></div>
+            </div>
+          </div>
+
+          <!-- Row 5: News (full width) -->
+          <div class="dash-bottom">
+            <div class="glass-panel signals-card">
+              <div class="signals-card__title" data-i18n="dash.signals">Senales de Riesgo</div>
+              <div id="signals-list">
+                <div class="signal-row"><div class="skeleton" style="height:14px;width:60%"></div></div>
+                <div class="signal-row"><div class="skeleton" style="height:14px;width:50%"></div></div>
+                <div class="signal-row"><div class="skeleton" style="height:14px;width:55%"></div></div>
+              </div>
+            </div>
+            <div class="glass-panel news-card">
+              <div class="news-card__title">
+                Noticias
+                <div class="widget-btns">
+                  <button class="ask-nyx" data-ask="Resume y analiza las noticias economicas mas importantes: impacto potencial en el mercado y nivel de riesgo" data-cite="Feed de Noticias"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></button>
+                  <button class="expand-btn" data-expand="news" title="Ampliar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg></button>
+                </div>
+              </div>
+              <div class="news-card__list" id="dash-news">
+                <div class="news-item"><div class="skeleton" style="height:14px;width:80%"></div></div>
+                <div class="news-item"><div class="skeleton" style="height:14px;width:70%"></div></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- VIEW: MAP -->
+      <section class="nyx-view" id="view-map">
+        <div class="map-container">
+          <div id="nyx-leaflet-map"></div>
+          <div class="map-overlay map-overlay--signals">
+            <div class="glass map-signals" id="map-signals">
+              <div class="map-signals__title" data-i18n="map.signals">Senales Macro</div>
+            </div>
+          </div>
+          <div class="map-overlay map-overlay--feed">
+            <div class="glass map-feed" id="map-feed">
+              <div class="map-feed__header">
+                <button class="map-feed__back" id="map-feed-back">&#8592;</button>
+                <span class="map-feed__title" id="map-feed-title">Todas las provincias</span>
+                <span class="map-feed__count" id="map-feed-count">--</span>
+              </div>
+              <div class="map-feed__list" id="map-feed-list"></div>
+            </div>
+          </div>
+          <div class="map-overlay map-overlay--legend">
+            <div class="glass map-legend">
+              <div class="map-legend__title" data-i18n="map.event_types">Tipos de Evento</div>
+              <div class="map-legend__item"><span class="map-legend__dot type-economico"></span> <span data-i18n="map.type.economic">Economico</span></div>
+              <div class="map-legend__item"><span class="map-legend__dot type-sindical"></span> <span data-i18n="map.type.labor">Sindical</span></div>
+              <div class="map-legend__item"><span class="map-legend__dot type-regulatorio"></span> <span data-i18n="map.type.regulatory">Regulatorio</span></div>
+              <div class="map-legend__item"><span class="map-legend__dot type-politico"></span> <span data-i18n="map.type.political">Politico</span></div>
+              <div class="map-legend__item"><span class="map-legend__dot type-climatico"></span> <span data-i18n="map.type.climate">Climatico</span></div>
+              <div class="map-legend__item"><span class="map-legend__dot type-informativo"></span> <span data-i18n="map.type.news">Informativo</span></div>
+            </div>
+          </div>
+          <div class="map-overlay map-overlay--stats">
+            <div class="glass map-stats">
+              <div class="map-stat">
+                <span class="map-stat__value" id="map-stat-dolar">--</span>
+                <span class="map-stat__label">Dolar Blue</span>
+              </div>
+              <div class="map-stat__divider"></div>
+              <div class="map-stat">
+                <span class="map-stat__value" id="map-stat-riesgo">--</span>
+                <span class="map-stat__label" data-i18n="map.stat.risk">Riesgo Pais</span>
+              </div>
+              <div class="map-stat__divider"></div>
+              <div class="map-stat">
+                <span class="map-stat__value" id="map-stat-brecha">--</span>
+                <span class="map-stat__label">Brecha %</span>
+              </div>
+              <div class="map-stat__divider"></div>
+              <div class="map-stat">
+                <span class="map-stat__value" id="map-stat-eventos">--</span>
+                <span class="map-stat__label" data-i18n="map.stat.events">Eventos</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIEW: MERCADOS -->
+      <section class="nyx-view" id="view-mercados">
+        <div class="mercados-scroll">
+          <div class="mercados-header"><h1 class="text-gradient" data-i18n="merc.title">Mercados</h1></div>
+
+          <!-- Row 1: KPI strip -->
+          <div class="merc-kpis">
+            <div class="glass-panel merc-kpi" data-merc="brecha">
+              <div class="merc-kpi__label" data-i18n="merc.kpi.spread">Brecha Blue</div>
+              <div class="merc-kpi__value" id="mkpi-brecha">--</div>
+              <div class="merc-kpi__sub" id="mkpi-brecha-sub">vs oficial</div>
+            </div>
+            <div class="glass-panel merc-kpi" data-merc="carry">
+              <div class="merc-kpi__label" data-i18n="merc.kpi.carry">Carry Trade Blue</div>
+              <div class="merc-kpi__value" id="mkpi-carry">--</div>
+              <div class="merc-kpi__sub" id="mkpi-carry-sub" data-i18n="dyn.monthly_gain">ganancia mensual</div>
+            </div>
+            <div class="glass-panel merc-kpi" data-merc="crawling">
+              <div class="merc-kpi__label">Crawling Peg</div>
+              <div class="merc-kpi__value" id="mkpi-crawling">--</div>
+              <div class="merc-kpi__sub">TEM mensual</div>
+            </div>
+            <div class="glass-panel merc-kpi" data-merc="badlar">
+              <div class="merc-kpi__label">BADLAR</div>
+              <div class="merc-kpi__value" id="mkpi-badlar2">--</div>
+              <div class="merc-kpi__sub">TNA</div>
+            </div>
+            <div class="glass-panel merc-kpi" data-merc="reservas">
+              <div class="merc-kpi__label" data-i18n="merc.kpi.reserves">Reservas BCRA</div>
+              <div class="merc-kpi__value" id="mkpi-reservas2">--</div>
+              <div class="merc-kpi__sub" id="mkpi-reservas-sub" data-i18n="dyn.internationals">internacionales</div>
+            </div>
+          </div>
+
+          <!-- Row 2: Cotizaciones table -->
+          <div class="glass-panel" style="padding:0;overflow:hidden">
+            <div class="cotiz-header-bar">
+              <span class="cotiz-header-bar__title" data-i18n="merc.cotiz">Cotizaciones</span>
+              <span class="cotiz-header-bar__sub" id="cotiz-updated"></span>
+            </div>
+            <table class="cotiz-table" id="cotiz-table">
+              <thead><tr><th data-i18n="merc.th.type">Tipo</th><th data-i18n="merc.th.buy">Compra</th><th data-i18n="merc.th.sell">Venta</th><th data-i18n="merc.th.spread">Brecha</th><th data-i18n="merc.th.change">Variacion</th><th data-i18n="merc.th.updated">Actualizado</th></tr></thead>
+              <tbody id="cotiz-body"><tr><td colspan="6" class="skeleton" style="height:140px"></td></tr></tbody>
+            </table>
+          </div>
+
+          <!-- Row 3: Charts 50/50 -->
+          <div class="dash-charts">
+            <div class="glass-panel chart-card">
+              <div class="chart-card__header">
+                <span class="chart-card__title">Riesgo Pais</span>
+                <div style="display:flex;align-items:center;gap:8px">
+                  <div class="timeframe-bar" data-chart="riesgo">
+                    <button class="timeframe-btn" data-days="7">7d</button>
+                    <button class="timeframe-btn active" data-days="30">30d</button>
+                    <button class="timeframe-btn" data-days="90">90d</button>
+                  </div>
+                  <button class="expand-btn" data-expand="chart-riesgo" title="Ampliar">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+                  </button>
+                </div>
+              </div>
+              <div class="chart-card__body"><canvas id="chart-riesgo"></canvas></div>
+            </div>
+            <div class="glass-panel chart-card">
+              <div class="chart-card__header">
+                <span class="chart-card__title">Blue · MEP · CCL</span>
+                <div style="display:flex;align-items:center;gap:8px">
+                  <div class="timeframe-bar" data-chart="multidolar">
+                    <button class="timeframe-btn" data-days="7">7d</button>
+                    <button class="timeframe-btn active" data-days="30">30d</button>
+                    <button class="timeframe-btn" data-days="60">60d</button>
+                  </div>
+                  <button class="expand-btn" data-expand="chart-dolar" title="Ampliar">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+                  </button>
+                </div>
+              </div>
+              <div class="chart-card__legend">
+                <span class="chart-legend-item" style="--dot:hsl(268,70%,58%)">Blue</span>
+                <span class="chart-legend-item" style="--dot:hsl(192,80%,50%)">MEP</span>
+                <span class="chart-legend-item" style="--dot:hsl(38,92%,55%)">CCL</span>
+              </div>
+              <div class="chart-card__body"><canvas id="chart-multidolar"></canvas></div>
+            </div>
+          </div>
+
+          <!-- Row 4: BCRA + Carry Trade + Tasas -->
+          <div class="merc-panels">
+            <div class="glass-panel merc-data-panel">
+              <div class="merc-data-panel__title" data-i18n="merc.bcra">Variables BCRA</div>
+              <div id="bcra-panel"><div class="skeleton" style="height:100px;border-radius:8px"></div></div>
+            </div>
+            <div class="glass-panel merc-data-panel">
+              <div class="merc-data-panel__title" data-i18n="merc.carry">Carry Trade</div>
+              <div id="carry-panel"><div class="skeleton" style="height:100px;border-radius:8px"></div></div>
+            </div>
+            <div class="glass-panel merc-data-panel">
+              <div class="merc-data-panel__title" data-i18n="merc.rates">Tasas & Politica</div>
+              <div id="tasas-panel"><div class="skeleton" style="height:100px;border-radius:8px"></div></div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- VIEW: NOTICIAS -->
+      <section class="nyx-view" id="view-noticias">
+        <div class="noticias-scroll">
+          <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px">
+            <h1 class="text-gradient">Noticias</h1>
+            <input type="text" class="noticias-search" id="noticias-search" placeholder="Buscar noticias..." autocomplete="off">
+          </div>
+          <div class="noticias-filters" id="noticias-filters">
+            <button class="filter-chip active" data-filter="all">Todas</button>
+            <button class="filter-chip" data-filter="economico">Economico</button>
+            <button class="filter-chip" data-filter="sindical">Sindical</button>
+            <button class="filter-chip" data-filter="regulatorio">Regulatorio</button>
+            <button class="filter-chip" data-filter="politico">Politico</button>
+            <button class="filter-chip" data-filter="climatico">Climatico</button>
+          </div>
+          <div class="noticias-grid" id="noticias-grid">
+            <div class="glass-panel noticia-card"><div class="skeleton" style="height:120px"></div></div>
+            <div class="glass-panel noticia-card"><div class="skeleton" style="height:120px"></div></div>
+            <div class="glass-panel noticia-card"><div class="skeleton" style="height:120px"></div></div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- ═══ Chat — Nyx Agent (nia-huck.web.app design) ═══ -->
+
+  <div class="chat-trigger-wrap">
+    <button class="chat-trigger chat-trigger--closed" id="chatTrigger" aria-label="Consultar a Nyx">
+      <svg width="18" height="18" viewBox="0 0 24 24" id="chatIconOpen" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+      </svg>
+      <svg width="16" height="16" viewBox="0 0 24 24" id="chatIconClose" style="display:none" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <span class="chat-trigger__label" id="chatLabel">Ask</span>
+  </div>
+
+  <div class="chat-panel" id="chatPanel">
+    <div class="chat-header">
+      <span class="chat-header__dot"></span>
+      <div>
+        <p class="chat-header__title">Nyx Assistant</p>
+        <p class="chat-header__sub" data-i18n="chat.sub">AI-powered — analisis economico argentino</p>
+      </div>
+      <span style="flex:1"></span>
+      <button class="chat-header__close" id="chatHeaderClose" title="Cerrar">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+
+    <div class="chat-messages" id="agent-messages">
+      <div class="chat-msg--system">nyx agent initialized</div>
+    </div>
+
+    <div class="chat-suggestions" id="chat-suggestions">
+      <button class="chat-suggestion" data-q="Que esta pasando con el dolar hoy?">&#9656; Dolar hoy</button>
+      <button class="chat-suggestion" data-q="Dame un resumen del riesgo economico esta semana">&#9656; Riesgo semanal</button>
+      <button class="chat-suggestion" data-q="Analiza las senales de riesgo actuales">&#9656; Senales de riesgo</button>
+    </div>
+
+    <!-- Cite reference -->
+    <div class="chat-cite" id="chat-cite">
+      <span class="chat-cite__text" id="chat-cite-text"></span>
+      <button class="chat-cite__close" id="chat-cite-close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    </div>
+
+    <div class="chat-input">
+      <div class="chat-input__field">
+        <input type="text" id="agent-input" data-i18n-placeholder="chat.placeholder" placeholder="Pregunta algo..." autocomplete="off">
+        <button class="chat-input__send" id="agent-send" title="Enviar">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="chat-backdrop" id="chatBackdrop"></div>
+
+  <!-- ═══ Config Modal ═══ -->
+  <div class="nyx-config-backdrop hidden" id="config-backdrop"></div>
+  <div class="nyx-config hidden" id="config-panel">
+    <div class="nyx-config__header">
+      <span data-i18n="config.title">Configuracion</span>
+      <button class="nyx-config__close" id="config-close">&times;</button>
+    </div>
+    <div class="nyx-config__body" id="config-body">
+      <div class="skeleton" style="height:200px"></div>
+    </div>
+    <div class="nyx-config__footer">
+      <button class="nyx-config__save" id="config-save" data-i18n="config.save">Guardar</button>
+    </div>
+  </div>
+
+  <!-- ═══ Live Monitor Window ═══ -->
+  <div class="nyx-live-window" id="nyx-live-window" style="display:none">
+
+    <!-- Title bar -->
+    <div class="nlive-titlebar" id="nyx-live-titlebar">
+      <div class="nlive-title">
+        <span class="nlive-dot nlive-dot--idle" id="nyx-live-dot"></span>
+        <span>Live Monitor</span>
+        <span class="nlive-session-label" id="nyx-live-session-label"></span>
+      </div>
+      <div class="nlive-titlebar-btns">
+        <button class="nlive-tbtn" id="nyx-live-minimize" title="Minimizar">&#8212;</button>
+        <button class="nlive-tbtn nlive-tbtn--close" id="nyx-live-close" title="Cerrar">&times;</button>
+      </div>
+    </div>
+
+    <!-- Stats bar -->
+    <div class="nlive-statsbar" id="nyx-live-statsbar">
+      <div class="nlive-stat">
+        <span class="nlive-stat__val" id="nyx-live-words">0</span>
+        <span class="nlive-stat__lbl">palabras</span>
+      </div>
+      <div class="nlive-stat">
+        <span class="nlive-stat__val" id="nyx-live-seg-count">0</span>
+        <span class="nlive-stat__lbl">segmentos</span>
+      </div>
+      <div class="nlive-stat">
+        <span class="nlive-stat__val" id="nyx-live-alert-count">0</span>
+        <span class="nlive-stat__lbl">alertas</span>
+      </div>
+      <div class="nlive-stat">
+        <span class="nlive-stat__val" id="nyx-live-uptime">0s</span>
+        <span class="nlive-stat__lbl">uptime</span>
+      </div>
+    </div>
+
+    <!-- Body -->
+    <div class="nlive-body" id="nyx-live-body">
+
+      <!-- YouTube embed -->
+      <div class="nlive-player">
+        <iframe id="nyx-live-iframe" src="" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <!-- Tab bar -->
+      <div class="nlive-tabs">
+        <button class="nlive-tab nlive-tab--active" data-tab="transcript">Transcripcion</button>
+        <button class="nlive-tab" data-tab="alerts">Alertas <span class="nlive-tab-badge" id="nyx-live-alert-badge"></span></button>
+        <button class="nlive-tab" data-tab="keywords">Keywords</button>
+      </div>
+
+      <!-- Tab: Transcript -->
+      <div class="nlive-tabpanel" id="nlive-tab-transcript">
+        <div class="nlive-transcript" id="nyx-live-transcript">
+          <div class="nlive-empty">Esperando transmision...</div>
+        </div>
+      </div>
+
+      <!-- Tab: Alerts -->
+      <div class="nlive-tabpanel nlive-tabpanel--hidden" id="nlive-tab-alerts">
+        <div class="nlive-alerts" id="nyx-live-alerts">
+          <div class="nlive-empty">Sin alertas aun...</div>
+        </div>
+      </div>
+
+      <!-- Tab: Keywords -->
+      <div class="nlive-tabpanel nlive-tabpanel--hidden" id="nlive-tab-keywords">
+        <!-- Add keyword form -->
+        <div class="nlive-kw-form">
+          <input type="text" id="nlive-kw-input" class="nlive-kw-input" placeholder="Nueva keyword..." autocomplete="off">
+          <select id="nlive-kw-sector" class="nlive-kw-select">
+            <option value="finanzas">finanzas</option>
+            <option value="economia">economia</option>
+            <option value="sindical">sindical</option>
+            <option value="energia">energia</option>
+            <option value="agro">agro</option>
+            <option value="politico">politico</option>
+            <option value="comercio">comercio</option>
+            <option value="general">general</option>
+          </select>
+          <input type="number" id="nlive-kw-urgency" class="nlive-kw-urgency" value="6" min="1" max="10" title="Urgencia 1-10">
+          <button id="nlive-kw-add-btn" class="nlive-kw-add-btn" title="Agregar">+</button>
+        </div>
+        <!-- Keyword list -->
+        <div class="nlive-kw-list" id="nlive-kw-list">
+          <div class="nlive-empty">Cargando keywords...</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Control bar -->
+    <div class="nlive-controlbar">
+      <input type="text" id="nyx-live-url-input" class="nlive-url-input"
+             placeholder="URL de YouTube Live..." autocomplete="off">
+      <button id="nyx-live-start-btn" class="nlive-start-btn">Iniciar</button>
+      <button id="nyx-live-stop-btn" class="nlive-stop-btn" style="display:none">Detener</button>
+    </div>
+
+  </div>
+
+  <!-- ═══ Scripts ═══ -->
+  <script>
+    window.NYX_API = 'http://localhost:8000';
+  </script>
+  <script src="js/nyx-particles.js?v=20260414i"></script>
+  <script src="js/nyx-app.js?v=20260414k"></script>
+  <script src="js/nyx-map.js?v=20260414i"></script>
+  <script src="js/nyx-drawer.js?v=20260414i"></script>
+  <script src="js/nyx-live.js?v=20260414c"></script>
+
+</body>
+</html>

@@ -1,0 +1,4590 @@
+{
+  "generated_at": "2026-04-11T18:23:15.988789",
+  "dolar": {
+    "current": {
+      "oficial": {
+        "moneda": "USD",
+        "casa": "oficial",
+        "nombre": "Oficial",
+        "compra": 1345,
+        "venta": 1395,
+        "fechaActualizacion": "2026-04-10T17:01:00.000Z"
+      },
+      "blue": {
+        "moneda": "USD",
+        "casa": "blue",
+        "nombre": "Blue",
+        "compra": 1375,
+        "venta": 1390,
+        "fechaActualizacion": "2026-04-11T21:01:00.000Z"
+      },
+      "bolsa": {
+        "moneda": "USD",
+        "casa": "bolsa",
+        "nombre": "Bolsa",
+        "compra": 1408.1,
+        "venta": 1415.2,
+        "fechaActualizacion": "2026-04-11T21:01:00.000Z"
+      },
+      "contadoconliqui": {
+        "moneda": "USD",
+        "casa": "contadoconliqui",
+        "nombre": "Contado con liquidación",
+        "compra": 1470.4,
+        "venta": 1470.8,
+        "fechaActualizacion": "2026-04-11T21:01:00.000Z"
+      },
+      "mayorista": {
+        "moneda": "USD",
+        "casa": "mayorista",
+        "nombre": "Mayorista",
+        "compra": 1361,
+        "venta": 1370,
+        "fechaActualizacion": "2026-04-10T16:02:00.000Z",
+        "variacion": -0.8
+      },
+      "cripto": {
+        "moneda": "USD",
+        "casa": "cripto",
+        "nombre": "Cripto",
+        "compra": 1471.2,
+        "venta": 1471.3,
+        "fechaActualizacion": "2026-04-11T21:01:00.000Z"
+      },
+      "tarjeta": {
+        "moneda": "USD",
+        "casa": "tarjeta",
+        "nombre": "Tarjeta",
+        "compra": 1748.5,
+        "venta": 1813.5,
+        "fechaActualizacion": "2026-04-10T17:01:00.000Z"
+      }
+    },
+    "all_types": [
+      {
+        "moneda": "USD",
+        "casa": "oficial",
+        "nombre": "Oficial",
+        "compra": 1345,
+        "venta": 1395,
+        "fechaActualizacion": "2026-04-10T17:01:00.000Z"
+      },
+      {
+        "moneda": "USD",
+        "casa": "blue",
+        "nombre": "Blue",
+        "compra": 1375,
+        "venta": 1390,
+        "fechaActualizacion": "2026-04-11T21:01:00.000Z"
+      },
+      {
+        "moneda": "USD",
+        "casa": "bolsa",
+        "nombre": "Bolsa",
+        "compra": 1408.1,
+        "venta": 1415.2,
+        "fechaActualizacion": "2026-04-11T21:01:00.000Z"
+      },
+      {
+        "moneda": "USD",
+        "casa": "contadoconliqui",
+        "nombre": "Contado con liquidación",
+        "compra": 1470.4,
+        "venta": 1470.8,
+        "fechaActualizacion": "2026-04-11T21:01:00.000Z"
+      },
+      {
+        "moneda": "USD",
+        "casa": "mayorista",
+        "nombre": "Mayorista",
+        "compra": 1361,
+        "venta": 1370,
+        "fechaActualizacion": "2026-04-10T16:02:00.000Z",
+        "variacion": -0.8
+      },
+      {
+        "moneda": "USD",
+        "casa": "cripto",
+        "nombre": "Cripto",
+        "compra": 1471.2,
+        "venta": 1471.3,
+        "fechaActualizacion": "2026-04-11T21:01:00.000Z"
+      },
+      {
+        "moneda": "USD",
+        "casa": "tarjeta",
+        "nombre": "Tarjeta",
+        "compra": 1748.5,
+        "venta": 1813.5,
+        "fechaActualizacion": "2026-04-10T17:01:00.000Z"
+      }
+    ],
+    "history": [
+      {
+        "date": "2011-01-21",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-21",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-20",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-20",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-19",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-19",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-18",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-18",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-17",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-17",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-14",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-14",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-13",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-13",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-12",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-12",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-11",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-11",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-10",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-10",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-07",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-07",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-06",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-06",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-05",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-05",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-04",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-04",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-03",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-03",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      }
+    ],
+    "history_source": "https://api.bluelytics.com.ar/v2/evolution.json"
+  },
+  "bcra": {
+    "reservas": {
+      "current": {
+        "fecha": "2026-04-08",
+        "valor": 44759.0
+      },
+      "history": [
+        {
+          "fecha": "2026-04-08",
+          "valor": 44759.0
+        },
+        {
+          "fecha": "2026-04-07",
+          "valor": 44445.0
+        },
+        {
+          "fecha": "2026-04-06",
+          "valor": 44248.0
+        },
+        {
+          "fecha": "2026-04-01",
+          "valor": 44445.0
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 42052.0
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 43381.0
+        },
+        {
+          "fecha": "2026-03-27",
+          "valor": 43713.0
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 43534.0
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 43841.0
+        },
+        {
+          "fecha": "2026-03-20",
+          "valor": 43806.0
+        },
+        {
+          "fecha": "2026-03-19",
+          "valor": 43713.0
+        },
+        {
+          "fecha": "2026-03-18",
+          "valor": 44495.0
+        },
+        {
+          "fecha": "2026-03-17",
+          "valor": 44722.0
+        },
+        {
+          "fecha": "2026-03-16",
+          "valor": 44790.0
+        },
+        {
+          "fecha": "2026-03-13",
+          "valor": 45661.0
+        },
+        {
+          "fecha": "2026-03-12",
+          "valor": 45766.0
+        },
+        {
+          "fecha": "2026-03-11",
+          "valor": 45770.0
+        },
+        {
+          "fecha": "2026-03-10",
+          "valor": 46054.0
+        },
+        {
+          "fecha": "2026-03-09",
+          "valor": 45767.0
+        },
+        {
+          "fecha": "2026-03-06",
+          "valor": 46011.0
+        },
+        {
+          "fecha": "2026-03-05",
+          "valor": 45825.0
+        },
+        {
+          "fecha": "2026-03-04",
+          "valor": 46210.0
+        },
+        {
+          "fecha": "2026-03-03",
+          "valor": 46137.0
+        },
+        {
+          "fecha": "2026-03-02",
+          "valor": 46519.0
+        },
+        {
+          "fecha": "2026-02-27",
+          "valor": 45566.0
+        },
+        {
+          "fecha": "2026-02-26",
+          "valor": 46158.0
+        },
+        {
+          "fecha": "2026-02-25",
+          "valor": 46905.0
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 46663.0
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 46635.0
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 46264.0
+        }
+      ]
+    },
+    "tc_minorista": {
+      "current": {
+        "fecha": "2026-04-10",
+        "valor": 1399.42
+      },
+      "history": [
+        {
+          "fecha": "2026-04-10",
+          "valor": 1399.42
+        },
+        {
+          "fecha": "2026-04-09",
+          "valor": 1409.92
+        },
+        {
+          "fecha": "2026-04-08",
+          "valor": 1412.02
+        },
+        {
+          "fecha": "2026-04-07",
+          "valor": 1418.78
+        },
+        {
+          "fecha": "2026-04-06",
+          "valor": 1416.6
+        },
+        {
+          "fecha": "2026-04-01",
+          "valor": 1419.32
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 1409.48
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 1419.32
+        },
+        {
+          "fecha": "2026-03-27",
+          "valor": 1404.43
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 1392.39
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 1402.6
+        },
+        {
+          "fecha": "2026-03-20",
+          "valor": 1414.02
+        },
+        {
+          "fecha": "2026-03-19",
+          "valor": 1416.66
+        },
+        {
+          "fecha": "2026-03-18",
+          "valor": 1418.18
+        },
+        {
+          "fecha": "2026-03-17",
+          "valor": 1422.26
+        },
+        {
+          "fecha": "2026-03-16",
+          "valor": 1417.58
+        },
+        {
+          "fecha": "2026-03-13",
+          "valor": 1415.85
+        },
+        {
+          "fecha": "2026-03-12",
+          "valor": 1419.08
+        },
+        {
+          "fecha": "2026-03-11",
+          "valor": 1418.04
+        },
+        {
+          "fecha": "2026-03-10",
+          "valor": 1421.51
+        },
+        {
+          "fecha": "2026-03-09",
+          "valor": 1440.91
+        },
+        {
+          "fecha": "2026-03-06",
+          "valor": 1436.18
+        },
+        {
+          "fecha": "2026-03-05",
+          "valor": 1425.47
+        },
+        {
+          "fecha": "2026-03-04",
+          "valor": 1427.83
+        },
+        {
+          "fecha": "2026-03-03",
+          "valor": 1433.4
+        },
+        {
+          "fecha": "2026-03-02",
+          "valor": 1417.21
+        },
+        {
+          "fecha": "2026-02-27",
+          "valor": 1426.45
+        },
+        {
+          "fecha": "2026-02-26",
+          "valor": 1429.59
+        },
+        {
+          "fecha": "2026-02-25",
+          "valor": 1416.53
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 1400.12
+        }
+      ]
+    },
+    "tc_mayorista": {
+      "current": {
+        "fecha": "2026-04-10",
+        "valor": 1373.9
+      },
+      "history": [
+        {
+          "fecha": "2026-04-10",
+          "valor": 1373.9
+        },
+        {
+          "fecha": "2026-04-09",
+          "valor": 1383.23
+        },
+        {
+          "fecha": "2026-04-08",
+          "valor": 1387.03
+        },
+        {
+          "fecha": "2026-04-07",
+          "valor": 1395.1
+        },
+        {
+          "fecha": "2026-04-06",
+          "valor": 1391.69
+        },
+        {
+          "fecha": "2026-04-01",
+          "valor": 1387.72
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 1382.76
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 1394.92
+        },
+        {
+          "fecha": "2026-03-27",
+          "valor": 1376.1
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 1370.29
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 1378.97
+        },
+        {
+          "fecha": "2026-03-20",
+          "valor": 1393.44
+        },
+        {
+          "fecha": "2026-03-19",
+          "valor": 1395.51
+        },
+        {
+          "fecha": "2026-03-18",
+          "valor": 1399.6
+        },
+        {
+          "fecha": "2026-03-17",
+          "valor": 1395.51
+        },
+        {
+          "fecha": "2026-03-16",
+          "valor": 1394.66
+        },
+        {
+          "fecha": "2026-03-13",
+          "valor": 1392.99
+        },
+        {
+          "fecha": "2026-03-12",
+          "valor": 1399.67
+        },
+        {
+          "fecha": "2026-03-11",
+          "valor": 1396.45
+        },
+        {
+          "fecha": "2026-03-10",
+          "valor": 1402.38
+        },
+        {
+          "fecha": "2026-03-09",
+          "valor": 1418.28
+        },
+        {
+          "fecha": "2026-03-06",
+          "valor": 1413.82
+        },
+        {
+          "fecha": "2026-03-05",
+          "valor": 1407.15
+        },
+        {
+          "fecha": "2026-03-04",
+          "valor": 1401.58
+        },
+        {
+          "fecha": "2026-03-03",
+          "valor": 1411.11
+        },
+        {
+          "fecha": "2026-03-02",
+          "valor": 1401.58
+        },
+        {
+          "fecha": "2026-02-27",
+          "valor": 1408.97
+        },
+        {
+          "fecha": "2026-02-26",
+          "valor": 1408.7
+        },
+        {
+          "fecha": "2026-02-25",
+          "valor": 1388.58
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 1377.09
+        }
+      ]
+    },
+    "tasa_badlar": {
+      "current": {
+        "fecha": "2026-04-09",
+        "valor": 23.25
+      },
+      "history": [
+        {
+          "fecha": "2026-04-09",
+          "valor": 23.25
+        },
+        {
+          "fecha": "2026-04-08",
+          "valor": 24.9375
+        },
+        {
+          "fecha": "2026-04-07",
+          "valor": 25.3125
+        },
+        {
+          "fecha": "2026-04-06",
+          "valor": 24.4375
+        },
+        {
+          "fecha": "2026-04-01",
+          "valor": 25.1875
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 25.375
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 25.0625
+        },
+        {
+          "fecha": "2026-03-27",
+          "valor": 24.8125
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 25.6875
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 25.375
+        },
+        {
+          "fecha": "2026-03-20",
+          "valor": 25.6875
+        },
+        {
+          "fecha": "2026-03-19",
+          "valor": 26.25
+        },
+        {
+          "fecha": "2026-03-18",
+          "valor": 26.875
+        },
+        {
+          "fecha": "2026-03-17",
+          "valor": 28.25
+        },
+        {
+          "fecha": "2026-03-16",
+          "valor": 28.5625
+        },
+        {
+          "fecha": "2026-03-13",
+          "valor": 28.5625
+        },
+        {
+          "fecha": "2026-03-12",
+          "valor": 29.375
+        },
+        {
+          "fecha": "2026-03-11",
+          "valor": 29.0
+        },
+        {
+          "fecha": "2026-03-10",
+          "valor": 29.3125
+        },
+        {
+          "fecha": "2026-03-09",
+          "valor": 28.5
+        },
+        {
+          "fecha": "2026-03-06",
+          "valor": 28.3125
+        },
+        {
+          "fecha": "2026-03-05",
+          "valor": 29.5
+        },
+        {
+          "fecha": "2026-03-04",
+          "valor": 28.4375
+        },
+        {
+          "fecha": "2026-03-03",
+          "valor": 29.5
+        },
+        {
+          "fecha": "2026-03-02",
+          "valor": 28.9375
+        },
+        {
+          "fecha": "2026-02-27",
+          "valor": 29.5
+        },
+        {
+          "fecha": "2026-02-26",
+          "valor": 30.25
+        },
+        {
+          "fecha": "2026-02-25",
+          "valor": 30.75
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 34.3125
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 33.125
+        }
+      ]
+    },
+    "tasa_tm20": {
+      "current": {
+        "fecha": "2026-04-09",
+        "valor": 23.375
+      },
+      "history": [
+        {
+          "fecha": "2026-04-09",
+          "valor": 23.375
+        },
+        {
+          "fecha": "2026-04-08",
+          "valor": 25.1875
+        },
+        {
+          "fecha": "2026-04-07",
+          "valor": 25.625
+        },
+        {
+          "fecha": "2026-04-06",
+          "valor": 24.9375
+        },
+        {
+          "fecha": "2026-04-01",
+          "valor": 25.5625
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 25.625
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 25.4375
+        },
+        {
+          "fecha": "2026-03-27",
+          "valor": 25.25
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 25.9375
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 25.75
+        },
+        {
+          "fecha": "2026-03-20",
+          "valor": 26.0625
+        },
+        {
+          "fecha": "2026-03-19",
+          "valor": 26.4375
+        },
+        {
+          "fecha": "2026-03-18",
+          "valor": 27.0625
+        },
+        {
+          "fecha": "2026-03-17",
+          "valor": 28.5
+        },
+        {
+          "fecha": "2026-03-16",
+          "valor": 29.25
+        },
+        {
+          "fecha": "2026-03-13",
+          "valor": 29.3125
+        },
+        {
+          "fecha": "2026-03-12",
+          "valor": 30.0
+        },
+        {
+          "fecha": "2026-03-11",
+          "valor": 29.625
+        },
+        {
+          "fecha": "2026-03-10",
+          "valor": 29.9375
+        },
+        {
+          "fecha": "2026-03-09",
+          "valor": 29.25
+        },
+        {
+          "fecha": "2026-03-06",
+          "valor": 29.0625
+        },
+        {
+          "fecha": "2026-03-05",
+          "valor": 30.125
+        },
+        {
+          "fecha": "2026-03-04",
+          "valor": 29.1875
+        },
+        {
+          "fecha": "2026-03-03",
+          "valor": 30.0625
+        },
+        {
+          "fecha": "2026-03-02",
+          "valor": 29.5625
+        },
+        {
+          "fecha": "2026-02-27",
+          "valor": 30.0625
+        },
+        {
+          "fecha": "2026-02-26",
+          "valor": 30.6875
+        },
+        {
+          "fecha": "2026-02-25",
+          "valor": 31.625
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 34.875
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 34.375
+        }
+      ]
+    },
+    "tasa_depositos_30d": {
+      "current": {
+        "fecha": "2026-04-09",
+        "valor": 23.23
+      },
+      "history": [
+        {
+          "fecha": "2026-04-09",
+          "valor": 23.23
+        },
+        {
+          "fecha": "2026-04-08",
+          "valor": 24.29
+        },
+        {
+          "fecha": "2026-04-07",
+          "valor": 24.52
+        },
+        {
+          "fecha": "2026-04-06",
+          "valor": 23.88
+        },
+        {
+          "fecha": "2026-04-01",
+          "valor": 24.38
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 23.94
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 24.55
+        },
+        {
+          "fecha": "2026-03-27",
+          "valor": 23.9
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 25.1
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 24.88
+        },
+        {
+          "fecha": "2026-03-20",
+          "valor": 24.97
+        },
+        {
+          "fecha": "2026-03-19",
+          "valor": 25.95
+        },
+        {
+          "fecha": "2026-03-18",
+          "valor": 26.31
+        },
+        {
+          "fecha": "2026-03-17",
+          "valor": 27.18
+        },
+        {
+          "fecha": "2026-03-16",
+          "valor": 27.39
+        },
+        {
+          "fecha": "2026-03-13",
+          "valor": 27.16
+        },
+        {
+          "fecha": "2026-03-12",
+          "valor": 27.81
+        },
+        {
+          "fecha": "2026-03-11",
+          "valor": 27.28
+        },
+        {
+          "fecha": "2026-03-10",
+          "valor": 28.27
+        },
+        {
+          "fecha": "2026-03-09",
+          "valor": 27.66
+        },
+        {
+          "fecha": "2026-03-06",
+          "valor": 27.5
+        },
+        {
+          "fecha": "2026-03-05",
+          "valor": 27.27
+        },
+        {
+          "fecha": "2026-03-04",
+          "valor": 27.37
+        },
+        {
+          "fecha": "2026-03-03",
+          "valor": 27.88
+        },
+        {
+          "fecha": "2026-03-02",
+          "valor": 28.08
+        },
+        {
+          "fecha": "2026-02-27",
+          "valor": 28.28
+        },
+        {
+          "fecha": "2026-02-26",
+          "valor": 29.12
+        },
+        {
+          "fecha": "2026-02-25",
+          "valor": 28.04
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 31.82
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 30.16
+        }
+      ]
+    },
+    "base_monetaria": {
+      "current": {
+        "fecha": "2026-04-08",
+        "valor": 41265125.0
+      },
+      "history": [
+        {
+          "fecha": "2026-04-08",
+          "valor": 41265125.0
+        },
+        {
+          "fecha": "2026-04-07",
+          "valor": 41976449.0
+        },
+        {
+          "fecha": "2026-04-06",
+          "valor": 41983916.0
+        },
+        {
+          "fecha": "2026-04-01",
+          "valor": 42128666.0
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 41277771.0
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 42639083.0
+        },
+        {
+          "fecha": "2026-03-27",
+          "valor": 39674505.0
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 40433607.0
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 41175029.0
+        },
+        {
+          "fecha": "2026-03-20",
+          "valor": 40514585.0
+        },
+        {
+          "fecha": "2026-03-19",
+          "valor": 40008553.0
+        },
+        {
+          "fecha": "2026-03-18",
+          "valor": 39026567.0
+        },
+        {
+          "fecha": "2026-03-17",
+          "valor": 39541393.0
+        },
+        {
+          "fecha": "2026-03-16",
+          "valor": 40219575.0
+        },
+        {
+          "fecha": "2026-03-13",
+          "valor": 41185271.0
+        },
+        {
+          "fecha": "2026-03-12",
+          "valor": 41407606.0
+        },
+        {
+          "fecha": "2026-03-11",
+          "valor": 40736856.0
+        },
+        {
+          "fecha": "2026-03-10",
+          "valor": 40799134.0
+        },
+        {
+          "fecha": "2026-03-09",
+          "valor": 41337760.0
+        },
+        {
+          "fecha": "2026-03-06",
+          "valor": 42327455.0
+        },
+        {
+          "fecha": "2026-03-05",
+          "valor": 42491784.0
+        },
+        {
+          "fecha": "2026-03-04",
+          "valor": 42455350.0
+        },
+        {
+          "fecha": "2026-03-03",
+          "valor": 42641381.0
+        },
+        {
+          "fecha": "2026-03-02",
+          "valor": 42499111.0
+        },
+        {
+          "fecha": "2026-02-27",
+          "valor": 40986704.0
+        },
+        {
+          "fecha": "2026-02-26",
+          "valor": 41414239.0
+        },
+        {
+          "fecha": "2026-02-25",
+          "valor": 41232963.0
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 42600442.0
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 42646887.0
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 42378425.0
+        }
+      ]
+    }
+  },
+  "bcra_cambiarias": {
+    "fecha": "2026-04-10",
+    "cotizaciones": [
+      {
+        "codigoMoneda": "ARS",
+        "descripcion": "PESO",
+        "tipoPase": 0.00073,
+        "tipoCotizacion": 0.0
+      },
+      {
+        "codigoMoneda": "AUD",
+        "descripcion": "DOLAR AUSTRALIA",
+        "tipoPase": 0.7074,
+        "tipoCotizacion": 969.138
+      },
+      {
+        "codigoMoneda": "AWG",
+        "descripcion": "FLORIN (ANTILLAS HOLANDESAS)",
+        "tipoPase": 0.558659,
+        "tipoCotizacion": 765.363128
+      },
+      {
+        "codigoMoneda": "BOB",
+        "descripcion": "BOLIVIANOS",
+        "tipoPase": 0.145254,
+        "tipoCotizacion": 198.997749
+      },
+      {
+        "codigoMoneda": "BRL",
+        "descripcion": "REAL",
+        "tipoPase": 0.199056,
+        "tipoCotizacion": 272.707367
+      },
+      {
+        "codigoMoneda": "CAD",
+        "descripcion": "DOLAR CANADIEN.",
+        "tipoPase": 0.723014,
+        "tipoCotizacion": 990.528523
+      },
+      {
+        "codigoMoneda": "CHF",
+        "descripcion": "FRANCO SUIZO",
+        "tipoPase": 1.266624,
+        "tipoCotizacion": 1735.275491
+      },
+      {
+        "codigoMoneda": "CLP",
+        "descripcion": "PESO CHILENO",
+        "tipoPase": 0.001118,
+        "tipoCotizacion": 1.531479
+      },
+      {
+        "codigoMoneda": "CNH",
+        "descripcion": "YUAN CNH RENMINBI OFF SHORE",
+        "tipoPase": 0.146494,
+        "tipoCotizacion": 200.697313
+      },
+      {
+        "codigoMoneda": "CNY",
+        "descripcion": "YUAN CNY RENMINBI",
+        "tipoPase": 0.146417,
+        "tipoCotizacion": 200.591525
+      },
+      {
+        "codigoMoneda": "COP",
+        "descripcion": "COLOMBIANOS",
+        "tipoPase": 0.000275,
+        "tipoCotizacion": 0.376917
+      },
+      {
+        "codigoMoneda": "CZK",
+        "descripcion": "CORONAS CHECAS",
+        "tipoPase": 0.048101,
+        "tipoCotizacion": 65.898334
+      },
+      {
+        "codigoMoneda": "DKK",
+        "descripcion": "CORONAS DANESAS",
+        "tipoPase": 0.156885,
+        "tipoCotizacion": 214.932304
+      },
+      {
+        "codigoMoneda": "EUR",
+        "descripcion": "EURO",
+        "tipoPase": 1.1722,
+        "tipoCotizacion": 1605.914
+      },
+      {
+        "codigoMoneda": "GBP",
+        "descripcion": "LIBRA ESTERLINA",
+        "tipoPase": 1.3457,
+        "tipoCotizacion": 1843.609
+      },
+      {
+        "codigoMoneda": "HKD",
+        "descripcion": "DOLAR HONG KONG",
+        "tipoPase": 0.12768,
+        "tipoCotizacion": 174.921158
+      },
+      {
+        "codigoMoneda": "ILS",
+        "descripcion": "LIBRA ISRAELI",
+        "tipoPase": 0.328818,
+        "tipoCotizacion": 450.480074
+      },
+      {
+        "codigoMoneda": "INR",
+        "descripcion": "RUPIA (INDIA)",
+        "tipoPase": 0.010784,
+        "tipoCotizacion": 14.773677
+      },
+      {
+        "codigoMoneda": "JPY",
+        "descripcion": "YENS",
+        "tipoPase": 0.006277,
+        "tipoCotizacion": 8.599586
+      },
+      {
+        "codigoMoneda": "MXP",
+        "descripcion": "PESO MEXICANO",
+        "tipoPase": 0.057774,
+        "tipoCotizacion": 79.15049
+      },
+      {
+        "codigoMoneda": "NIO",
+        "descripcion": "CORDOBA NICARAGUENSE",
+        "tipoPase": 0.027172,
+        "tipoCotizacion": 37.225732
+      },
+      {
+        "codigoMoneda": "NOK",
+        "descripcion": "CORONAS NORUEGA",
+        "tipoPase": 0.105114,
+        "tipoCotizacion": 144.005886
+      },
+      {
+        "codigoMoneda": "NZD",
+        "descripcion": "DOLAR NEOZELANDES",
+        "tipoPase": 0.584,
+        "tipoCotizacion": 800.08
+      },
+      {
+        "codigoMoneda": "PEN",
+        "descripcion": "SOLES",
+        "tipoPase": 0.295125,
+        "tipoCotizacion": 404.320623
+      },
+      {
+        "codigoMoneda": "PYG",
+        "descripcion": "GUARANIES",
+        "tipoPase": 0.000156,
+        "tipoCotizacion": 0.214304
+      },
+      {
+        "codigoMoneda": "REF",
+        "descripcion": "DOLAR REFERENCIA COM 3500",
+        "tipoPase": 0.0,
+        "tipoCotizacion": 1373.9033
+      },
+      {
+        "codigoMoneda": "RSD",
+        "descripcion": "DINAR SERBIA",
+        "tipoPase": 0.009984,
+        "tipoCotizacion": 13.677883
+      },
+      {
+        "codigoMoneda": "RUB",
+        "descripcion": "RUSIA",
+        "tipoPase": 0.013001,
+        "tipoCotizacion": 17.810689
+      },
+      {
+        "codigoMoneda": "SEK",
+        "descripcion": "CORONAS SUECAS",
+        "tipoPase": 0.107752,
+        "tipoCotizacion": 147.619766
+      },
+      {
+        "codigoMoneda": "SGD",
+        "descripcion": "DOLAR DE SINGAPUR",
+        "tipoPase": 0.785176,
+        "tipoCotizacion": 1075.690955
+      },
+      {
+        "codigoMoneda": "TRY",
+        "descripcion": "LIRA TURCA",
+        "tipoPase": 0.022395,
+        "tipoCotizacion": 30.681098
+      },
+      {
+        "codigoMoneda": "USD",
+        "descripcion": "DOLAR E.E.U.U.",
+        "tipoPase": 0.0,
+        "tipoCotizacion": 1370.0
+      },
+      {
+        "codigoMoneda": "UYU",
+        "descripcion": "PESO URUGUAYO",
+        "tipoPase": 0.024839,
+        "tipoCotizacion": 34.028813
+      },
+      {
+        "codigoMoneda": "VEB",
+        "descripcion": "BOLIVARES",
+        "tipoPase": 0.00212481,
+        "tipoCotizacion": 2.91098918
+      },
+      {
+        "codigoMoneda": "VND",
+        "descripcion": "DONG VIETNAM (C/1.000 UNIDADES)",
+        "tipoPase": 0.037977,
+        "tipoCotizacion": 52.027951
+      },
+      {
+        "codigoMoneda": "XAG",
+        "descripcion": "PLATA - ONZA TROY",
+        "tipoPase": 76.1942,
+        "tipoCotizacion": 0.0
+      },
+      {
+        "codigoMoneda": "XAU",
+        "descripcion": "ORO FINO (1 ONZA)",
+        "tipoPase": 4759.99,
+        "tipoCotizacion": 0.0
+      },
+      {
+        "codigoMoneda": "XDR",
+        "descripcion": "DEG",
+        "tipoPase": 1.37014,
+        "tipoCotizacion": 1877.0918
+      },
+      {
+        "codigoMoneda": "ZAR",
+        "descripcion": "RAND SUD",
+        "tipoPase": 0.060818,
+        "tipoCotizacion": 83.320663
+      }
+    ]
+  },
+  "riesgo_pais": {
+    "current": {
+      "valor": 557,
+      "fecha": "2026-04-09"
+    },
+    "history": [
+      {
+        "valor": 572,
+        "fecha": "2026-02-27"
+      },
+      {
+        "valor": 567,
+        "fecha": "2026-03-02"
+      },
+      {
+        "valor": 573,
+        "fecha": "2026-03-03"
+      },
+      {
+        "valor": 534,
+        "fecha": "2026-03-04"
+      },
+      {
+        "valor": 546,
+        "fecha": "2026-03-05"
+      },
+      {
+        "valor": 575,
+        "fecha": "2026-03-06"
+      },
+      {
+        "valor": 583,
+        "fecha": "2026-03-09"
+      },
+      {
+        "valor": 555,
+        "fecha": "2026-03-10"
+      },
+      {
+        "valor": 552,
+        "fecha": "2026-03-11"
+      },
+      {
+        "valor": 568,
+        "fecha": "2026-03-12"
+      },
+      {
+        "valor": 584,
+        "fecha": "2026-03-13"
+      },
+      {
+        "valor": 601,
+        "fecha": "2026-03-16"
+      },
+      {
+        "valor": 587,
+        "fecha": "2026-03-17"
+      },
+      {
+        "valor": 610,
+        "fecha": "2026-03-18"
+      },
+      {
+        "valor": 602,
+        "fecha": "2026-03-19"
+      },
+      {
+        "valor": 633,
+        "fecha": "2026-03-20"
+      },
+      {
+        "valor": 600,
+        "fecha": "2026-03-23"
+      },
+      {
+        "valor": 603,
+        "fecha": "2026-03-24"
+      },
+      {
+        "valor": 595,
+        "fecha": "2026-03-25"
+      },
+      {
+        "valor": 583,
+        "fecha": "2026-03-26"
+      },
+      {
+        "valor": 615,
+        "fecha": "2026-03-27"
+      },
+      {
+        "valor": 637,
+        "fecha": "2026-03-30"
+      },
+      {
+        "valor": 617,
+        "fecha": "2026-03-31"
+      },
+      {
+        "valor": 612,
+        "fecha": "2026-04-01"
+      },
+      {
+        "valor": 612,
+        "fecha": "2026-04-02"
+      },
+      {
+        "valor": 609,
+        "fecha": "2026-04-03"
+      },
+      {
+        "valor": 611,
+        "fecha": "2026-04-06"
+      },
+      {
+        "valor": 610,
+        "fecha": "2026-04-07"
+      },
+      {
+        "valor": 570,
+        "fecha": "2026-04-08"
+      },
+      {
+        "valor": 557,
+        "fecha": "2026-04-09"
+      }
+    ]
+  },
+  "ipc": {
+    "last_12_months": [
+      [
+        "2025-03-01",
+        8462.357
+      ],
+      [
+        "2025-04-01",
+        8736.6696
+      ],
+      [
+        "2025-05-01",
+        8922.0337
+      ],
+      [
+        "2025-06-01",
+        9107.9966
+      ],
+      [
+        "2025-07-01",
+        9240.3481
+      ],
+      [
+        "2025-08-01",
+        9428.4121
+      ],
+      [
+        "2025-09-01",
+        9608.791
+      ],
+      [
+        "2025-10-01",
+        9836.1396
+      ],
+      [
+        "2025-11-01",
+        10107.6944
+      ],
+      [
+        "2025-12-01",
+        10407.4143
+      ],
+      [
+        "2026-01-01",
+        10683.2854
+      ],
+      [
+        "2026-02-01",
+        10991.1691
+      ]
+    ],
+    "serie_id": "103.1_I2N_2016_M_15",
+    "description": "IPC-GBA. Núcleo. Base abr 2016. Mensual"
+  },
+  "emae": {
+    "last_12_months": [
+      [
+        "2025-02-01",
+        141.2021694522208
+      ],
+      [
+        "2025-03-01",
+        150.4065591097294
+      ],
+      [
+        "2025-04-01",
+        158.7411029664511
+      ],
+      [
+        "2025-05-01",
+        164.8778979559678
+      ],
+      [
+        "2025-06-01",
+        156.5940188494031
+      ],
+      [
+        "2025-07-01",
+        153.90772081429063
+      ],
+      [
+        "2025-08-01",
+        150.51256572733467
+      ],
+      [
+        "2025-09-01",
+        151.83984439466224
+      ],
+      [
+        "2025-10-01",
+        152.59573745863372
+      ],
+      [
+        "2025-11-01",
+        147.72352773408562
+      ],
+      [
+        "2025-12-01",
+        153.46285317997496
+      ],
+      [
+        "2026-01-01",
+        149.0409020924211
+      ]
+    ],
+    "serie_id": "143.3_NO_PR_2004_A_21",
+    "description": "EMAE. Base 2004"
+  },
+  "bluelytics": {
+    "latest": {
+      "oficial": {
+        "value_avg": 1374.0,
+        "value_sell": 1399.0,
+        "value_buy": 1349.0
+      },
+      "blue": {
+        "value_avg": 1380.0,
+        "value_sell": 1390.0,
+        "value_buy": 1370.0
+      },
+      "oficial_euro": {
+        "value_avg": 1493.5,
+        "value_sell": 1521.0,
+        "value_buy": 1466.0
+      },
+      "blue_euro": {
+        "value_avg": 1500.0,
+        "value_sell": 1511.0,
+        "value_buy": 1489.0
+      },
+      "last_update": "2026-04-10T19:45:56.551625-03:00"
+    },
+    "evolution": [
+      {
+        "date": "2011-02-11",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-02-11",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-02-10",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-02-10",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-02-09",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-02-09",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-02-08",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-02-08",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-02-07",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-02-07",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-02-04",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-02-04",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-02-03",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-02-03",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-02-02",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-02-02",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-02-01",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-02-01",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-31",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-31",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-28",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-28",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-27",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-27",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-26",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-26",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-25",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-25",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-24",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-24",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-21",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-21",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-20",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-20",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-19",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-19",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-18",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-18",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-17",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-17",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-14",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-14",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-13",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-13",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-12",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-12",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-11",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-11",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-10",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-10",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-07",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-07",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-06",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-06",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-05",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-05",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-04",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-04",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-03",
+        "source": "Oficial",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      },
+      {
+        "date": "2011-01-03",
+        "source": "Blue",
+        "value_sell": 4.0,
+        "value_buy": 4.0
+      }
+    ]
+  },
+  "nasa_events": {
+    "total_global": 50,
+    "argentina": [],
+    "all_events": [
+      {
+        "id": "EONET_19481",
+        "title": "Typhoon Sinlaku",
+        "description": null,
+        "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_19481",
+        "closed": null,
+        "categories": [
+          {
+            "id": "severeStorms",
+            "title": "Severe Storms"
+          }
+        ],
+        "sources": [
+          {
+            "id": "JTWC",
+            "url": "https://www.metoc.navy.mil/jtwc/products/wp0426.tcw"
+          }
+        ],
+        "geometry": [
+          {
+            "magnitudeValue": 35.0,
+            "magnitudeUnit": "kts",
+            "date": "2026-04-09T18:00:00Z",
+            "type": "Point",
+            "coordinates": [
+              151.5,
+              8.3
+            ]
+          },
+          {
+            "magnitudeValue": 40.0,
+            "magnitudeUnit": "kts",
+            "date": "2026-04-10T00:00:00Z",
+            "type": "Point",
+            "coordinates": [
+              151.2,
+              8.2
+            ]
+          },
+          {
+            "magnitudeValue": 45.0,
+            "magnitudeUnit": "kts",
+            "date": "2026-04-10T06:00:00Z",
+            "type": "Point",
+            "coordinates": [
+              151,
+              8.2
+            ]
+          },
+          {
+            "magnitudeValue": 55.0,
+            "magnitudeUnit": "kts",
+            "date": "2026-04-10T12:00:00Z",
+            "type": "Point",
+            "coordinates": [
+              150.9,
+              8.1
+            ]
+          },
+          {
+            "magnitudeValue": 60.0,
+            "magnitudeUnit": "kts",
+            "date": "2026-04-10T18:00:00Z",
+            "type": "Point",
+            "coordinates": [
+              151,
+              8
+            ]
+          },
+          {
+            "magnitudeValue": 75.0,
+            "magnitudeUnit": "kts",
+            "date": "2026-04-11T00:00:00Z",
+            "type": "Point",
+            "coordinates": [
+              151.5,
+              8.5
+            ]
+          },
+          {
+            "magnitudeValue": 80.0,
+            "magnitudeUnit": "kts",
+            "date": "2026-04-11T06:00:00Z",
+            "type": "Point",
+            "coordinates": [
+              151.4,
+              8.8
+            ]
+          },
+          {
+            "magnitudeValue": 85.0,
+            "magnitudeUnit": "kts",
+            "date": "2026-04-11T12:00:00Z",
+            "type": "Point",
+            "coordinates": [
+              151.1,
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EONET_19405",
+        "title": "rx-Northern Scupp EWO Prescribed Fire, Waukesha, Wisconsin",
+        "description": null,
+        "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_19405",
+        "closed": null,
+        "categories": [
+          {
+            "id": "wildfires",
+            "title": "Wildfires"
+          }
+        ],
+        "sources": [
+          {
+            "id": "IRWIN",
+            "url": "https://irwin.doi.gov/observer/incidents/7ea528d0-7612-459c-8a32-ac987787da9a"
+          }
+        ],
+        "geometry": [
+          {
+            "magnitudeValue": 1375.5,
+            "magnitudeUnit": "acres",
+            "date": "2026-04-09T15:09:00Z",
+            "type": "Point",
+            "coordinates": [
+              -88.483243,
+              42.9227232
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EONET_19412",
+        "title": "HARRISON Wildfire, Osage, Oklahoma",
+        "description": null,
+        "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_19412",
+        "closed": null,
+        "categories": [
+          {
+            "id": "wildfires",
+            "title": "Wildfires"
+          }
+        ],
+        "sources": [
+          {
+            "id": "IRWIN",
+            "url": "https://irwin.doi.gov/observer/incidents/14990f0f-f455-4852-8fd1-d86e37e57a0b"
+          }
+        ],
+        "geometry": [
+          {
+            "magnitudeValue": 4934.0,
+            "magnitudeUnit": "acres",
+            "date": "2026-04-09T13:08:00Z",
+            "type": "Point",
+            "coordinates": [
+              -96.849207,
+              36.568752
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EONET_19414",
+        "title": "JOY Wildfire, Osage, Oklahoma",
+        "description": null,
+        "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_19414",
+        "closed": null,
+        "categories": [
+          {
+            "id": "wildfires",
+            "title": "Wildfires"
+          }
+        ],
+        "sources": [
+          {
+            "id": "IRWIN",
+            "url": "https://irwin.doi.gov/observer/incidents/172267d2-ea93-4f50-bb9f-c32f064d3a12"
+          }
+        ],
+        "geometry": [
+          {
+            "magnitudeValue": 5591.0,
+            "magnitudeUnit": "acres",
+            "date": "2026-04-09T11:29:00Z",
+            "type": "Point",
+            "coordinates": [
+              -96.232358,
+              36.471122
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EONET_19415",
+        "title": "Rx Cherokee 3464 Prescribed Fire, Cherokee, Texas",
+        "description": null,
+        "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_19415",
+        "closed": null,
+        "categories": [
+          {
+            "id": "wildfires",
+            "title": "Wildfires"
+          }
+        ],
+        "sources": [
+          {
+            "id": "IRWIN",
+            "url": "https://irwin.doi.gov/observer/incidents/0ff0c0a6-d452-4081-8834-564d4e44bbf7"
+          }
+        ],
+        "geometry": [
+          {
+            "magnitudeValue": 500.0,
+            "magnitudeUnit": "acres",
+            "date": "2026-04-09T10:30:00Z",
+            "type": "Point",
+            "coordinates": [
+              -95.13378,
+              31.56518
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EONET_19416",
+        "title": "Rosindale Road Wildfire, Bladen, North Carolina",
+        "description": "8 Miles N from Lake Waccamaw, NC",
+        "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_19416",
+        "closed": null,
+        "categories": [
+          {
+            "id": "wildfires",
+            "title": "Wildfires"
+          }
+        ],
+        "sources": [
+          {
+            "id": "IRWIN",
+            "url": "https://irwin.doi.gov/observer/incidents/b01f7587-5715-4b5d-b578-c48287013498"
+          }
+        ],
+        "geometry": [
+          {
+            "magnitudeValue": 762.0,
+            "magnitudeUnit": "acres",
+            "date": "2026-04-09T10:20:00Z",
+            "type": "Point",
+            "coordinates": [
+              -78.5313889,
+              34.435
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EONET_19406",
+        "title": "RX Blanchard 2 Prescribed Fire, Stone, Arkansas",
+        "description": null,
+        "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_19406",
+        "closed": null,
+        "categories": [
+          {
+            "id": "wildfires",
+            "title": "Wildfires"
+          }
+        ],
+        "sources": [
+          {
+            "id": "IRWIN",
+            "url": "https://irwin.doi.gov/observer/incidents/ba810a34-88ae-4274-b599-ab13bb8ba4c7"
+          }
+        ],
+        "geometry": [
+          {
+            "magnitudeValue": 1215.0,
+            "magnitudeUnit": "acres",
+            "date": "2026-04-09T09:22:00Z",
+            "type": "Point",
+            "coordinates": [
+              -92.167783,
+              35.95415
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EONET_19418",
+        "title": "HUGHEY Wildfire, Osage, Oklahoma",
+        "description": null,
+        "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_19418",
+        "closed": null,
+        "categories": [
+          {
+            "id": "wildfires",
+            "title": "Wildfires"
+          }
+        ],
+        "sources": [
+          {
+            "id": "IRWIN",
+            "url": "https://irwin.doi.gov/observer/incidents/5a228b60-6d40-45f5-bc93-9dde330daf9b"
+          }
+        ],
+        "geometry": [
+          {
+            "magnitudeValue": 1391.0,
+            "magnitudeUnit": "acres",
+            "date": "2026-04-09T09:15:00Z",
+            "type": "Point",
+            "coordinates": [
+              -96.059996,
+              36.695248
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EONET_19403",
+        "title": "Chickasawhay CPT 378 RX Prescribed Fire, Wayne, Mississippi",
+        "description": null,
+        "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_19403",
+        "closed": null,
+        "categories": [
+          {
+            "id": "wildfires",
+            "title": "Wildfires"
+          }
+        ],
+        "sources": [
+          {
+            "id": "IRWIN",
+            "url": "https://irwin.doi.gov/observer/incidents/97d273d3-5305-4a2a-845c-3de734f13ec3"
+          }
+        ],
+        "geometry": [
+          {
+            "magnitudeValue": 582.0,
+            "magnitudeUnit": "acres",
+            "date": "2026-04-09T09:07:00Z",
+            "type": "Point",
+            "coordinates": [
+              -88.8983,
+              31.5102
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EONET_19404",
+        "title": "RX CALE BU 363 Prescribed Fire, Rapides, Louisiana",
+        "description": null,
+        "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_19404",
+        "closed": null,
+        "categories": [
+          {
+            "id": "wildfires",
+            "title": "Wildfires"
+          }
+        ],
+        "sources": [
+          {
+            "id": "IRWIN",
+            "url": "https://irwin.doi.gov/observer/incidents/31354662-6701-4ed4-a9c8-a3a239e82416"
+          }
+        ],
+        "geometry": [
+          {
+            "magnitudeValue": 765.0,
+            "magnitudeUnit": "acres",
+            "date": "2026-04-09T08:53:00Z",
+            "type": "Point",
+            "coordinates": [
+              -92.634817,
+              31.142233
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EONET_19410",
+        "title": "Compartment 180 RX Prescribed Fire, Greene, Georgia",
+        "description": null,
+        "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_19410",
+        "closed": null,
+        "categories": [
+          {
+            "id": "wildfires",
+            "title": "Wildfires"
+          }
+        ],
+        "sources": [
+          {
+            "id": "IRWIN",
+            "url": "https://irwin.doi.gov/observer/incidents/dd9bfaf4-60f8-41a6-bef5-a34147b23602"
+          }
+        ],
+        "geometry": [
+          {
+            "magnitudeValue": 878.0,
+            "magnitudeUnit": "acres",
+            "date": "2026-04-09T08:04:00Z",
+            "type": "Point",
+            "coordinates": [
+              -83.27194,
+              33.655288
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EONET_19419",
+        "title": "HC 1 Wildfire, San Miguel, New Mexico",
+        "description": null,
+        "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_19419",
+        "closed": null,
+        "categories": [
+          {
+            "id": "wildfires",
+            "title": "Wildfires"
+          }
+        ],
+        "sources": [
+          {
+            "id": "IRWIN",
+            "url": "https://irwin.doi.gov/observer/incidents/12ce320d-486d-43a2-8ecb-0bbd3a0dcedb"
+          }
+        ],
+        "geometry": [
+          {
+            "magnitudeValue": 1415.0,
+            "magnitudeUnit": "acres",
+            "date": "2026-04-08T19:31:00Z",
+            "type": "Point",
+            "coordinates": [
+              -104.67037,
+              35.68405
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EONET_19424",
+        "title": "MA Mainline Non-Statistical/Other, Polk, Texas",
+        "description": null,
+        "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_19424",
+        "closed": null,
+        "categories": [
+          {
+            "id": "wildfires",
+            "title": "Wildfires"
+          }
+        ],
+        "sources": [
+          {
+            "id": "IRWIN",
+            "url": "https://irwin.doi.gov/observer/incidents/41d168e5-d39d-40b7-ad92-0db544461c31"
+          }
+        ],
+        "geometry": [
+          {
+            "magnitudeValue": 500.0,
+            "magnitudeUnit": "acres",
+            "date": "2026-04-08T19:13:00Z",
+            "type": "Point",
+            "coordinates": [
+              -94.638858,
+              30.492511
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EONET_19420",
+        "title": "SUNNY Wildfire, Osage, Oklahoma",
+        "description": null,
+        "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_19420",
+        "closed": null,
+        "categories": [
+          {
+            "id": "wildfires",
+            "title": "Wildfires"
+          }
+        ],
+        "sources": [
+          {
+            "id": "IRWIN",
+            "url": "https://irwin.doi.gov/observer/incidents/2b5fa2c5-8665-4986-8da6-103a1698e6ad"
+          }
+        ],
+        "geometry": [
+          {
+            "magnitudeValue": 1259.0,
+            "magnitudeUnit": "acres",
+            "date": "2026-04-08T18:11:00Z",
+            "type": "Point",
+            "coordinates": [
+              -96.225036,
+              36.779277
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EONET_19438",
+        "title": "Tige - West Celina RX Prescribed Fire, Perry, Indiana",
+        "description": null,
+        "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_19438",
+        "closed": null,
+        "categories": [
+          {
+            "id": "wildfires",
+            "title": "Wildfires"
+          }
+        ],
+        "sources": [
+          {
+            "id": "IRWIN",
+            "url": "https://irwin.doi.gov/observer/incidents/b39e4708-80c7-49c1-898e-f2dc10541e4e"
+          }
+        ],
+        "geometry": [
+          {
+            "magnitudeValue": 1279.0,
+            "magnitudeUnit": "acres",
+            "date": "2026-04-08T11:56:00Z",
+            "type": "Point",
+            "coordinates": [
+              -86.6266,
+              38.2051
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EONET_19426",
+        "title": "RX BO/MAG Chickalah Mtn Prescribed Fire, Yell, Arkansas",
+        "description": null,
+        "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_19426",
+        "closed": null,
+        "categories": [
+          {
+            "id": "wildfires",
+            "title": "Wildfires"
+          }
+        ],
+        "sources": [
+          {
+            "id": "IRWIN",
+            "url": "https://irwin.doi.gov/observer/incidents/cfedaff7-86b7-487e-936f-42a044c851c5"
+          }
+        ],
+        "geometry": [
+          {
+            "magnitudeValue": 810.0,
+            "magnitudeUnit": "acres",
+            "date": "2026-04-08T10:52:00Z",
+            "type": "Point",
+            "coordinates": [
+              -93.426325,
+              35.1749
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EONET_19427",
+        "title": "DeSoto BB 7310 C-7 RX Prescribed Fire, Perry, Mississippi",
+        "description": null,
+        "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_19427",
+        "closed": null,
+        "categories": [
+          {
+            "id": "wildfires",
+            "title": "Wildfires"
+          }
+        ],
+        "sources": [
+          {
+            "id": "IRWIN",
+            "url": "https://irwin.doi.gov/observer/incidents/1923122d-e4e9-40d9-9c5c-eefa878a7e23"
+          }
+        ],
+        "geometry": [
+          {
+            "magnitudeValue": 1360.0,
+            "magnitudeUnit": "acres",
+            "date": "2026-04-08T10:49:00Z",
+            "type": "Point",
+            "coordinates": [
+              -88.859583,
+              31.05635
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EONET_19429",
+        "title": "Bienville CPT 5 7 RX Prescribed Fire, Scott, Mississippi",
+        "description": null,
+        "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_19429",
+        "closed": null,
+        "categories": [
+          {
+            "id": "wildfires",
+            "title": "Wildfires"
+          }
+        ],
+        "sources": [
+          {
+            "id": "IRWIN",
+            "url": "https://irwin.doi.gov/observer/incidents/87343a73-6111-4f82-bb38-86d5760a5ae2"
+          }
+        ],
+        "geometry": [
+          {
+            "magnitudeValue": 1860.0,
+            "magnitudeUnit": "acres",
+            "date": "2026-04-08T10:25:00Z",
+            "type": "Point",
+            "coordinates": [
+              -89.6524,
+              32.5163
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EONET_19434",
+        "title": "Holly Springs IU 14-1 RX Prescribed Fire, Tippah, Mississippi",
+        "description": null,
+        "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_19434",
+        "closed": null,
+        "categories": [
+          {
+            "id": "wildfires",
+            "title": "Wildfires"
+          }
+        ],
+        "sources": [
+          {
+            "id": "IRWIN",
+            "url": "https://irwin.doi.gov/observer/incidents/b7867c6d-52b0-4e7e-8b80-5a9299f0880f"
+          }
+        ],
+        "geometry": [
+          {
+            "magnitudeValue": 933.0,
+            "magnitudeUnit": "acres",
+            "date": "2026-04-08T10:08:00Z",
+            "type": "Point",
+            "coordinates": [
+              -89.0287,
+              34.8459
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EONET_19437",
+        "title": "Homochitto BB51 Sub2 RX Prescribed Fire, Franklin, Mississippi",
+        "description": null,
+        "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_19437",
+        "closed": null,
+        "categories": [
+          {
+            "id": "wildfires",
+            "title": "Wildfires"
+          }
+        ],
+        "sources": [
+          {
+            "id": "IRWIN",
+            "url": "https://irwin.doi.gov/observer/incidents/6775e31c-801e-40c9-b98b-2a328754836c"
+          }
+        ],
+        "geometry": [
+          {
+            "magnitudeValue": 985.0,
+            "magnitudeUnit": "acres",
+            "date": "2026-04-08T09:42:00Z",
+            "type": "Point",
+            "coordinates": [
+              -90.984,
+              31.402
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "news": {
+    "ambito": [
+      {
+        "titulo": "Dura advertencia del economista Camilo Tiscornia: \"No es sostenible que la inflación le gane al tipo de cambio\"",
+        "link": "https://www.ambito.com/economia/dura-advertencia-del-economista-camilo-tiscornia-no-es-sostenible-que-la-inflacion-le-gane-al-tipo-cambio-n6265603",
+        "fecha": "Sat, 11 Apr 2026 17:55:00 -0300",
+        "resumen": "El director de C&amp;T Consultores, sostuvo que no es sostenible que la inflación le gane al dólar y anticipó que abril mostraría una desaceleración del índice de precios"
+      },
+      {
+        "titulo": "Todos los descuentos de Cuenta DNI disponibles este fin de semana",
+        "link": "https://www.ambito.com/economia/todos-los-descuentos-cuenta-dni-disponibles-este-fin-semana-n6264316",
+        "fecha": "Sat, 11 Apr 2026 14:00:00 -0300",
+        "resumen": "Todo lo que hay que saber para gozar de los descuentos de abril del Banco Provincia el sábado y el domingo."
+      },
+      {
+        "titulo": "Plazo fijo: ¿Cuánta ganancia se obtiene al invertir $400.000 durante 30 días?",
+        "link": "https://www.ambito.com/economia/plazo-fijo-cuanta-ganancia-se-obtiene-al-invertir-400000-30-dias-n6265214",
+        "fecha": "Sat, 11 Apr 2026 11:30:00 -0300",
+        "resumen": "Ofreciendo mejores tasas de interés, los bancos buscan incentivar las operaciones digitales, que resultan más rápidas y reducen costos operativos."
+      },
+      {
+        "titulo": "El supermercado argentino con hasta 50% de descuento en productos de belleza hoy, 11 de abril",
+        "link": "https://www.ambito.com/economia/el-supermercado-argentino-50-descuento-productos-belleza-hoy-11-abril-n6264729",
+        "fecha": "Sat, 11 Apr 2026 07:30:00 -0300",
+        "resumen": "La cadena impulsa los descuentos en artículos de cuidado personal y algunos son compatibles con otros beneficios bancarios."
+      },
+      {
+        "titulo": "Plazo fijo en abril 2026: cuánto gano si invierto $600.000 a 30 días",
+        "link": "https://www.ambito.com/economia/plazo-fijo-abril-2026-cuanto-gano-si-invierto-600000-30-dias-n6265352",
+        "fecha": "Fri, 10 Apr 2026 21:30:00 -0300",
+        "resumen": "La rentabilidad mensual cambia según el canal elegido. Conocé los detalles."
+      },
+      {
+        "titulo": "El mejor consejo para conseguir tu ahorro en dólares: de qué trata el \"método de barrido\"",
+        "link": "https://www.ambito.com/economia/el-mejor-consejo-conseguir-tu-ahorro-dolares-que-trata-el-metodo-barrido-n6264599",
+        "fecha": "Fri, 10 Apr 2026 21:00:00 -0300",
+        "resumen": "Este innovador estilo de juntar dinero está haciéndose cada vez más popular y requiere de una estricta conducta financiera."
+      },
+      {
+        "titulo": "La industria automotriz pidió relanzar con urgencia el acuerdo bilateral con Brasil, ante el aluvión de productos chinos",
+        "link": "https://www.ambito.com/economia/la-industria-automotriz-pidio-relanzar-rapido-el-acuerdo-bilateral-brasil-medio-del-aluvion-productos-chinos-n6265440",
+        "fecha": "Fri, 10 Apr 2026 20:53:00 -0300",
+        "resumen": "En el marco del lanzamiento de la exposición Automechanika, representantes del sector remarcaron la necesidad de darle certidumbre a las inversiones mediante una política sectorial estratégica, con visión de largo plazo."
+      },
+      {
+        "titulo": "Dólar atrasado, inflación al alza y caída de salarios: advierten por una \"anomalía\" que tensiona el modelo de Javier Milei",
+        "link": "https://www.ambito.com/economia/dolar-atrasado-inflacion-al-alza-y-caida-salarios-advieren-una-anomalia-que-tensiona-el-modelo-javier-milei-n6265404",
+        "fecha": "Fri, 10 Apr 2026 19:22:00 -0300",
+        "resumen": "Con un tipo de cambio que no para de apreciarse, el poder adquisitivo sigue cayendo. La aceleración de precios y la falta de financiamiento tensionan la sostenibilidad del esquema, un informe del sector financiero."
+      },
+      {
+        "titulo": "Cuánto cuesta llenar el tanque de nafta con la suba del petróleo por la guerra en Medio Oriente",
+        "link": "https://www.ambito.com/economia/cuanto-cuesta-llenar-el-tanque-nafta-la-suba-del-petroleo-la-guerra-medio-oriente-n6265271",
+        "fecha": "Fri, 10 Apr 2026 18:13:00 -0300",
+        "resumen": "El precio del crudo se disparó globalmente, y Argentina sufrió su impacto. Cuáles son los precios de los combustibles."
+      },
+      {
+        "titulo": "El descuento en carnicerías que no podés perderte en abril con esta aplicación",
+        "link": "https://www.ambito.com/economia/el-descuento-carnicerias-que-no-podes-perderte-abril-esta-aplicacion-n6264394",
+        "fecha": "Fri, 10 Apr 2026 17:00:00 -0300",
+        "resumen": "Conocé el programa de reintegros que ofrece la billetera digital de esta entidad bancaria."
+      },
+      {
+        "titulo": "La canasta básica trepó 3,4% en CABA y una familia porteña necesitó $2.342.860 en marzo para ser de clase media",
+        "link": "https://www.ambito.com/economia/la-canasta-basica-trepo-34-caba-y-una-familia-portena-necesito-2342860-marzo-ser-clase-media-n6265360",
+        "fecha": "Fri, 10 Apr 2026 16:32:00 -0300",
+        "resumen": "El costo de la canasta básica total, que determina la línea de pobreza, anotó su mayor suba en un año. De este modo, una familia \"tipo\" necesitó $1.489.829 para no ser considerada pobre."
+      },
+      {
+        "titulo": "Cuáles son los impuestos que redujo el Gobierno y que ahora lo obligan a ajustar el gasto",
+        "link": "https://www.ambito.com/economia/cuales-son-los-impuestos-que-redujo-el-gobierno-y-que-ahora-lo-obligan-ajustar-el-gasto-n6265278",
+        "fecha": "Fri, 10 Apr 2026 15:29:00 -0300",
+        "resumen": "Un estudio privado sostiene que la pérdida de recursos tributarios que soporta el Gobierno, combinado con índices positivos de actividad se debe a la baja impositiva y a los sectores de la economía que siguen en caída."
+      },
+      {
+        "titulo": "Ola de despidos en EEUU por la inteligencia artificial: crecen las dudas sobre el impacto en la economía norteamericana",
+        "link": "https://www.ambito.com/economia/ola-despidos-eeuu-la-inteligencia-artificial-crecen-las-dudas-el-impacto-la-norteamericana-n6265173",
+        "fecha": "Fri, 10 Apr 2026 14:44:00 -0300",
+        "resumen": "Más de 50.000 empleados de la industria del software norteamericano fueron despedidos el año pasado y el número puede subir en 2026. Expertos advierten sobre la posibilidad de un escenario más desigual en el corto plazo, con importantes ganancias corporativas pero un menor nivel de ingresos para los"
+      },
+      {
+        "titulo": "Cuánto sale renovar mantas y acolchados en otoño 2026: precios para ganarle al frío",
+        "link": "https://www.ambito.com/economia/cuanto-sale-renovar-mantas-y-acolchados-otono-2026-precios-ganarle-al-frio-n6264530",
+        "fecha": "Fri, 10 Apr 2026 13:30:00 -0300",
+        "resumen": "Es necesario equiparse de la mejor manera posible para evitar congelarse durante las noches más frías del año."
+      },
+      {
+        "titulo": "Un modelo de IA puede poner en riesgo la seguridad de los bancos, según Bessent y Powell",
+        "link": "https://www.ambito.com/economia/un-modelo-ia-puede-poner-riesgo-la-seguridad-los-bancos-segun-bessent-y-powell-n6265195",
+        "fecha": "Fri, 10 Apr 2026 12:07:00 -0300",
+        "resumen": "Los dos funcionarios estadounidenses convocaron a una reunión para definir los límites de Mython, la última versión de la empresa Anthropic."
+      },
+      {
+        "titulo": "La inflación de EEUU saltó al 3,3% interanual en marzo por el impacto de la guerra en Medio Oriente",
+        "link": "https://www.ambito.com/economia/la-inflacion-eeuu-salto-al-33-interanual-marzo-el-impacto-la-guerra-medio-oriente-n6265148",
+        "fecha": "Fri, 10 Apr 2026 11:10:00 -0300",
+        "resumen": "El dato estuvo levemente por debajo de lo esperado por los economistas del mercado. De todas maneras, se trató el incremento más importante desde mayo de 2023, durante los primeros meses de la guerra en Ucrania."
+      },
+      {
+        "titulo": "La inflación de CABA se aceleró al 3% en marzo con fuerte impulso de combustibles y educación",
+        "link": "https://www.ambito.com/economia/la-inflacion-caba-se-acelero-al-3-marzo-fuerte-impulso-combustibles-y-educacion-n6265193",
+        "fecha": "Fri, 10 Apr 2026 11:00:00 -0300",
+        "resumen": "A la espera del dato nacional, el IPC porteño mostró incremento considerable. El regreso a clases, la disparada del petróleo, las subas de tarifas y el aumento de la carne fueron algunas de las claves."
+      },
+      {
+        "titulo": "La Unión Europea y EEUU, cerca de cerrar un acuerdo sobre \"minerales críticos\"",
+        "link": "https://www.ambito.com/economia/la-union-europea-y-eeuu-cerca-cerrar-un-acuerdo-minerales-criticos-n6265149",
+        "fecha": "Fri, 10 Apr 2026 10:44:00 -0300",
+        "resumen": "Los representantes de comercio de ambas partes mantuvieron una reunión \"muy positiva\". Los detalles de la alianza."
+      },
+      {
+        "titulo": "El Plazo fijo no supera el 30% de tasa: así operan los principales bancos hoy, viernes 10 de abril",
+        "link": "https://www.ambito.com/economia/el-plazo-fijo-no-supera-el-30-tasa-asi-operan-los-principales-bancos-hoy-viernes-10-abril-n6265167",
+        "fecha": "Fri, 10 Apr 2026 10:38:00 -0300",
+        "resumen": "Las entidades ajustan rendimientos y el interés anual se mantiene bajo, con diferencias según el banco y el canal de constitución."
+      },
+      {
+        "titulo": "Petróleo: los productores de Medio Oriente se preparan para la reanudación del comercio en el estrecho de Ormuz",
+        "link": "https://www.ambito.com/economia/petroleo-los-productores-medio-oriente-se-preparan-la-reanudacion-del-comercio-el-estrecho-ormuz-n6265117",
+        "fecha": "Fri, 10 Apr 2026 09:42:00 -0300",
+        "resumen": "La guerra entre Estados Unidos e Irán provocó el cierre de esta vía. Fuentes aseguran que ya hubo pedidos de programas para cuando vuelva a abrirse."
+      }
+    ],
+    "cronista": [
+      {
+        "titulo": "Exportaciones: los factores que empiezan a empujar las ventas a Brasil",
+        "link": "https://www.cronista.com/economia-politica/exportaciones-los-factores-que-empiezan-a-empujar-las-ventas-a-brasil/",
+        "fecha": "Sat, 11 Apr 2026 20:41:56 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Se conoce la inflación de marzo: qué número anticipan las principales consultoras",
+        "link": "https://www.cronista.com/economia-politica/se-conoce-la-inflacion-de-marzo-que-numero-anticipan-las-principales-consultoras/",
+        "fecha": "Sat, 11 Apr 2026 20:26:23 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "El nuevo requisito para mantener el Certificado de Discapacidad que todos los beneficiarios deben cumplir desde ahora",
+        "link": "https://www.cronista.com/economia-politica/el-nuevo-requisito-para-mantener-el-certificado-de-discapacidad-que-todos-los-beneficiarios-deben-cumplir-desde-ahora/",
+        "fecha": "Sat, 11 Apr 2026 19:10:18 +0000",
+        "resumen": "El Gobierno informó cuál es el trámite que se debe actualizar para tener vigente el Certificado Único de Discapacidad."
+      },
+      {
+        "titulo": "La interna de la Corte presiona las divisiones en el Gobierno por la discusión de las vacantes",
+        "link": "https://www.cronista.com/economia-politica/la-interna-de-la-corte-presiona-con-las-divisiones-en-el-gobierno-por-la-discusion-de-las-vacantes/",
+        "fecha": "Sat, 11 Apr 2026 16:43:32 +0000",
+        "resumen": "El Presidente descartó el envío de pliegos judiciales para el superior tribunal y el Procurador General en el corto plazo. Hubo jueces que se empezaron a reunir con funcionarios. La rosca judicial que presiona con los expedientes que involucran al Gobierno."
+      },
+      {
+        "titulo": "“Más ambiciosos”: cuál es el futuro del programa económico, según uno de los especialistas más escuchados",
+        "link": "https://www.cronista.com/economia-politica/mas-ambiciosos-cual-es-el-futuro-del-programa-economico-segun-uno-de-los-especialistas-mas-escuchados/",
+        "fecha": "Sat, 11 Apr 2026 15:51:50 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Vuelve Montblanc al país y ya prepara la apertura de su segunda tienda",
+        "link": "https://www.cronista.com/negocios/de-nuevo-en-el-pais-montblanc-prepara-su-segunda-tienda-tras-abrir-en-el-patio-bullrich/",
+        "fecha": "Fri, 10 Apr 2026 12:01:09 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Tarjeta SUBE: cómo pagar un 55% menos en trenes y colectivos en abril 2026",
+        "link": "https://www.cronista.com/economia-politica/tarjeta-sube-como-pagar-un-55-menos-en-trenes-y-colectivos-en-abril-2026/",
+        "fecha": "Sat, 11 Apr 2026 14:22:00 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Cambian las clases para siempre: eliminan dos materias clave de todos los colegios del país",
+        "link": "https://www.cronista.com/economia-politica/cambian-las-clases-para-siempre-eliminan-dos-materias-clave-de-todas-las-escuelas-del-pais/",
+        "fecha": "Sat, 11 Apr 2026 12:26:00 +0000",
+        "resumen": "La medida permitirá que los colegios descarten diferentes talleres y cursos que eran obligatorios en todo el país por una ley nacional."
+      },
+      {
+        "titulo": "Revés para la CGT: la Justicia dirimió el fuero que debe resolver el futuro de la Reforma Laboral",
+        "link": "https://www.cronista.com/economia-politica/la-justicia-federal-avanzo-y-dirimio-el-fuero-en-el-que-debe-tratarse-la-reforma-laboral/",
+        "fecha": "Fri, 10 Apr 2026 23:23:35 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "H&M avanza con su desembarco y se suma a la ola de marcas que vuelven a la Argentina",
+        "link": "https://www.cronista.com/negocios/hm-avanza-con-su-desembarco-y-se-suma-a-la-ola-de-marcas-que-vuelven-a-la-argentina/",
+        "fecha": "Fri, 10 Apr 2026 14:46:39 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Cambian las clases para siempre: eliminan dos materias clave de todas las escuelas del país",
+        "link": "https://www.cronista.com/economia-politica/cambian-las-clases-para-siempre-fueron-eliminadas-dos-materias-clave-de-todas-las-escuelas-del-pais-2/",
+        "fecha": "Sat, 11 Apr 2026 11:43:00 +0000",
+        "resumen": "La medida permitirá que los colegios descarten diferentes talleres y cursos que eran obligatorios en todo el país por una ley nacional."
+      },
+      {
+        "titulo": "Mi Pyme 2026: guía para renovar el certificado con los nuevos parámetros y no perder los beneficios en IVA y Ganancias",
+        "link": "https://www.cronista.com/columnistas/mi-pyme-2026-guia-para-renovar-el-certificado-con-los-nuevos-parametros-y-no-perder-los-beneficios-en-iva-y-ganancias/",
+        "fecha": "Sat, 11 Apr 2026 11:25:28 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "La contracara del ‘efecto Temu’: cómo es el plan para exportar más a China",
+        "link": "https://www.cronista.com/economia-politica/la-contracara-del-efecto-temu-como-es-el-plan-para-exportar-mas-a-china/",
+        "fecha": "Sat, 11 Apr 2026 11:00:00 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "La otra cara de la base creada para denunciar las tasas municipales y qué revela en realidad",
+        "link": "https://www.cronista.com/economia-politica/la-otra-cara-de-la-base-creada-para-denunciar-las-tasas-municipales-mas-altas-y-que-revela-en-realidad/",
+        "fecha": "Sat, 11 Apr 2026 11:00:00 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Cerraron la denuncia contra la jueza del atentado a CFK y explotaron los K: “Hay que tener carita...”",
+        "link": "https://www.cronista.com/economia-politica/cerraron-la-denuncia-contra-jueza-del-atentado-a-cfk-y-explotaron-los-k-hay-que-tener-carita/",
+        "fecha": "Wed, 08 Apr 2026 19:43:59 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Cuánto cuesta sostener el “sueño Springfield” y en qué país rinde más el sueldo de Homero",
+        "link": "https://www.cronista.com/negocios/cuanto-cuesta-sostener-el-sueno-springfield-y-en-que-pais-rinde-mas-el-sueldo-de-homero/",
+        "fecha": "Fri, 10 Apr 2026 23:51:34 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Escala el conflicto petrolero: por falta de inversiones y despidos, sindicato declara un paro total",
+        "link": "https://www.cronista.com/economia-politica/escala-el-conflicto-petrolero-por-falta-de-inversiones-y-despidos-sindicato-declara-un-paro-total/",
+        "fecha": "Fri, 10 Apr 2026 21:19:48 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Cuánto hay que ganar hoy en CABA para ser de clase media: ¿estás dentro o fuera?",
+        "link": "https://www.cronista.com/economia-politica/cuanto-tenes-que-ganar-en-caba-para-ser-considerado-de-clase-media/",
+        "fecha": "Fri, 10 Apr 2026 22:23:23 +0000",
+        "resumen": "Con una inflación del 8,9% en los últimos tres meses, el costo de vida en la capital argentina es cada vez más alto."
+      },
+      {
+        "titulo": "Se gana 3,8% al traer dólares al país vía “contado con liqui”",
+        "link": "https://www.cronista.com/finanzas-mercados/se-gana-38-al-traer-dolares-al-pais-via-contado-con-liqui/",
+        "fecha": "Fri, 10 Apr 2026 21:41:52 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Para el PRO, la guerra en Irán puede traerle problemas al agro argentino",
+        "link": "https://www.cronista.com/economia-politica/para-el-pro-la-guerra-en-iran-puede-traerle-problemas-al-agro-argentino/",
+        "fecha": "Wed, 01 Apr 2026 15:23:00 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Showcase analiza su salida de la Argentina en un mercado que perdió escala",
+        "link": "https://www.cronista.com/negocios/showcase-analiza-su-salida-de-la-argentina-en-un-mercado-que-perdio-escala/",
+        "fecha": "Fri, 10 Apr 2026 21:26:00 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "“Wado” de Pedro encabezará una delegación del PJ a un foro convocado por Pedro Sánchez y Lula",
+        "link": "https://www.cronista.com/economia-politica/wado-de-pedro-encabezara-una-delegacion-del-pj-a-un-congreso-internacional-convocado-por-pedro-sanchez-y-lula/",
+        "fecha": "Fri, 10 Apr 2026 20:41:33 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Alerta en los mercados: la guerra con Irán dejará una “cicatriz” a largo plazo en Wall Street",
+        "link": "https://www.cronista.com/financial-times/alerta-en-los-mercados-la-guerra-con-iran-dejara-una-cicatriz-a-largo-plazo-en-wall-street/",
+        "fecha": "Fri, 10 Apr 2026 20:24:55 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "El exnúmero dos de Caputo lanzó un duro pronóstico sobre la meta de inflación: “Maná del cielo”",
+        "link": "https://www.cronista.com/economia-politica/el-exnumero-dos-de-caputo-lanzo-un-duro-pronostico-sobre-la-meta-de-inflacion-mana-del-cielo/",
+        "fecha": "Fri, 10 Apr 2026 20:43:40 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Excelente noticia para jubilados: el Gobierno activó un beneficio exclusivo en abril que reducirá los gastos",
+        "link": "https://www.cronista.com/economia-politica/excelente-noticia-para-jubilados-el-gobierno-activo-un-beneficio-exclusivo-en-abril-que-reducira-los-gastos/",
+        "fecha": "Fri, 10 Apr 2026 20:35:14 +0000",
+        "resumen": "Los jubilados y pensionados podrán acceder a un nuevo beneficio de parte de ANSES. ¿Cómo se aplica?"
+      },
+      {
+        "titulo": "Gobernadores con imagen positiva: quiénes lideran y quiénes están en el fondo del ranking de abril",
+        "link": "https://www.cronista.com/economia-politica/gobernadores-con-imagen-positiva-quienes-lideran-y-quienes-estan-en-el-fondo-del-ranking-de-abril/",
+        "fecha": "Fri, 10 Apr 2026 15:20:04 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "El error de Trump en Irán y el nuevo orden global",
+        "link": "https://www.cronista.com/columnistas/el-nuevo-orden-global-surgido-del-tropiezo-de-trump-con-la-piedra-irani/",
+        "fecha": "Fri, 10 Apr 2026 19:19:23 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Cambian los cajeros automáticos: a partir de abril solo se podrá extraer esta cantidad de efectivo en terminales",
+        "link": "https://www.cronista.com/economia-politica/cambian-los-cajeros-automaticos-a-partir-de-abril-solo-se-podra-extraer-esta-cantidad-de-efectivo-en-terminales-2/",
+        "fecha": "Fri, 10 Apr 2026 18:18:22 +0000",
+        "resumen": "Las entidades financieras publicaron los límites de extracción que se pueden retirar de las sucursales bancarias."
+      },
+      {
+        "titulo": "Confirmado y oficial| Argentina prohíbe el ingreso al país a las personas que quieran entrar con estos pasaportes",
+        "link": "https://www.cronista.com/economia-politica/confirmado-y-oficial-argentina-prohibe-el-ingreso-al-pais-a-las-personas-que-quieran-entrar-con-estos-pasaportes/",
+        "fecha": "Fri, 10 Apr 2026 18:04:35 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "El tamaño ideal de tu televisor: cómo calcular cuántas pulgadas que debe tener un nuevo Smart TV",
+        "link": "https://www.cronista.com/infotechnology/gadgets/el-tamano-ideal-de-tu-televisor-como-calcular-cuantas-pulgadas-que-debe-tener-un-nuevo-smart-tv/",
+        "fecha": "Fri, 10 Apr 2026 18:02:22 +0000",
+        "resumen": "Una fórmula sencilla permite calcular cuántas pulgadas se recomiendan para una pantalla hogareña, según la distancia y otros factores para su instalación."
+      },
+      {
+        "titulo": "La dura advertencia de Cachanosky a Milei por el dólar: “Si frenás el tipo de cambio...”",
+        "link": "https://www.cronista.com/economia-politica/la-inconsistencia-del-programa-que-milei-no-ve-y-la-ventaja-que-aun-tiene-segun-cachanosky/",
+        "fecha": "Fri, 10 Apr 2026 17:03:38 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Lo que falta es política: Milei bajo la hipnosis de futuro",
+        "link": "https://www.cronista.com/economia-politica/lo-que-falta-es-politica-milei-bajo-la-hipnosis-de-futuro/",
+        "fecha": "Fri, 10 Apr 2026 15:41:45 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Adelantan el calendario de pagos de ANSES: cuándo cobran jubilados y pensionados en abril",
+        "link": "https://www.cronista.com/economia-politica/adelantan-el-calendario-de-pagos-de-anses-cuando-cobran-jubilados-y-pensionados-en-abril/",
+        "fecha": "Fri, 10 Apr 2026 17:19:18 +0000",
+        "resumen": "El organismo previsional inició con el calendario de pagos del mes, el cual contempla la entrega de un bono y un aumento para los beneficiarios."
+      },
+      {
+        "titulo": "Jorge Macri sube la apuesta en su disputa con la Provincia con una nueva medida",
+        "link": "https://www.cronista.com/economia-politica/jorge-macri-sube-la-apuesta-en-su-disputa-con-la-provincia-con-una-nueva-medida/",
+        "fecha": "Fri, 10 Apr 2026 17:17:59 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Fusión de una firma argentina y una de EE.UU. que cambia el monitoreo global del agro",
+        "link": "https://www.cronista.com/negocios/fusion-de-una-firma-argentina-y-una-de-eeuu-que-cambia-el-monitoreo-global-del-agro/",
+        "fecha": "Fri, 10 Apr 2026 16:30:05 +0000",
+        "resumen": "La operación busca ganar escala en un mercado mundial atravesado por mayores exigencias de trazabilidad, regulación y control sobre las cadenas de abastecimiento agrícolas"
+      },
+      {
+        "titulo": "Assist Card se prepara para un negocio de entre 70.000 y 100.000 argentinos que irán a la Copa del Mundo",
+        "link": "https://www.cronista.com/negocios/efecto-mundial-assist-card-se-prepara-para-un-negocio-de-entre-70000-y-100000-argentinos-que-iran-a-la-copa-del-mundo/",
+        "fecha": "Fri, 10 Apr 2026 15:33:29 +0000",
+        "resumen": "La empresa de asistencia al viajero busca captar el 20% con un nuevo producto en un mercado en expansión"
+      },
+      {
+        "titulo": "La icónica marca argentina de zapatillas John Foos comienza a importar",
+        "link": "https://www.cronista.com/negocios/la-iconica-marca-argentina-de-zapatillas-john-foos-comienza-a-importar/",
+        "fecha": "Fri, 10 Apr 2026 16:23:23 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Cambian las operaciones inmobiliarias con la eliminación de un impuesto clave: a quiénes beneficia",
+        "link": "https://www.cronista.com/economia-politica/cambian-las-operaciones-inmobiliarias-con-la-eliminacion-de-un-impuesto-clave-a-quienes-beneficia/",
+        "fecha": "Fri, 10 Apr 2026 16:13:02 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "China aprovecha el “canibalismo” industrial y avanza en un sector clave",
+        "link": "https://www.cronista.com/economia-politica/china-aprovecha-el-canibalismo-industrial-y-avanza-en-un-sector-clave/",
+        "fecha": "Fri, 10 Apr 2026 15:01:25 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Efecto dominó: la guerra con Irán dispara los precios en las fábricas de China",
+        "link": "https://www.cronista.com/financial-times/efecto-domino-la-guerra-con-iran-dispara-los-precios-en-las-fabricas-de-china/",
+        "fecha": "Fri, 10 Apr 2026 14:49:40 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "La inflación en CABA fue de 3% en marzo y acumula 32,1% en los últimos 12 meses",
+        "link": "https://www.cronista.com/economia-politica/la-inflacion-en-caba-fue-de-3-en-marzo-y-acumula-321-en-los-ultimos-12-meses/",
+        "fecha": "Fri, 10 Apr 2026 14:39:00 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Smart TV gigante: llegó al país un mega televisor OLED de 83″ con IA",
+        "link": "https://www.cronista.com/infotechnology/gadgets/smart-tv-gigante-llego-al-pais-un-mega-televisor-oled-de-83-con-ia/",
+        "fecha": "Fri, 10 Apr 2026 14:00:15 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Lombardi analiza la economía, el nexo con Milei y el futuro político de Macri: “Mauricio es...”",
+        "link": "https://www.cronista.com/economia-politica/lombardi-analiza-la-economia-el-nexo-con-milei-y-el-futuro-politico-de-macri-mauricio-es/",
+        "fecha": "Fri, 10 Apr 2026 13:44:34 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "La nueva apuesta de un concesionario mendocino para aprovechar el impulso de los autos chinos",
+        "link": "https://www.cronista.com/negocios/la-nueva-apuesta-de-un-concesionario-mendocino-para-aprovechar-el-impulso-de-los-autos-chinos/",
+        "fecha": "Fri, 10 Apr 2026 13:34:50 +0000",
+        "resumen": "Territorio Yacopini proyecta vender 1400 autos de BYD, impulsado por el crecimiento de los electrificados"
+      },
+      {
+        "titulo": "Qué hacer en Nueva York: imperdibles de una primera (o segunda) visita",
+        "link": "https://www.cronista.com/clase/break/que-hacer-en-nueva-york-imperdibles-de-una-primera-o-segunda-visita/",
+        "fecha": "Fri, 10 Apr 2026 13:29:32 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "La construcción de una agenda de futuro",
+        "link": "https://www.cronista.com/columnistas/la-construccion-de-una-agenda-de-futuro/",
+        "fecha": "Wed, 08 Apr 2026 23:30:29 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "ANMAT dio de baja a HLB Pharma y Ramallo, los laboratorios vinculados al fentanilo contaminado",
+        "link": "https://www.cronista.com/economia-politica/anmat-dio-de-baja-a-hlb-pharma-y-ramallo-los-laboratorios-vinculados-al-fentanilo-contaminado/",
+        "fecha": "Fri, 10 Apr 2026 11:37:09 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Calendario monotributo: fecha límite para pagarlo en abril",
+        "link": "https://www.cronista.com/economia-politica/calendario-monotributo-fecha-limite-para-pagarlo-en-abril/",
+        "fecha": "Fri, 10 Apr 2026 12:49:37 +0000",
+        "resumen": "La Agencia de Recaudación y Control Aduanero informó cuánto deberán abonar los contribuyentes a través del Monotributo y cuál es el nuevo tope de facturación."
+      },
+      {
+        "titulo": "La advertencia de Lacunza sobre la meta inflacionaria del Gobierno: “Es más eficaz...”",
+        "link": "https://www.cronista.com/economia-politica/va-a-ser-un-bumeran-la-advertencia-de-lacunza-si-el-gobierno-logra-llevar-la-inflacion-a-0/",
+        "fecha": "Fri, 10 Apr 2026 12:45:34 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Inocencia Fiscal: en qué casos sacar los dólares del colchón puede “hacer doler el bolsillo”, según Litvin",
+        "link": "https://www.cronista.com/economia-politica/cesar-litvin-analizo-la-inocencia-fiscal-una-advertencia-el-bloqueo-y-la-respuesta-a-una-pregunta-clave/",
+        "fecha": "Fri, 10 Apr 2026 12:44:55 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Calendario de pagos AUH abril: fechas de cobro confirmadas",
+        "link": "https://www.cronista.com/economia-politica/calendario-de-pagos-auh-abril-fechas-de-cobro-confirmadas-2/",
+        "fecha": "Fri, 10 Apr 2026 12:44:14 +0000",
+        "resumen": "La ANSES confirmó el calendario de pagos con las fechas de cobro de la Asignación Universal por Hijo  para el cuarto mes del año."
+      },
+      {
+        "titulo": "No es la guerra, es Caputo",
+        "link": "https://www.cronista.com/columnistas/no-es-la-guerra-es-caputo/",
+        "fecha": "Thu, 09 Apr 2026 23:19:58 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Una empresa de real estate argentina fue la desarrolladora de mayor crecimiento de América",
+        "link": "https://www.cronista.com/negocios/una-empresa-de-real-estate-argentina-fue-la-desarrolladora-de-mayor-crecimiento-de-america/",
+        "fecha": "Fri, 10 Apr 2026 11:40:15 +0000",
+        "resumen": "Ecipsa fue destacada en el ranking de Financial Times en el puesto cuatro. Cuáles son sus proyectos"
+      },
+      {
+        "titulo": "Cómo es el tablero digital de control de la pobreza que inauguró Sandra Pettovello",
+        "link": "https://www.cronista.com/economia-politica/como-es-el-tablero-digital-de-control-de-la-pobreza-que-inauguro-sandra-pettovello/",
+        "fecha": "Fri, 10 Apr 2026 11:38:34 +0000",
+        "resumen": "De excels a la IA, la ministra de Capital Humano digitalizó, en coordinación con la ONU, una herramienta para gestionar la asistencia social. El sistema cruza datos con ARCA, Anses, detecta duplicaciones y proyecta políticas antes de implementarlas."
+      },
+      {
+        "titulo": "Tras el avance judicial, el Gobierno revela sus primeras señales para la defensa legal de Adorni",
+        "link": "https://www.cronista.com/economia-politica/tras-el-avance-judicial-el-gobierno-muestra-senales-para-la-defensa-de-adorni/",
+        "fecha": "Thu, 09 Apr 2026 23:40:54 +0000",
+        "resumen": "El Cronista accedió al ticket del pasaje de Adorni de regreso a NY. Fuentes oficiales insisten en que “está todo en regla”, anticipan la respuesta para el informe de gestión y se despegan de la escribana."
+      },
+      {
+        "titulo": "Sentir miedo es parte del camino al éxito",
+        "link": "https://www.cronista.com/negocios/sentir-miedo-es-parte-del-camino-al-exito/",
+        "fecha": "Fri, 10 Apr 2026 11:00:00 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Entre tuits y alianzas: Milei se desgasta en las redes y el peronismo se corre al medio para volver al poder",
+        "link": "https://www.cronista.com/columnistas/entre-tuits-y-alianzas-milei-se-desgasta-en-las-redes-y-el-peronismo-se-corre-al-medio-para-volver-al-poder/",
+        "fecha": "Fri, 10 Apr 2026 11:10:33 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Por qué no caerá el precio de la nafta aunque baje el petróleo",
+        "link": "https://www.cronista.com/economia-politica/por-que-no-caera-el-precio-de-la-nafta-aunque-baje-el-petroleo/",
+        "fecha": "Fri, 10 Apr 2026 11:00:00 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Plan canje de celulares Motorola: cómo es la promoción para renovar tu smartphone",
+        "link": "https://www.cronista.com/infotechnology/gadgets/plan-canje-de-celulares-motorola-como-es-la-promocion-para-renovar-tu-smartphone-3/",
+        "fecha": "Fri, 10 Apr 2026 10:55:48 +0000",
+        "resumen": "El fabricante de celulares Motorola tiene un programa que permite a los usuarios poner un smartphone usado en parte de pago para adquirir uno nuevo. Cómo funciona."
+      },
+      {
+        "titulo": "Guerra por la red de trenes: los gigantes locales y extranjeros en carrera",
+        "link": "https://www.cronista.com/economia-politica/guerra-por-la-red-ferroviaria-quienes-son-los-gigantes-locales-y-extranjeros-que-juegan-fuerte/",
+        "fecha": "Fri, 10 Apr 2026 09:48:25 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "A veces, por no elegir ganadores, se puede estar haciéndolo con los perdedores",
+        "link": "https://www.cronista.com/columnistas/a-veces-por-no-elegir-ganadores-se-puede-estar-estar-haciendolo-con-los-perdedores/",
+        "fecha": "Fri, 10 Apr 2026 00:54:22 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Piden levantar el secreto fiscal y bancario en la causa de Adorni y citan a declarar a cinco testigos",
+        "link": "https://www.cronista.com/economia-politica/la-escribana-de-adorni-volvio-a-comodoro-py-y-dijo-que-la-hipoteca-esta-bien-hecha/",
+        "fecha": "Thu, 09 Apr 2026 15:16:20 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Hidrovía: el Gobierno avanzó con la licitación y dejó dos empresas en carrera tras la primera evaluación",
+        "link": "https://www.cronista.com/economia-politica/hidrovia-el-gobierno-avanzo-con-la-licitacion-y-dejo-dos-empresas-en-carrera-tras-la-primera-evaluacion/",
+        "fecha": "Thu, 09 Apr 2026 23:33:27 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Automotrices alertan que ya se podrían perder inversiones por la falta de un nuevo acuerdo con Brasil",
+        "link": "https://www.cronista.com/negocios/automotrices-alertan-que-ya-se-podrian-perder-inversiones-por-la-falta-de-un-nuevo-acuerdo-con-brasil/",
+        "fecha": "Thu, 09 Apr 2026 22:58:33 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "ATE convoca a un paro nacional y endurece su postura frente al Gobierno",
+        "link": "https://www.cronista.com/economia-politica/ate-convoca-a-un-paro-nacional-y-endurece-su-postura-frente-al-gobierno/",
+        "fecha": "Thu, 09 Apr 2026 23:06:00 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Fuga de 20.000 millones: los mayores inversores del mundo dan la espalda al crédito privado",
+        "link": "https://www.cronista.com/financial-times/fuga-de-20000-millones-los-mayores-inversores-del-mundo-dan-la-espalda-al-credito-privado/",
+        "fecha": "Thu, 09 Apr 2026 20:41:52 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Energía renovable: Huawei trajo a la Argentina nuevos sistemas digitales para hogares, empresas y autos",
+        "link": "https://www.cronista.com/infotechnology/it-business/energia-renovable-huawei-trajo-a-la-argentina-nuevos-sistemas-digitales-para-hogares-empresas-y-autos/",
+        "fecha": "Thu, 09 Apr 2026 21:54:57 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "La CGT convocó a una movilización para el 30 de abril",
+        "link": "https://www.cronista.com/economia-politica/la-cgt-convoco-a-una-movilizacion-para-el-30-de-abril/",
+        "fecha": "Thu, 09 Apr 2026 21:09:59 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Paro de subte en puerta: el gremio se pone en pie de guerra por una causa penal contra trabajadores",
+        "link": "https://www.cronista.com/economia-politica/paro-de-subte-en-puerta-el-gremio-activa-el-alerta-y-movilizacion-por-una-causa-penal-contra-trabajadores/",
+        "fecha": "Thu, 09 Apr 2026 21:26:46 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Javier Milei, tras el dato de industria: “Sabemos que estos últimos meses fueron duros, pedimos paciencia”",
+        "link": "https://www.cronista.com/economia-politica/javier-milei-tras-el-dato-de-industria-sabemos-que-estos-ultimos-meses-fueron-duros-pedimos-paciencia/",
+        "fecha": "Thu, 09 Apr 2026 20:27:07 +0000",
+        "resumen": ""
+      },
+      {
+        "titulo": "Ni Potus ni Calathea: la planta que absorbe toda la humedad del baño y evita la formación de hongos y moho",
+        "link": "https://www.cronista.com/clase/trendy/ni-potus-ni-calathea-la-planta-que-absorbe-toda-la-humedad-del-bano-y-evita-la-formacion-de-hongos-y-moho/",
+        "fecha": "Thu, 09 Apr 2026 21:30:00 +0000",
+        "resumen": "Esta especie resistente se adapta a ambientes húmedos y cerrados."
+      },
+      {
+        "titulo": "Argencons planea tener su primer Quartier en la Patagonia",
+        "link": "https://www.cronista.com/negocios/habra-una-torre-quartier-en-una-zona-impensada-de-la-argentina/",
+        "fecha": "Thu, 09 Apr 2026 19:14:28 +0000",
+        "resumen": ""
+      }
+    ],
+    "economista_finanzas": [
+      {
+        "titulo": "Los números del mercado indican que EE.UU. es el que va perdiendo la guerra",
+        "link": "https://eleconomista.com.ar/finanzas/los-numeros-mercado-indican-eeuu-va-perdiendo-guerra-n94047",
+        "fecha": "Fri, 10 Apr 2026 18:43:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2025/11/crop/6920d1f1772e0__950x512.webp\" /><p>Si bien se miran de reojo las conversaciones iniciadas en Pakistán entre EE.UU. e Irán, losfríos números de la economía muestran que la economía norteamericana fue herida por el conflicto. La inflación estad"
+      },
+      {
+        "titulo": "\"Baño de inversión\", el original spot de Banco Provincia para posicionarse en el mercado financiero",
+        "link": "https://eleconomista.com.ar/finanzas/bano-inversion-original-spot-banco-provincia-posicionarse-mercado-financiero-n94038",
+        "fecha": "Fri, 10 Apr 2026 14:51:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/04/crop/69d939262a913__950x512.webp\" /><p>Con una nueva campaña audiovisual, la banca pública bonaerense invita a invertir de manera simple, accesible y segura, y refuerza su rol como socio financiero en todas las etapas de la vida.</p>"
+      },
+      {
+        "titulo": "Incómodas preguntas de Wall Street por la economía de Milei y el reclamo del Fondo para liberar los US$ 1.000 M",
+        "link": "https://eleconomista.com.ar/finanzas/incomodas-preguntas-wall-street-economia-milei-reclamo-fondo-liberar-us-1000-m-n94025",
+        "fecha": "Fri, 10 Apr 2026 12:27:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/04/crop/69d917b8d733b__950x512.webp\" /><p>Los ejecutivos de los bancos y fondos de EEUU preguntan, casi a coro, por la situación social en Argentina.</p>"
+      },
+      {
+        "titulo": "Ven bien las cuentas externas argentinas, los bonos suben y el riesgo baja más",
+        "link": "https://eleconomista.com.ar/finanzas/ven-bien-cuentas-externas-argentinas-bonos-suben-riesgo-baja-mas-n94009",
+        "fecha": "Thu, 09 Apr 2026 21:41:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2025/11/crop/692cdf4c226f4__950x512.webp\" /><p>Mientras los mercados globales están en ascuas por la reunión de en Afganistán, el mercado argentino se movió en otra sintonía.</p>"
+      },
+      {
+        "titulo": "El mundo vibra y la Argentina tiene el menor riesgo país en un mes",
+        "link": "https://eleconomista.com.ar/finanzas/el-mundo-vibra-argentina-tiene-menor-riesgo-pais-mes-n93979",
+        "fecha": "Wed, 08 Apr 2026 19:33:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2024/10/crop/66ff36940e216__950x512.webp\" /><p>Con grandes diferencias entre los puntos de tregua entre EE.UU. e Irán, Israel atacó El Líbano nuevamente y el régimen iraní volvió a cerrar el estrecho de Ormuz, que tendrá desde ahora pasos selectivos y co"
+      },
+      {
+        "titulo": "Incertidumbre con pocos cambios ante el chicken game entre EE.UU. e Irán",
+        "link": "https://eleconomista.com.ar/finanzas/incertidumbre-pocos-cambios-chicken-game-eeuu-e-iran-n93937",
+        "fecha": "Tue, 07 Apr 2026 19:20:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/04/crop/69d2db6dd1b13__950x512.webp\" /><p>Con el Presidente Trump amenazando con que \"toda una civilización morirá esta noche\" y con el Presidente de Irán contestando \"estamos dispuestos a morir\", los mercados de todas partes tuvieron un día casi co"
+      },
+      {
+        "titulo": "El Tesoro le compró US$ 3.658 millones directamente al Central y se esfuma la \"acumulación\" de reservas",
+        "link": "https://eleconomista.com.ar/finanzas/el-tesoro-le-compro-us-3658-millones-directamente-central-esfuma-acumulacion-reservas-n93936",
+        "fecha": "Tue, 07 Apr 2026 18:46:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2025/01/crop/67783e2b1514f__950x512.webp\" /><p>Esto explica por qué no hay acumulación a pesar de las compras que hace el Central. Y eso, según algunos, conspira para que el riesgo país baje más.</p>"
+      },
+      {
+        "titulo": "Mercados en duda: inversores creen que el petróleo seguirá alto durante bastante tiempo",
+        "link": "https://eleconomista.com.ar/finanzas/mercados-duda-inversores-creen-petroleo-seguira-alto-durante-bastante-tiempo-n93900",
+        "fecha": "Mon, 06 Apr 2026 20:05:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/03/crop/69a5ed2351cb5__950x512.webp\" /><p>Las cotizaciones de los mercados del mundo volvieron a bailar al compás de las amenazas de Trump. Pero esta vez expertos en energía afirman que el presidente norteamericano cayó en una trampa, ya que si aban"
+      },
+      {
+        "titulo": "Caputo no deja un peso suelto: todo lo que emitió el BCRA para comprar dólares lo absorbió el Tesoro",
+        "link": "https://eleconomista.com.ar/finanzas/caputo-deja-peso-suelto-todo-lo-emitio-bcra-comprar-dolares-lo-absorbio-tesoro-n93898",
+        "fecha": "Mon, 06 Apr 2026 18:50:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2025/03/crop/67d9d9022813a__950x512.webp\" /><p>\"El Gobierno mantiene la lógica de restringir la cantidad de pesos en la economía para minimizar la probabilidad de depreciación y aceleración de la inflación\", explica la consultora Empiria.</p>"
+      },
+      {
+        "titulo": "Caputo tiene ganas de patearle el trasero a un banco inglés",
+        "link": "https://eleconomista.com.ar/finanzas/caputo-tiene-ganas-patearle-trasero-banco-ingles-n93846",
+        "fecha": "Fri, 03 Apr 2026 10:29:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/04/crop/69cfc38e66c6d__950x512.webp\" /><p>En Rosario, Caputo defendió el modelo y apuntó contra los devaluadores. Ahora, un banco inglés entró en escena.</p>"
+      },
+      {
+        "titulo": "En el Gobierno se preparan para comprar más dólares de la cosecha y aseguran que $1.400 \"es un techo\"",
+        "link": "https://eleconomista.com.ar/finanzas/en-gobierno-preparan-comprar-mas-dolares-cosecha-aseguran-1400-es-techo-n93798",
+        "fecha": "Thu, 02 Apr 2026 13:00:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2025/10/crop/6900ddfbbf6a1__950x512.webp\" /><p>\"A los que piden devaluar me dan ganas de cagarlos a patadas en el culo a todos\", sostuvo Luis Caputo.</p>"
+      },
+      {
+        "titulo": "El efecto \"piel de zapa\" empieza a preocupar a analistas e inversores",
+        "link": "https://eleconomista.com.ar/finanzas/el-efecto-piel-zapa-empieza-preocupar-analistas-e-inversores-n93805",
+        "fecha": "Wed, 01 Apr 2026 19:47:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/03/crop/69a75f084a660__950x512.webp\" /><p>Con un principio de distensión en la Guerra del Golfo, los inversores globales esperan ahora que el petróleo retroceda y que quizás no haya una suba generalizada en todas las tasas de interés. Eso benefició "
+      },
+      {
+        "titulo": "El propósito del Banco Macro: ser el banco líder para una Argentina grande",
+        "link": "https://eleconomista.com.ar/finanzas/el-proposito-banco-macro-ser-banco-lider-una-argentina-grande-n93794",
+        "fecha": "Wed, 01 Apr 2026 14:15:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2023/08/crop/64e7573b7d0eb__950x512.webp\" /><p>La estructura de la Memoria Anual Reporte Integrado 2025 sigue la lógica de los 6 capitales del Macro: Financiero, Industrial, Intelectual, Humano, Social y Natural.</p>"
+      },
+      {
+        "titulo": "Dónde posicionarse tras el AO28: cautela en dólares y flexibilidad en pesos",
+        "link": "https://eleconomista.com.ar/finanzas/donde-posicionarse-tras-ao28-cautela-dolares-flexibilidad-pesos-n93778",
+        "fecha": "Wed, 01 Apr 2026 10:31:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2025/12/crop/6936ead6710a9__950x512.webp\" /><p>El Gobierno continúa acumulando divisas tanto mediante estas emisiones como a través de compras en el mercado cambiario para enfrentar los vencimientos en dólares de 2026.</p>"
+      },
+      {
+        "titulo": "Trump dijo que evalúa dejar la guerra y los mercados se dieron vuelta como una media",
+        "link": "https://eleconomista.com.ar/finanzas/trump-dijo-evalua-dejar-guerra-mercados-dieron-vuelta-como-una-media-n93759",
+        "fecha": "Tue, 31 Mar 2026 20:33:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/03/crop/69c6a1cd853f3__950x512.webp\" /><p>Luego de negociaciones, en la que por primera vez el Presidente Iraní confirmó que existen, Trump anunció que evalúa dejar la guerra, y eso tuvo un gran impacto. Bajó el petróleo, aflojaron las tasas interna"
+      },
+      {
+        "titulo": "Furor por el \"puerta a puerta\": se duplicaron las importaciones en el primer bimestre y se proyecta otro año récord",
+        "link": "https://eleconomista.com.ar/finanzas/furor-puerta-puerta-duplicaron-importaciones-primer-bimestre-proyecta-otro-ano-record-n93753",
+        "fecha": "Tue, 31 Mar 2026 17:14:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2024/08/crop/66be6f6db3943__950x512.webp\" /><p>Los argentinos, desde la apertura importadora, ratificaron que las compras del exterior vía plataformas son una de sus alternativas favoritas.</p>"
+      },
+      {
+        "titulo": "Pérez: \"Hay una preocupación mayor del Gobierno por el impacto de la política monetaria y cambiaria\"",
+        "link": "https://eleconomista.com.ar/finanzas/carlos-perez-director-fundacion-capital-hay-una-preocupacion-mayor-gobierno-impacto-politica-monetaria-cambiaria-n93748",
+        "fecha": "Tue, 31 Mar 2026 11:11:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/03/crop/69cc02e11f0d8__950x512.webp\" /><p>Así la ve Carlos Pérez, director de Fundación Capital, en diálogo con El Economista.</p>"
+      },
+      {
+        "titulo": "Las acciones argentinas resucitan, pero con el mayor riesgo país en 100 días",
+        "link": "https://eleconomista.com.ar/finanzas/las-acciones-argentinas-resucitan-pero-mayor-riesgo-pais-100-dias-n93716",
+        "fecha": "Mon, 30 Mar 2026 20:42:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2024/07/crop/66997b9ea539e__950x512.webp?v=1774914457\" /><p>La guerra en Medio Oriente sigue marcando el ritmo de los negocios mundiales, con otro día en el que el petróleo volvió a subir. Eso plantea más inflación mundial, con tasas altas por más tiempo"
+      },
+      {
+        "titulo": "Por el riesgo electoral, el Bonar 2028 pagó una tasa 3,74 puntos más alta que el Bonar 2027",
+        "link": "https://eleconomista.com.ar/finanzas/por-riesgo-electoral-bonar-2028-pago-una-tasa-374-puntos-mas-alta-bonar-2027-n93675",
+        "fecha": "Fri, 27 Mar 2026 22:32:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/03/crop/69c6e2e9891bc__950x512.webp\" /><p>Pasó de todo. A nivel local lo que más impacto tuvo fue el fallo a favor de la Argentina por el caso YPF, lo cual nos salva de pagar una demanda por US$ 18.000 M. También hubo mucha atención en la licitación"
+      },
+      {
+        "titulo": "La jubilación empieza en la infancia",
+        "link": "https://eleconomista.com.ar/finanzas/la-jubilacion-empieza-infancia-n93671",
+        "fecha": "Fri, 27 Mar 2026 17:36:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/03/crop/69c6f0bba4f12__950x512.webp\" /><p>Una nueva forma de pensar el ahorro, la inversión y el contrato intergeneracional en una sociedad más longeva</p>"
+      }
+    ],
+    "economista_economia": [
+      {
+        "titulo": "Hernán Lacunza: \"Tras estabilizar y comenzar las reformas, el desafío del Gobierno es abordar a tiempo las luces amarillas\"",
+        "link": "https://eleconomista.com.ar/economia/hernan-lacunza-tras-estabilizar-comenzar-reformas-desafio-gobierno-abordar-tiempo-luces-amarillas-n94051",
+        "fecha": "Sat, 11 Apr 2026 17:00:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/04/crop/69d99cee72a52__950x512.webp\" /><p>El exministro de Economía &mdash;del último tramo del gobierno de Mauricio Macri&mdash; Hernán Lacunza reflexiona sobre los desafíos de la actual gestión de Javier Milei y advierte sobre la necesidad de apli"
+      },
+      {
+        "titulo": "Ante el creciente proteccionismo global, los exportadores reclaman que le saquen \"el pie de encima\"",
+        "link": "https://eleconomista.com.ar/economia/ante-creciente-proteccionismo-global-exportadores-reclaman-le-saquen-el-pie-encima-n94050",
+        "fecha": "Fri, 10 Apr 2026 22:33:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/04/crop/69d9a51ec52b0__950x512.webp\" /><p>CERA alertó por atraso de reintegros y devolución del IVA. Además, pidió quitar obligación de liquidar el 100% de sus ventas.</p>"
+      },
+      {
+        "titulo": "Argentina frente al boom de los data centers: ¿nuevo \"campo\" digital u otra economía de enclave?",
+        "link": "https://eleconomista.com.ar/economia/argentina-frente-boom-data-centers-nuevo-campo-digital-u-otra-economia-enclave-n94044",
+        "fecha": "Fri, 10 Apr 2026 15:49:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/03/crop/69bacaaa0cebc__950x512.webp?v=1773849290\" /><p>Usamos la fiebre global por el cómputo como una nueva ronda de extractivismo, esta vez de energía y datos, o la convertimos en el punto de partida de una estrategia de desarrollo basada en capac"
+      },
+      {
+        "titulo": "¿Qué tanto refleja la realidad la reciente baja de la pobreza?",
+        "link": "https://eleconomista.com.ar/economia/que-tanto-refleja-realidad-reciente-baja-pobreza-n94043",
+        "fecha": "Fri, 10 Apr 2026 15:31:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/03/crop/69a5c595d346b__950x512.webp?v=1772471718\" /><p>La pobreza bajó genuinamente, aunque bastante menos de lo que dice el número oficial.</p>"
+      },
+      {
+        "titulo": "Está pasando algo \"bastante excepcional\" en la economía: así lo explica un informe",
+        "link": "https://eleconomista.com.ar/economia/esta-pasando-algo-bastante-excepcional-economia-asi-lo-explica-informe-n94042",
+        "fecha": "Fri, 10 Apr 2026 15:24:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2025/11/crop/691892db4680d__950x512.webp\" /><p>El Bapro reveló que la relación histórica entre tipo de cambio y poder adquisitivo dejó de funcionar. La aceleración inflacionaria con ancla cambiaria explica la anomalía.</p>"
+      },
+      {
+        "titulo": "En un país federal, el plan económico tiene tantos conductores como provincias haya",
+        "link": "https://eleconomista.com.ar/economia/en-pais-federal-plan-economico-tiene-tantos-conductores-como-provincias-haya-n94028",
+        "fecha": "Fri, 10 Apr 2026 12:46:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2025/07/crop/686d9f5295606__950x512.webp\" /><p>Hace falta un Acuerdo de Coordinación Fiscal y de Responsabilidades entre la Nación y las Provincias.</p>"
+      },
+      {
+        "titulo": "\"Entramos al punto dulce\": Daza anticipa un escenario \"extraordinario\" y pide no apostar a un dólar más alto",
+        "link": "https://eleconomista.com.ar/economia/entramos-punto-dulce-daza-anticipa-escenario-extraordinario-pide-apostar-dolar-mas-alto-n94024",
+        "fecha": "Fri, 10 Apr 2026 11:55:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2024/10/crop/6720f0728c192__950x512.webp\" /><p>El viceministro José Luis Daza aseguró que la economía entró en un \"equilibrio virtuoso\" y proyectó un escenario \"extraordinario\". Defendió la baja de la inflación, habló de presión hacia la apreciación del "
+      },
+      {
+        "titulo": "Flybondi admite que no puede pagar sueldos y crece la tensión por vuelos cancelados",
+        "link": "https://eleconomista.com.ar/economia/flybondi-admite-puede-pagar-sueldos-crece-tension-vuelos-cancelados-n94023",
+        "fecha": "Fri, 10 Apr 2026 11:37:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2021/12/crop/61b74f2c4ddaa__950x512.webp\" /><p>La low cost Flybondi demora salarios sin fecha confirmada en medio de cancelaciones, retiros voluntarios y cambios internos que elevan la incertidumbre entre empleados.</p>"
+      },
+      {
+        "titulo": "Plazos fijos en Argentina: ¿Cuánto están pagando estos 29 bancos?",
+        "link": "https://eleconomista.com.ar/economia/plazos-fijos-argentina-cuanto-estan-pagando-estos-29-bancos-n94019",
+        "fecha": "Fri, 10 Apr 2026 10:41:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2024/10/crop/6722339f9cc58__950x512.webp\" /><p>Conocé cuánto pagan los bancos por invertir en plazos fijos, y cómo quedó el ranking actualizado a la fecha de hoy.</p>"
+      },
+      {
+        "titulo": "\"No hicimos nada ilegal\": la respuesta de los funcionarios de Caputo por los créditos hipotecarios",
+        "link": "https://eleconomista.com.ar/economia/no-hicimos-nada-ilegal-respuesta-funcionarios-caputo-creditos-hipotecarios-n94016",
+        "fecha": "Fri, 10 Apr 2026 09:32:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/04/crop/69d8efd1dcdcf__950x512.webp\" /><p>Funcionarios del equipo económico negaron irregularidades en créditos del Banco Nación y defendieron su acceso, mientras crecen cuestionamientos políticos y se abre una auditoría interna.</p>"
+      },
+      {
+        "titulo": "Con costos en alza y precios estancados, la rentabilidad de la construcción privada cae a niveles mínimos",
+        "link": "https://eleconomista.com.ar/economia/con-costos-alza-precios-estancados-rentabilidad-construccion-privada-cae-niveles-minimos-n94015",
+        "fecha": "Fri, 10 Apr 2026 09:17:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/04/crop/69d8eaae01d65__950x512.webp\" /><p>El aumento de la mano de obra y de los materiales, en medio de la estabilidad del tipo de cambio, impulsó con fuerza los costos en dólares en los últimos cinco meses.</p>"
+      },
+      {
+        "titulo": "El Indec confirma, con datos oficiales, el \"industricidio\" del modelo Milei: 14 sectores en contracción, capacidad instalada al 53% y ninguna política",
+        "link": "https://eleconomista.com.ar/economia/el-indec-confirma-datos-oficiales-industricidio-modelo-milei-14-sectores-contraccion-capacidad-instalada-53-ninguna-politica-n94014",
+        "fecha": "Fri, 10 Apr 2026 09:08:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/04/crop/69d8e923048ac__950x512.webp\" /><p>El Índice de Producción Industrial Manufacturero publicado por el Indec el 9 de abril de 2026 entrega un diagnóstico que ningún comunicado oficial puede reformular con comodidad.</p>"
+      },
+      {
+        "titulo": "El final de una marca viral: anunció el cierre de su fábrica y liquida toda la ropa",
+        "link": "https://eleconomista.com.ar/economia/el-final-una-marca-viral-anuncio-cierre-su-fabrica-liquida-toda-ropa-n94013",
+        "fecha": "Fri, 10 Apr 2026 08:40:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/04/crop/69d8e28a8878c__950x512.webp\" /><p>Dfac, la marca argentina que apostó por producción propia y venta directa, cierra sus operaciones y liquida stock en plena crisis textil.</p>"
+      },
+      {
+        "titulo": "Cepo al dólar con impacto en los viajes: así cambia usar tarjeta fuera del país desde ahora",
+        "link": "https://eleconomista.com.ar/economia/cepo-dolar-impacto-viajes-asi-cambia-usar-tarjeta-fuera-pais-ahora-n94012",
+        "fecha": "Fri, 10 Apr 2026 08:30:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2025/02/crop/67b53ef4a55aa__950x512.webp\" /><p>El Banco Central eliminó un límite clave del cepo: ya no hay tope para retirar efectivo con tarjeta en el exterior. Cómo impacta en los consumos.</p>"
+      },
+      {
+        "titulo": "Dólar hoy: a cuánto cotiza este viernes 10 de abril",
+        "link": "https://eleconomista.com.ar/economia/dolar-hoy-cuanto-cotiza-viernes-10-abril-n94011",
+        "fecha": "Fri, 10 Apr 2026 08:24:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2024/09/crop/66d887abf012a__950x512.webp\" /><p>Seguí el minuto a minuto de la cotización del dólar y del resto de las divisas.</p>"
+      },
+      {
+        "titulo": "Fuerte caída industrial con 14 de 16 sectores en rojo: cuáles son los más golpeados",
+        "link": "https://eleconomista.com.ar/economia/fuerte-caida-industrial-14-16-sectores-rojo-cuales-son-mas-golpeados-n94004",
+        "fecha": "Thu, 09 Apr 2026 18:23:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2024/11/crop/6731ef979836d__950x512.webp\" /><p>La actividad industrial volvió a caer con fuerza en febrero. Textiles y maquinaria lideran las bajas, mientras pocos sectores logran amortiguar el desplome general.</p>"
+      },
+      {
+        "titulo": "Milei reveló por qué no dolariza: \"La gente no quiere hacerlo\"",
+        "link": "https://eleconomista.com.ar/economia/milei-revelo-dolariza-la-gente-quiere-hacerlo-n93998",
+        "fecha": "Thu, 09 Apr 2026 12:52:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/04/crop/69d7cc6936ab6__950x512.webp\" /><p>El Presidente explicó por qué no avanzó con una de sus principales promesas de campaña y defendió su plan económico: aseguró que la dolarización depende de la decisión de los argentinos y no de una imposició"
+      },
+      {
+        "titulo": "Prat-Gay alerta: Milei y la \"paradoja clave\" que inquieta a los mercados",
+        "link": "https://eleconomista.com.ar/economia/prat-gay-alerta-milei-paradoja-clave-inquieta-mercados-n93997",
+        "fecha": "Thu, 09 Apr 2026 12:38:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/04/crop/69d7c91a682c1__950x512.webp\" /><p>El ex ministro Alfonso Prat-Gay advierte que el plan de Javier Milei enfrenta tensiones críticas: sin crédito externo ni confianza en el peso, la recuperación queda en duda.</p>"
+      },
+      {
+        "titulo": "Ranking de billeteras virtuales y plazos fijos: cuánto están pagando este jueves 9 de abril",
+        "link": "https://eleconomista.com.ar/economia/ranking-billeteras-virtuales-plazos-fijos-cuanto-estan-pagando-jueves-9-abril-n93993",
+        "fecha": "Thu, 09 Apr 2026 11:57:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2025/04/crop/680bb001d158d__950x512.webp\" /><p>¿Cuáles son las billeteras virtuales y plazos fijos que más pagan en abril? Te muestro el ranking de las diferentes opciones para que puedas tomar decisiones en base a tu situación financiera.</p>"
+      },
+      {
+        "titulo": "Carne imparable: qué cortes se dispararon y por qué",
+        "link": "https://eleconomista.com.ar/economia/carne-imparable-cortes-dispararon-que-n93992",
+        "fecha": "Thu, 09 Apr 2026 11:32:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2021/09/crop/614e5c440bc48__950x512.webp\" /><p>Con subas de hasta 20% en cortes populares, la carne vuelve a presionar el bolsillo y acelera el cambio de consumo hacia pollo y cerdo.</p>"
+      }
+    ],
+    "economista_internacional": [
+      {
+        "titulo": "Quién es Silvia Salis, la \"anti-Meloni\" de la centroizquierda italiana",
+        "link": "https://eleconomista.com.ar/internacional/quien-silvia-salis-anti-meloni-centroizquierda-italiana-n94039",
+        "fecha": "Fri, 10 Apr 2026 14:35:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/04/crop/69d938620ed6e__950x512.webp\" /><p>La joven política italiana asoma como una posible remplazante de Meloni</p>"
+      },
+      {
+        "titulo": "Orbán, ¿se queda o se va?: cuáles son los posibles escenarios de cara a las elecciones del domingo en Hungría",
+        "link": "https://eleconomista.com.ar/internacional/orban-se-queda-o-va-cuales-son-posibles-escenarios-cara-elecciones-domingo-hungria-n94040",
+        "fecha": "Fri, 10 Apr 2026 13:58:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/04/crop/69d92ff3739f3__950x512.webp\" /><p>Crece la incertidumbre de cara unas elecciones vitales para la Unión Europea, Estados Unidos y Rusia</p>"
+      },
+      {
+        "titulo": "Minerales críticos y geopolítica: la oportunidad estratégica detrás del acuerdo UE-Mercosur",
+        "link": "https://eleconomista.com.ar/internacional/minerales-criticos-geopolitica-oportunidad-estrategica-detras-acuerdo-ue-mercosur-n94029",
+        "fecha": "Fri, 10 Apr 2026 12:52:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/01/crop/696e8c66331bf__950x512.webp\" /><p>¿El Mercosur será simplemente un proveedor de recursos o podrá desarrollar capacidades industriales alrededor de ellos?</p>"
+      },
+      {
+        "titulo": "Actis: \"Irán ha ganado la guerra de Ormuz porque Trump no sabe cómo lograr que el estrecho vuelva a su flujo natural\"",
+        "link": "https://eleconomista.com.ar/internacional/actis-iran-ha-ganado-guerra-ormuz-porque-trump-sabe-como-lograr-estrecho-vuelva-su-flujo-natural-n94006",
+        "fecha": "Thu, 09 Apr 2026 17:46:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/03/crop/69bd95745e20c__950x512.webp\" /><p>En el marco de la guerra en Medio Oriente, El Economista dialogó en exclusiva con Esteban Actis, Doctor en Relaciones Internacionales</p>"
+      },
+      {
+        "titulo": "La derecha planetaria tiene los ojos puestos en Budapest: qué pasará en Hungría este domingo",
+        "link": "https://eleconomista.com.ar/internacional/la-derecha-planetaria-tiene-ojos-puestos-budapest-pasara-hungria-domingo-n94002",
+        "fecha": "Thu, 09 Apr 2026 17:35:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/04/crop/69d80e8de36a0__950x512.webp\" /><p>Este domingo, Hungría celebrará elecciones y, por primera vez en 16 años, el primer ministro Viktor Orbán tiene serias chances de perder el poder. Por su parte, Estados Unidos, Rusia y la Unión Europea obser"
+      },
+      {
+        "titulo": "SHOCK en el estrecho de Ormuz: Irán amenaza con romper tregua y hay 800 buques varados",
+        "link": "https://eleconomista.com.ar/internacional/shock-estrecho-ormuz-iran-amenaza-romper-tregua-hay-800-buques-varados-n93960",
+        "fecha": "Wed, 08 Apr 2026 12:25:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/04/crop/69d6742f712fa__950x512.webp\" /><p>La tregua tambalea: Irán redobla la presión en Ormuz, mantiene el bloqueo parcial y deja más de 800 buques atrapados, con impacto global incierto.</p>"
+      },
+      {
+        "titulo": "IRÁN REDOBLA LA AMENAZA: \"14 millones están listos para morir\" tras el ultimátum de Trump",
+        "link": "https://eleconomista.com.ar/internacional/iran-redobla-amenaza-14-millones-estan-listos-morir-tras-ultimatum-trump-n93917",
+        "fecha": "Tue, 07 Apr 2026 11:29:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/04/crop/69d51572b16da__950x512.webp\" /><p>El presidente iraní, Masoud Pezeshkian, aseguró que más de 14 millones de personas se ofrecieron como voluntarias para sacrificarse en medio de la escalada con Estados Unidos, luego del ultimátum lanzado por"
+      },
+      {
+        "titulo": "El lunes 6 de abril de 2026, a las 20:00 horas de Washington, el mundo entrará en una zona de sombra",
+        "link": "https://eleconomista.com.ar/internacional/el-lunes-6-abril-2026-2000-horas-washington-mundo-entrara-una-zona-sombra-n93856",
+        "fecha": "Sun, 05 Apr 2026 18:55:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/04/crop/69d2db6dd1b13__950x512.webp\" /><p>El ultimátum de Trump a Irán vence mañana. ¿Qué es el \"Día de la Central Eléctrica\"?</p>"
+      },
+      {
+        "titulo": "Es \"topo\" de Putin, aliado de Milei y megáfono de Trump: Viktor Orban se juega la vida en 168 horas",
+        "link": "https://eleconomista.com.ar/internacional/es-topo-putin-aliado-milei-megafono-trump-viktor-orban-juega-vida-168-horas-n93855",
+        "fecha": "Sun, 05 Apr 2026 09:45:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2024/04/crop/6631482757931__950x512.webp\" /><p>¿Aliado o Caballo de Troya? Javier Milei denuncia la injerencia del Kremlin en Argentina a través de la red \"La Compañía\", mientras respalda en Hungría a Viktor Orbán, el líder europeo cuya permanencia en el"
+      },
+      {
+        "titulo": "La inserción de la Argentina en un mundo en guerra por la energía",
+        "link": "https://eleconomista.com.ar/internacional/la-insercion-argentina-mundo-guerra-energia-n93836",
+        "fecha": "Thu, 02 Apr 2026 14:00:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/03/crop/69bd964342eb6__950x512.webp\" /><p>La escalada entre Estados Unidos, Israel e Irán coloca al Estrecho de Ormuz en el centro de la geopolítica mundial, afectando precios, transporte y financiamiento energético en Argentina.</p>"
+      },
+      {
+        "titulo": "Trump y el (des)orden internacional: el dilema de América Latina",
+        "link": "https://eleconomista.com.ar/internacional/trump-desorden-internacional-dilema-america-latina-n93775",
+        "fecha": "Wed, 01 Apr 2026 11:36:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/03/crop/69aa1739cab76__950x512.webp?v=1774625307\" /><p>La nueva política exterior de Donald Trump reabre el debate sobre el papel de Estados Unidos en el mundo y obliga a América Latina a repensar cómo insertarse en un orden internacional cada vez m"
+      },
+      {
+        "titulo": "El negocio de la guerra: cómo el poder político lucra con la volatilidad financiera",
+        "link": "https://eleconomista.com.ar/internacional/el-negocio-guerra-como-poder-politico-lucra-volatilidad-financiera-n93764",
+        "fecha": "Wed, 01 Apr 2026 05:22:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/04/crop/69ccd637d655f__950x512.webp\" /><p>Un análisis de la revista británica New Statesman alerta sobre transacciones bursátiles bajo sospecha a raíz del conflicto en Irán. El manejo de datos confidenciales en las altas esferas y la falta de contro"
+      },
+      {
+        "titulo": "Los escenarios extremos que Deloitte ya está modelando para sus clientes",
+        "link": "https://eleconomista.com.ar/internacional/por-peores-crisis-imprevisibles-realidad-veian-veniry-nadie-hizo-nada-n93538",
+        "fecha": "Tue, 31 Mar 2026 18:25:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/03/crop/69c05f7bb8759__950x512.webp\" /><p>Las crisis más devastadoras parecían inevitables... pero las señales estaban ahí. Qué falló y por qué nadie reaccionó a tiempo.</p>"
+      },
+      {
+        "titulo": "Desaparecieron 12.000 kilos de KitKat en Europa y nadie puede explicar cómo",
+        "link": "https://eleconomista.com.ar/internacional/por-desaparecieron-12000-kilos-kitkat-europa-nadie-puede-explicar-como-n93685",
+        "fecha": "Sun, 29 Mar 2026 22:50:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/03/crop/69c9d783cfc93__950x512.webp\" /><p>Un camión con más de 413.000 KitKat desapareció en Europa. El robo expone una tendencia creciente: el avance del delito en las cadenas logísticas globales.</p>"
+      },
+      {
+        "titulo": "Guerra en Irán: ¿puede el precio del barril de petróleo alcanzar los US$ 200?",
+        "link": "https://eleconomista.com.ar/internacional/guerra-iran-puede-precio-barril-petroleo-alcanzar-us-200-n93663",
+        "fecha": "Fri, 27 Mar 2026 15:40:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/03/crop/69b17ef95e3c6__950x512.webp\" /><p>Las especulaciones respecto a los precios del crudo continúan en aumento</p>"
+      },
+      {
+        "titulo": "¿Qué plan tiene Trump para el futuro de Cuba?",
+        "link": "https://eleconomista.com.ar/internacional/que-plan-tiene-trump-futuro-cuba-n93661",
+        "fecha": "Fri, 27 Mar 2026 15:31:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2023/06/crop/648247bc45744__950x512.webp\" /><p>Mientras Estados Unidos y Cuba continúan negociando, crecen los rumores de una posible invasión</p>"
+      },
+      {
+        "titulo": "Manuel Gonzalo: \"Para capitalizar las oportunidades  con India se necesitan importantes esfuerzos públicos y privados\"",
+        "link": "https://eleconomista.com.ar/internacional/manuel-gonzalo-para-capitalizar-oportunidades-india-necesitan-importantes-esfuerzos-publicos-privados-n93635",
+        "fecha": "Thu, 26 Mar 2026 19:39:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2024/01/crop/65b0312347637__950x512.webp\" /><p>El Economista habló eb exclusiva con Manuel Gonzalo, Doctor en Economía (UFRJ), investigador y profesor en UNQ y UNdeC y co-coordinador del Grupo de trabajo sobre India y Asia del Sur del CARI</p>"
+      },
+      {
+        "titulo": "Tras la baja de Bachelet, crecen las chances de Grossi para liderar la ONU",
+        "link": "https://eleconomista.com.ar/internacional/tras-baja-bachelet-crecen-chances-grossi-liderar-onu-n93634",
+        "fecha": "Thu, 26 Mar 2026 19:32:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/02/crop/6985f0750fcb2__950x512.webp\" /><p>Esta semana, el gobierno de José Antonio Kast en Chile retiró su apoyo a la candidatura de Michelle Bachelet para liderar la ONU, lo que incrementa las posibilidades del argentino Rafael Grossi.</p>"
+      },
+      {
+        "titulo": "Cómo Estados Unidos compite contra una estafa tecnológica",
+        "link": "https://eleconomista.com.ar/internacional/como-estados-unidos-compite-una-estafa-tecnologica-n93629",
+        "fecha": "Thu, 26 Mar 2026 17:30:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/03/crop/69c3f76a487d7__950x512.webp?v=1774450593\" /><p>Mientras la prensa occidental se llena la boca con el \"avance imparable\" de la tecnología china, los inversores huyen.</p>"
+      },
+      {
+        "titulo": "\"Europa sonámbula\": el error estratégico que nadie en el continente quiere ver",
+        "link": "https://eleconomista.com.ar/internacional/europa-sonambula-error-estrategico-nadie-continente-quiere-ver-n93558",
+        "fecha": "Tue, 24 Mar 2026 13:31:00 -0300",
+        "resumen": "<img src=\"https://statics.eleconomista.com.ar/2026/03/crop/69c2bca21bb54__950x512.webp\" /><p>Europa desprecia a su mejor cliente y abraza al país que financia la guerra en su suelo. Martín Varsavsky desnuda el mayor error estratégico del continente con datos, cifras y una lógica implacable.</p>"
+      }
+    ]
+  },
+  "apify_results": {
+    "google_trends": {
+      "status": "OK",
+      "terms": [
+        {
+          "term": "inflación",
+          "timeline": [
+            {
+              "time": "1775908800",
+              "formattedTime": "Apr 11, 2026 at 12:00 PM",
+              "formattedAxisTime": "Apr 11 at 12:00 PM",
+              "value": [
+                28
+              ],
+              "hasData": [
+                true
+              ],
+              "formattedValue": [
+                "28"
+              ]
+            },
+            {
+              "time": "1775912400",
+              "formattedTime": "Apr 11, 2026 at 1:00 PM",
+              "formattedAxisTime": "Apr 11 at 1:00 PM",
+              "value": [
+                25
+              ],
+              "hasData": [
+                true
+              ],
+              "formattedValue": [
+                "25"
+              ]
+            },
+            {
+              "time": "1775916000",
+              "formattedTime": "Apr 11, 2026 at 2:00 PM",
+              "formattedAxisTime": "Apr 11 at 2:00 PM",
+              "value": [
+                27
+              ],
+              "hasData": [
+                true
+              ],
+              "formattedValue": [
+                "27"
+              ]
+            },
+            {
+              "time": "1775919600",
+              "formattedTime": "Apr 11, 2026 at 3:00 PM",
+              "formattedAxisTime": "Apr 11 at 3:00 PM",
+              "value": [
+                31
+              ],
+              "hasData": [
+                true
+              ],
+              "formattedValue": [
+                "31"
+              ]
+            },
+            {
+              "time": "1775923200",
+              "formattedTime": "Apr 11, 2026 at 4:00 PM",
+              "formattedAxisTime": "Apr 11 at 4:00 PM",
+              "value": [
+                25
+              ],
+              "hasData": [
+                true
+              ],
+              "formattedValue": [
+                "25"
+              ]
+            },
+            {
+              "time": "1775926800",
+              "formattedTime": "Apr 11, 2026 at 5:00 PM",
+              "formattedAxisTime": "Apr 11 at 5:00 PM",
+              "value": [
+                18
+              ],
+              "hasData": [
+                true
+              ],
+              "formattedValue": [
+                "18"
+              ]
+            },
+            {
+              "time": "1775930400",
+              "formattedTime": "Apr 11, 2026 at 6:00 PM",
+              "formattedAxisTime": "Apr 11 at 6:00 PM",
+              "value": [
+                24
+              ],
+              "hasData": [
+                true
+              ],
+              "formattedValue": [
+                "24"
+              ]
+            },
+            {
+              "time": "1775934000",
+              "formattedTime": "Apr 11, 2026 at 7:00 PM",
+              "formattedAxisTime": "Apr 11 at 7:00 PM",
+              "value": [
+                24
+              ],
+              "hasData": [
+                true
+              ],
+              "formattedValue": [
+                "24"
+              ]
+            },
+            {
+              "time": "1775937600",
+              "formattedTime": "Apr 11, 2026 at 8:00 PM",
+              "formattedAxisTime": "Apr 11 at 8:00 PM",
+              "value": [
+                20
+              ],
+              "hasData": [
+                true
+              ],
+              "formattedValue": [
+                "20"
+              ]
+            },
+            {
+              "time": "1775941200",
+              "formattedTime": "Apr 11, 2026 at 9:00 PM",
+              "formattedAxisTime": "Apr 11 at 9:00 PM",
+              "value": [
+                38
+              ],
+              "hasData": [
+                true
+              ],
+              "formattedValue": [
+                "38"
+              ],
+              "isPartial": true
+            }
+          ],
+          "related_queries_top": [
+            {
+              "query": "inflación 2026",
+              "value": 100,
+              "formattedValue": "100",
+              "hasData": true,
+              "link": "/trends/explore?q=inflaci%C3%B3n+2026&date=now+7-d&geo=AR"
+            },
+            {
+              "query": "inflación marzo",
+              "value": 77,
+              "formattedValue": "77",
+              "hasData": true,
+              "link": "/trends/explore?q=inflaci%C3%B3n+marzo&date=now+7-d&geo=AR"
+            },
+            {
+              "query": "inflación marzo 2026",
+              "value": 49,
+              "formattedValue": "49",
+              "hasData": true,
+              "link": "/trends/explore?q=inflaci%C3%B3n+marzo+2026&date=now+7-d&geo=AR"
+            },
+            {
+              "query": "inflación argentina",
+              "value": 46,
+              "formattedValue": "46",
+              "hasData": true,
+              "link": "/trends/explore?q=inflaci%C3%B3n+argentina&date=now+7-d&geo=AR"
+            },
+            {
+              "query": "inflación 2025",
+              "value": 37,
+              "formattedValue": "37",
+              "hasData": true,
+              "link": "/trends/explore?q=inflaci%C3%B3n+2025&date=now+7-d&geo=AR"
+            }
+          ],
+          "related_queries_rising": [
+            {
+              "query": "luis caputo",
+              "value": 29550,
+              "formattedValue": "Breakout",
+              "link": "/trends/explore?q=luis+caputo&date=now+7-d&geo=AR"
+            }
+          ]
+        },
+        {
+          "term": "dólar blue",
+          "timeline": [
+            {
+              "time": "1775908800",
+              "formattedTime": "Apr 11, 2026 at 12:00 PM",
+              "formattedAxisTime": "Apr 11 at 12:00 PM",
+              "value": [
+                54
+              ],
+              "hasData": [
+                true
+              ],
+              "formattedValue": [
+                "54"
+              ]
+            },
+            {
+              "time": "1775912400",
+              "formattedTime": "Apr 11, 2026 at 1:00 PM",
+              "formattedAxisTime": "Apr 11 at 1:00 PM",
+              "value": [
+                61
+              ],
+              "hasData": [
+                true
+              ],
+              "formattedValue": [
+                "61"
+              ]
+            },
+            {
+              "time": "1775916000",
+              "formattedTime": "Apr 11, 2026 at 2:00 PM",
+              "formattedAxisTime": "Apr 11 at 2:00 PM",
+              "value": [
+                53
+              ],
+              "hasData": [
+                true
+              ],
+              "formattedValue": [
+                "53"
+              ]
+            },
+            {
+              "time": "1775919600",
+              "formattedTime": "Apr 11, 2026 at 3:00 PM",
+              "formattedAxisTime": "Apr 11 at 3:00 PM",
+              "value": [
+                62
+              ],
+              "hasData": [
+                true
+              ],
+              "formattedValue": [
+                "62"
+              ]
+            },
+            {
+              "time": "1775923200",
+              "formattedTime": "Apr 11, 2026 at 4:00 PM",
+              "formattedAxisTime": "Apr 11 at 4:00 PM",
+              "value": [
+                44
+              ],
+              "hasData": [
+                true
+              ],
+              "formattedValue": [
+                "44"
+              ]
+            },
+            {
+              "time": "1775926800",
+              "formattedTime": "Apr 11, 2026 at 5:00 PM",
+              "formattedAxisTime": "Apr 11 at 5:00 PM",
+              "value": [
+                25
+              ],
+              "hasData": [
+                true
+              ],
+              "formattedValue": [
+                "25"
+              ]
+            },
+            {
+              "time": "1775930400",
+              "formattedTime": "Apr 11, 2026 at 6:00 PM",
+              "formattedAxisTime": "Apr 11 at 6:00 PM",
+              "value": [
+                34
+              ],
+              "hasData": [
+                true
+              ],
+              "formattedValue": [
+                "34"
+              ]
+            },
+            {
+              "time": "1775934000",
+              "formattedTime": "Apr 11, 2026 at 7:00 PM",
+              "formattedAxisTime": "Apr 11 at 7:00 PM",
+              "value": [
+                44
+              ],
+              "hasData": [
+                true
+              ],
+              "formattedValue": [
+                "44"
+              ]
+            },
+            {
+              "time": "1775937600",
+              "formattedTime": "Apr 11, 2026 at 8:00 PM",
+              "formattedAxisTime": "Apr 11 at 8:00 PM",
+              "value": [
+                43
+              ],
+              "hasData": [
+                true
+              ],
+              "formattedValue": [
+                "43"
+              ]
+            },
+            {
+              "time": "1775941200",
+              "formattedTime": "Apr 11, 2026 at 9:00 PM",
+              "formattedAxisTime": "Apr 11 at 9:00 PM",
+              "value": [
+                30
+              ],
+              "hasData": [
+                true
+              ],
+              "formattedValue": [
+                "30"
+              ],
+              "isPartial": true
+            }
+          ],
+          "related_queries_top": [
+            {
+              "query": "cotización dólar blue",
+              "value": 100,
+              "formattedValue": "100",
+              "hasData": true,
+              "link": "/trends/explore?q=cotizaci%C3%B3n+d%C3%B3lar+blue&date=now+7-d&geo=AR"
+            },
+            {
+              "query": "el dólar blue",
+              "value": 100,
+              "formattedValue": "100",
+              "hasData": true,
+              "link": "/trends/explore?q=el+d%C3%B3lar+blue&date=now+7-d&geo=AR"
+            },
+            {
+              "query": "precio dólar blue",
+              "value": 82,
+              "formattedValue": "82",
+              "hasData": true,
+              "link": "/trends/explore?q=precio+d%C3%B3lar+blue&date=now+7-d&geo=AR"
+            },
+            {
+              "query": "cotización dólar blue hoy",
+              "value": 57,
+              "formattedValue": "57",
+              "hasData": true,
+              "link": "/trends/explore?q=cotizaci%C3%B3n+d%C3%B3lar+blue+hoy&date=now+7-d&geo=AR"
+            },
+            {
+              "query": "precio dólar blue hoy",
+              "value": 54,
+              "formattedValue": "54",
+              "hasData": true,
+              "link": "/trends/explore?q=precio+d%C3%B3lar+blue+hoy&date=now+7-d&geo=AR"
+            }
+          ],
+          "related_queries_rising": []
+        },
+        {
+          "term": "riesgo país",
+          "timeline": [
+            {
+              "time": "1775908800",
+              "formattedTime": "Apr 11, 2026 at 12:00 PM",
+              "formattedAxisTime": "Apr 11 at 12:00 PM",
+              "value": [
+                0
+              ],
+              "hasData": [
+                false
+              ],
+              "formattedValue": [
+                "0"
+              ]
+            },
+            {
+              "time": "1775912400",
+              "formattedTime": "Apr 11, 2026 at 1:00 PM",
+              "formattedAxisTime": "Apr 11 at 1:00 PM",
+              "value": [
+                0
+              ],
+              "hasData": [
+                false
+              ],
+              "formattedValue": [
+                "0"
+              ]
+            },
+            {
+              "time": "1775916000",
+              "formattedTime": "Apr 11, 2026 at 2:00 PM",
+              "formattedAxisTime": "Apr 11 at 2:00 PM",
+              "value": [
+                0
+              ],
+              "hasData": [
+                false
+              ],
+              "formattedValue": [
+                "0"
+              ]
+            },
+            {
+              "time": "1775919600",
+              "formattedTime": "Apr 11, 2026 at 3:00 PM",
+              "formattedAxisTime": "Apr 11 at 3:00 PM",
+              "value": [
+                0
+              ],
+              "hasData": [
+                false
+              ],
+              "formattedValue": [
+                "0"
+              ]
+            },
+            {
+              "time": "1775923200",
+              "formattedTime": "Apr 11, 2026 at 4:00 PM",
+              "formattedAxisTime": "Apr 11 at 4:00 PM",
+              "value": [
+                0
+              ],
+              "hasData": [
+                false
+              ],
+              "formattedValue": [
+                "0"
+              ]
+            },
+            {
+              "time": "1775926800",
+              "formattedTime": "Apr 11, 2026 at 5:00 PM",
+              "formattedAxisTime": "Apr 11 at 5:00 PM",
+              "value": [
+                0
+              ],
+              "hasData": [
+                false
+              ],
+              "formattedValue": [
+                "0"
+              ]
+            },
+            {
+              "time": "1775930400",
+              "formattedTime": "Apr 11, 2026 at 6:00 PM",
+              "formattedAxisTime": "Apr 11 at 6:00 PM",
+              "value": [
+                0
+              ],
+              "hasData": [
+                false
+              ],
+              "formattedValue": [
+                "0"
+              ]
+            },
+            {
+              "time": "1775934000",
+              "formattedTime": "Apr 11, 2026 at 7:00 PM",
+              "formattedAxisTime": "Apr 11 at 7:00 PM",
+              "value": [
+                0
+              ],
+              "hasData": [
+                false
+              ],
+              "formattedValue": [
+                "0"
+              ]
+            },
+            {
+              "time": "1775937600",
+              "formattedTime": "Apr 11, 2026 at 8:00 PM",
+              "formattedAxisTime": "Apr 11 at 8:00 PM",
+              "value": [
+                0
+              ],
+              "hasData": [
+                false
+              ],
+              "formattedValue": [
+                "0"
+              ]
+            },
+            {
+              "time": "1775941200",
+              "formattedTime": "Apr 11, 2026 at 9:00 PM",
+              "formattedAxisTime": "Apr 11 at 9:00 PM",
+              "value": [
+                0
+              ],
+              "hasData": [
+                false
+              ],
+              "formattedValue": [
+                "0"
+              ],
+              "isPartial": true
+            }
+          ],
+          "related_queries_top": [
+            {
+              "query": "riesgo país argentina",
+              "value": 100,
+              "formattedValue": "100",
+              "hasData": true,
+              "link": "/trends/explore?q=riesgo+pa%C3%ADs+argentina&date=now+7-d&geo=AR"
+            },
+            {
+              "query": "riesgo país hoy",
+              "value": 44,
+              "formattedValue": "44",
+              "hasData": true,
+              "link": "/trends/explore?q=riesgo+pa%C3%ADs+hoy&date=now+7-d&geo=AR"
+            },
+            {
+              "query": "riesgo país hoy argentina",
+              "value": 22,
+              "formattedValue": "22",
+              "hasData": true,
+              "link": "/trends/explore?q=riesgo+pa%C3%ADs+hoy+argentina&date=now+7-d&geo=AR"
+            },
+            {
+              "query": "riesgo país de argentina",
+              "value": 14,
+              "formattedValue": "14",
+              "hasData": true,
+              "link": "/trends/explore?q=riesgo+pa%C3%ADs+de+argentina&date=now+7-d&geo=AR"
+            },
+            {
+              "query": "riesgo país en argentina",
+              "value": 13,
+              "formattedValue": "13",
+              "hasData": true,
+              "link": "/trends/explore?q=riesgo+pa%C3%ADs+en+argentina&date=now+7-d&geo=AR"
+            }
+          ],
+          "related_queries_rising": []
+        },
+        {
+          "term": "devaluación",
+          "timeline": [],
+          "related_queries_top": [],
+          "related_queries_rising": []
+        }
+      ]
+    },
+    "twitter_results": [
+      {
+        "title": "?",
+        "url": "?",
+        "text": "Something went wrong, but don’t fret — let’s give it another shot.\n\n  \n\nTry again\n\n![⚠️](https://abs-0.twimg.com/emoji/v2/svg/26a0.svg) Some privacy related extensions may cause issues on x.com. Please disable them and try again."
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "Something went wrong, but don’t fret — let’s give it another shot.\n\n  \n\nTry again\n\n![⚠️](https://abs-0.twimg.com/emoji/v2/svg/26a0.svg) Some privacy related extensions may cause issues on x.com. Please disable them and try again."
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "Something went wrong, but don’t fret — let’s give it another shot.\n\n  \n\nTry again\n\n![⚠️](https://abs-0.twimg.com/emoji/v2/svg/26a0.svg) Some privacy related extensions may cause issues on x.com. Please disable them and try again."
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "Something went wrong, but don’t fret — let’s give it another shot.\n\n  \n\nTry again\n\n![⚠️](https://abs-0.twimg.com/emoji/v2/svg/26a0.svg) Some privacy related extensions may cause issues on x.com. Please disable them and try again."
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "Something went wrong, but don’t fret — let’s give it another shot.\n\n  \n\nTry again\n\n![⚠️](https://abs-0.twimg.com/emoji/v2/svg/26a0.svg) Some privacy related extensions may cause issues on x.com. Please disable them and try again."
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "Something went wrong, but don’t fret — let’s give it another shot.\n\n  \n\nTry again\n\n![⚠️](https://abs-0.twimg.com/emoji/v2/svg/26a0.svg) Some privacy related extensions may cause issues on x.com. Please disable them and try again."
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "Something went wrong, but don’t fret — let’s give it another shot.\n\n  \n\nTry again\n\n![⚠️](https://abs-0.twimg.com/emoji/v2/svg/26a0.svg) Some privacy related extensions may cause issues on x.com. Please disable them and try again."
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "Something went wrong, but don’t fret — let’s give it another shot.\n\n  \n\nTry again\n\n![⚠️](https://abs-0.twimg.com/emoji/v2/svg/26a0.svg) Some privacy related extensions may cause issues on x.com. Please disable them and try again."
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "Something went wrong, but don’t fret — let’s give it another shot.\n\n  \n\nTry again\n\n![⚠️](https://abs-0.twimg.com/emoji/v2/svg/26a0.svg) Some privacy related extensions may cause issues on x.com. Please disable them and try again."
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "Something went wrong, but don’t fret — let’s give it another shot.\n\n  \n\nTry again\n\n![⚠️](https://abs-0.twimg.com/emoji/v2/svg/26a0.svg) Some privacy related extensions may cause issues on x.com. Please disable them and try again."
+      }
+    ],
+    "google_news_results": [
+      {
+        "title": "?",
+        "url": "?",
+        "text": "La Argentina resiste la volatilidad global mientras el Gobierno busca reactivar la economía con una baja de tasas - Infobae\n\n[Economía](/economia/)\n\n# La Argentina resiste la volatilidad global mientras el Gobierno busca reactivar la economía con una baja de tasas\n\n## Los bonos argentinos repuntaron y el riesgo país se acercó a 550 puntos pese a la incertidumbre mundial. En paralelo, el equipo económico inyecta liquidez para estimular la actividad económica\n\n![Luis Beldi](https://www.infobae.com"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "La inflación aceleró en el cierre de marzo y el Gobierno confía en una medida clave para frenarla en abril - Infobae\n\n[Economía](/economia/)\n\n# La inflación aceleró en el cierre de marzo y el Gobierno confía en una medida clave para frenarla en abril\n\n## Los aumentos de alimentos y bebidas ganaron ritmo a fin del mes pasado y complican el índice general. Economía confía en que la decisión de YPF de no aumentar las naftas por 45 días ayude en abril\n\n![Lucrecia Eterovich](https://www.infobae.com/r"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "Últimas noticias económicas de Argentina 2026: Perspectiva macroeconómica y financiera del mercado local - Bloomberg Línea\n\n# Noticia Últimas noticias económicas de Argentina 2026: Perspectiva macroeconómica y financiera del mercado local - Bloomberg Línea\n\n### Últimas noticias económicas de Latam\n\nPUBLICIDAD\n\nSeleccione un país\n\n[![Bloomberg Línea](/pf/resources/images/fallback-logo-black-720x100.png?d=2297 \"Bloomberg Línea\")](/)\n\nIngresar\n\n[![Falic Media](https://cloudfront-us-east-1.images.ar"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "VIDEO | Llegan más dólares, pero los precios siguen sin aflojar\n\n[iProfesional![Logo home iProfesional](/images/iprofesional.svg)](/ \"iProfesional - Últimas noticias, actualidad, economía, finanzas sobre Argentina y el mundo\")\n\nBuscar\n\n*   9/4/2026\n\nALERTA\n\n# VIDEO | Panorama económico financiero en menos de 90 segundos\n\nMarzo habría cerrado cerca del 3%: hay más dólares para sostener el tipo de cambio, pero combustibles y costos siguen pegando en precios\n\n**[iProfesional](/index.php/)** | **[Fi"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "La economía creció 4,4% – Página|12 [Omitir para ir al contenido principal](#main)\n\n* * *\n\n[![Pagina 12](/pf//resources/p12logo-50-anos-del-golpe-desktop.svg?d=91)](/ \"Pagina 12\")\n\n* * *\n\n* * *\n\n* * *\n\n[![Pagina 12](/pf//resources/p12logo-50-anos-del-golpe-desktop.svg?d=91)](/ \"Pagina 12\")\n\n[\n\nMIRÁ\n\n* * *\n\n\n\n](/argentina12)\n\nVolver\n\n*   [Edición Impresa](/edicion-impresa)\n*   [50 Años del Golpe](/50-anos-del-golpe)\n*   [El País](/el-pais)\n*   [Economía](/economia)\n*   [Sociedad](/sociedad)\n*   ["
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "Dólares, deuda e inflación: alertas sobre el modelo económico argentino - Radio C\n\nSábado, 11 de abril\n\n*   [](https://www.instagram.com/radioc107.3)[](https://www.youtube.com/channel/UCl9f84wFJESUr5Efu6UqwfQ)[](https://api.whatsapp.com/send?phone=+5492944535816&text=Hola!)\n\n[![](../../../images/logo/logo_1771440983_69960b57a20d1.png)](../../../index.php)\n\n## Último Momento :\n\n[Generales](../../../categoria.php?cod=1)\n\n## Dólares, deuda e inflación: alertas sobre el modelo económico argentino\n\nL"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "Instagram"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "InstagramInstagramCloseAudio is mutedAudio is mutedVerifiedMore optionsVerifiedLoad more commentsLikeCommentShareSaveClipClipCarouselClipCarouselCarouselDown chevron icon    \n\n[\n\n](/)\n\n[Log In](/accounts/login/?next=%2Fp%2FDW84OXfjLbY%2F&source=desktop_nav)\n\n[Sign Up](/accounts/emailsignup/)\n\n*   ![](https://scontent-lga3-1.cdninstagram.com/v/t51.82787-15/670437292_18548709277070634_4323763145007485033_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=109&ig_cache_key=Mzg3MjIxNjkyNzY3ODgwNTQwNw%3D%3D.3-ccb7-5&c"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "La economía argentina es de las que más crece, pero alerta sobre un dato financiero negativo - LA NACION\n\nCERRAR\n\nCERRAR\n\nSECCIONES\n\n[\n\n](/ \"Ir a la página principal\")\n\n_![LA NACION](/pf/resources/images/la-nacion.webp?d=1979)_\n\n# La paradoja de la economía argentina: es de las que más crece en la región, pero la de mayor “vulnerabilidad financiera” según el BID\n\n## Son conclusiones de un reciente informe del Banco Interamericano de Desarrollo; espera una expansión del 2,1% este año en América L"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "Noticias de Economía - LA NACION\n\nCERRAR\n\nCERRAR\n\nSECCIONES\n\n[\n\n](/ \"Ir a la página principal\")\n\n_![LA NACION](/pf/resources/images/la-nacion.webp?d=1979)_\n\n# Economía![Economía](https://www.lanacion.com.ar/resizer/v2/logo-comunidad-de-UGKYTICJHBA6TMO4WDXJ2XGENE.png?auth=b79ccd88f3a0aa4bc959ea90de320080b8ee165e93221f99af6d4c0a239d35a1&width=285&quality=70&smart=false)\n\n*   [Campo](/economia/campo/ \"Ir a Campo\")\n*   [Comercio Exterior](/economia/comercio-exterior/ \"Ir a Comercio Exterior\")\n*   [E"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "El Gobierno precisa retomar rápidamente la agenda económica: desinflación y mejora del consumo serán prioridades - Infobae\n\n[Economía](/economia/)\n\n# El Gobierno precisa retomar rápidamente la agenda económica: desinflación y mejora del consumo serán prioridades\n\n## Los escándalos que ganaron los titulares en los últimos días obligan al Presidente a cambiar el foco de atención. La crisis que atravesó Macri a esta altura de su mandato debería ser un gran aprendizaje para no dejar pasar un nuevo t"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "Cuántos dólares van a comprar los argentinos en 2026 según un gigante de Wall Street - Infobae\n\n[Economía](/economia/)\n\n# Cuántos dólares van a comprar los argentinos en 2026 según un gigante de Wall Street\n\n## Morgan Stanley hizo sus proyecciones para el mercado cambiario local y aseguró que el país necesitará nuevas fuentes de divisas como mecanismo compensatorio\n\n![Ludmila Di Grande](https://www.infobae.com/resizer/v2/https%3A%2F%2Fauthor-service-images-prod-us-east-1.publishing.aws.arc.pub%2"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "¿La Argentina está cara en dólares?: cuál el costo de vida respecto de otros países de la región - Infobae\n\n[Economía](/economia/)\n\n# ¿La Argentina está cara en dólares?: cuál el costo de vida respecto de otros países de la región\n\n## Un informe privado comparó los precios de distintos rubros en varios países de América Latina y detectó aquellos en los cuales Argentina aún mantiene ventaja\n\n[Seguir en![Icono de Google para seguir en redes sociales](https://www.infobae.com/assets/images/icons/Ico"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "AUH y todos los planes sociales de ANSES: de cuánto son en abril 2026 tras los aumentos - Infobae\n\n[Economía](/economia/)\n\n# AUH y todos los planes sociales de ANSES: de cuánto son en abril 2026 tras los aumentos\n\n## La Administración Nacional de la Seguridad Social actualizó los valores de las principales prestaciones sociales en abril de 2026, con ajustes en las asignaciones en línea con la inflación y el nuevo esquema oficial\n\n[Seguir en![Icono de Google para seguir en redes sociales](https:/"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "La inflación aceleró en el cierre de marzo y el Gobierno confía en una medida clave para frenarla en abril - Infobae\n\n[Economía](/economia/)\n\n# La inflación aceleró en el cierre de marzo y el Gobierno confía en una medida clave para frenarla en abril\n\n## Los aumentos de alimentos y bebidas ganaron ritmo a fin del mes pasado y complican el índice general. Economía confía en que la decisión de YPF de no aumentar las naftas por 45 días ayude en abril\n\n![Lucrecia Eterovich](https://www.infobae.com/r"
+      }
+    ],
+    "reddit_merval": {
+      "status": "OK",
+      "count": 5,
+      "posts": [
+        {
+          "title": "Inversiones seguras primera vez",
+          "url": "https://www.reddit.com/r/merval/comments/1sitr6d/inversiones_seguras_primera_vez/",
+          "score": "?",
+          "comments": 4,
+          "body": "hola buenas tardes, empecé a trabajar y como todavía no pago algún alquiler la mayoría del sueldo lo guardo en pesos todavía, le dije a mí papá si podía comprar dólares pero me habló de hacer una cuenta en Credicoop o banco Santander y ponerlo en inversiones seguras algo así, quería consultarles si "
+        },
+        {
+          "title": "?",
+          "url": "https://www.reddit.com/r/merval/comments/1sitr6d/inversiones_seguras_primera_vez/ofmzx3s/",
+          "score": "?",
+          "comments": "?",
+          "body": "¡Bienvenido! Las publicaciones del tipo \"tengo X y quiero invertir\" o \"¿por dónde empiezo a invertir?\" son muy comunes y repetitivas. Las respuestas suelen ser siempre las mismas, aportando poco a la calidad del sub. Además, normalmente son respuestas incompletas, con recomendaciones sueltas, que no"
+        },
+        {
+          "title": "?",
+          "url": "https://www.reddit.com/r/merval/comments/1sitr6d/inversiones_seguras_primera_vez/ofmszd3/",
+          "score": "?",
+          "comments": "?",
+          "body": "las inversiones seguras son plazos fijos, ya sea tradicionales o UVA.\n\nQue deberias hacer solo vos lo sabes, porque depende de para que queres el dinero, cual es el objetivo de tu inversion/ahorro y cual es tu aversion al riesgo"
+        },
+        {
+          "title": "?",
+          "url": "https://www.reddit.com/r/merval/comments/1sitr6d/inversiones_seguras_primera_vez/ofmubm1/",
+          "score": "?",
+          "comments": "?",
+          "body": "busca mucho sobre renta fija y como funciona. Tenes en pesos y en dolares, de empresas o del estado, nacional o internacional. Seguramente encuentres cosas mucho mejores que un plazo fijo, sea por retornos o por liquidez"
+        },
+        {
+          "title": "?",
+          "url": "https://www.reddit.com/r/merval/comments/1sitr6d/inversiones_seguras_primera_vez/ofmzqvm/",
+          "score": "?",
+          "comments": "?",
+          "body": "no se que opinen en el sub pero este sitio esta buenisimo para mi [https://www.investopedia.com/](https://www.investopedia.com/)"
+        }
+      ]
+    },
+    "boletin_oficial": [
+      {
+        "title": "?",
+        "url": "?",
+        "text": "BOLETIN OFICIAL REPUBLICA ARGENTINA - MINISTERIO DE SALUD SECRETARÍA NACIONAL DE DISCAPACIDAD - Resolución 13/2026\n\n![](/images/loader.gif)\n\n×\n\n[](/contacto)\n\n[![Instagram](/images/instagram.png)](https://www.instagram.com/boletinoficialarg)\n\n[![Twitter](/images/twitter.png)](https://twitter.com/boletin_oficial)\n\n* * *\n\n###### Edición del\n\n###### **10 de Abril de 2026**\n\n* * *\n\n###### **Ediciones Anteriores**\n\nBúsqueda avanzada\n\n![](/images/132-aniversario.png)\n\n##### Secciones\n\n*   [![](/images"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "BOLETIN OFICIAL REPUBLICA ARGENTINA - MINISTERIO DE CAPITAL HUMANO SECRETARÍA DE EDUCACIÓN - Resolución 172/2026\n\n![](/images/loader.gif)\n\n×\n\n[](/contacto)\n\n[![Instagram](/images/instagram.png)](https://www.instagram.com/boletinoficialarg)\n\n[![Twitter](/images/twitter.png)](https://twitter.com/boletin_oficial)\n\n* * *\n\n###### Edición del\n\n###### **10 de Abril de 2026**\n\n* * *\n\n###### **Ediciones Anteriores**\n\nBúsqueda avanzada\n\n![](/images/132-aniversario.png)\n\n##### Secciones\n\n*   [![](/images/s"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "BOLETIN OFICIAL REPUBLICA ARGENTINA - MINISTERIO DE ECONOMÍA - Resolución 410/2026\n\n![](/images/loader.gif)\n\n×\n\n[](/contacto)\n\n[![Instagram](/images/instagram.png)](https://www.instagram.com/boletinoficialarg)\n\n[![Twitter](/images/twitter.png)](https://twitter.com/boletin_oficial)\n\n* * *\n\n###### Edición del\n\n###### **10 de Abril de 2026**\n\n* * *\n\n###### **Ediciones Anteriores**\n\nBúsqueda avanzada\n\n![](/images/132-aniversario.png)\n\n##### Secciones\n\n*   [![](/images/sections/number1-on.png)](/secc"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "BOLETIN OFICIAL REPUBLICA ARGENTINA - ADMINISTRACIÓN NACIONAL DE LA SEGURIDAD SOCIAL - Resolución 81/2026\n\n![](/images/loader.gif)\n\n×\n\n[](/contacto)\n\n[![Instagram](/images/instagram.png)](https://www.instagram.com/boletinoficialarg)\n\n[![Twitter](/images/twitter.png)](https://twitter.com/boletin_oficial)\n\n* * *\n\n###### Edición del\n\n###### **10 de Abril de 2026**\n\n* * *\n\n###### **Ediciones Anteriores**\n\nBúsqueda avanzada\n\n![](/images/132-aniversario.png)\n\n##### Secciones\n\n*   [![](/images/sections"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "BOLETIN OFICIAL REPUBLICA ARGENTINA - PROCEDIMIENTOS ADMINISTRATIVOS - Decreto 139/2026\n\n![](/images/loader.gif)\n\n×\n\n[](/contacto)\n\n[![Instagram](/images/instagram.png)](https://www.instagram.com/boletinoficialarg)\n\n[![Twitter](/images/twitter.png)](https://twitter.com/boletin_oficial)\n\n* * *\n\n###### Edición del\n\n###### **10 de Abril de 2026**\n\n* * *\n\n###### **Ediciones Anteriores**\n\nBúsqueda avanzada\n\n![](/images/132-aniversario.png)\n\n##### Secciones\n\n*   [![](/images/sections/number1-on.png)]("
+      }
+    ],
+    "sindicatos": [
+      {
+        "title": "?",
+        "url": "?",
+        "text": "InstagramInstagramCloseVerifiedMore optionsVerifiedLoad more commentsLikeCommentShareSaveCarouselCarouselClipClipDown chevron icon  \n\n[\n\n](/)\n\n[Log In](/accounts/login/?next=%2Freel%2FDWUEDI7j9H4%2F&source=desktop_nav)\n\n[Sign Up](/accounts/emailsignup/)\n\n![](https://scontent-atl3-3.cdninstagram.com/v/t51.71878-15/657458213_807672129070110_8162844650363000937_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=108&ig_cache_key=Mzg2MDcyODU4ODQ5NzA0ODA1Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "09 ABR 2026 Camioneros alertan sobre posible paralización nacional - YouTube\n\n[](/ \"YouTube\")[](/ \"YouTube\")\n\n[About](https://www.youtube.com/about/)[Press](https://www.youtube.com/about/press/)[Copyright](https://www.youtube.com/about/copyright/)[Contact us](/t/contact_us/)[Creators](https://www.youtube.com/creators/)[Advertise](https://www.youtube.com/ads/)[Developers](https://developers.google.com/youtube)[Terms](/t/terms)[Privacy](/t/privacy)[Policy & Safety](https://www.youtube.com/about/po"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "Camiones en las banquinas: el reclamo de transportistas frenó exportaciones en plena cosecha y generó pérdidas millonarias - Infobae\n\n[Economía](/economia/)\n\n# Camiones en las banquinas: el reclamo de transportistas frenó exportaciones en plena cosecha y generó pérdidas millonarias\n\n## Más de 20 accesos permanecen interrumpidos en terminales clave mientras crecen los sobrecostos logísticos y se complican los embarques al exterior\n\n[Seguir en![Icono de Google para seguir en redes sociales](https:"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "🛑 SIN ACUERDO: CONTINÚA EL PARO DE CAMIONEROS EN GENERAL BELGRANO Los camioneros autoconvocados de General Belgrano ratificaron este viernes que no hubo acuerdo en las negociaciones y confirmaron la continuidad del paro iniciado este jueves en la rotonda que une las rutas 29 y 41, por tiempo indeterminado. La medida de fuerza se mantiene firme tras considerar “insostenible” la situación del sector, marcada por los constantes aumentos del gasoil y la falta de actualización en las tarifas de trans"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "InstagramInstagramCloseVerifiedMore optionsVerifiedLoad more commentsLikeCommentShareSaveClipClipClipClipClipClipDown chevron icon  \n\n[\n\n](/)\n\n[Log In](/accounts/login/?next=%2Freel%2FDW2LTaZlL9W%2F&source=desktop_nav)\n\n[Sign Up](/accounts/emailsignup/)\n\n![](https://scontent-lga3-3.cdninstagram.com/v/t51.82787-15/662344321_18354564646229437_2699992661560411162_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=106&ig_cache_key=Mzg3MDMzMDY0MjI5OTY2NjI2MjE4MzU0NTY0NjQwMjI5NDM3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=e"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "La CGT confirmó el paro contra la reforma laboral y atribuyó el cierre de FATE al “fracaso del plan económico del Gobierno” - Infobae\n\n[Política](/politica/)\n\n# La CGT confirmó el paro contra la reforma laboral y atribuyó el cierre de FATE al “fracaso del plan económico del Gobierno”\n\n## En una conferencia de prensa, la cúpula cegetista ratificó la huelga de 24 horas prevista para este jueves, cuando Diputados trate el proyecto, y advirtió que “este es el comienzo”. También se exhortó a los dipu"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "La CGT ratificó el paro contra la reforma laboral y adelantó que \"va a estar parada la Argentina de una punta a la otra\"\n\nMás previsiones: [El tiempo en Sevilla](https://oneweather.org/es/seville/25_days/)\n\n[![Agora Logo 2024 fondo claro](https://elagora.digital/wp-content/uploads/2024/03/Agora-Logo-2024-fondo-claro-e1718134916910.png)](https://elagora.digital)\n\n[Suscribirse](https://elagora.digital/colaborar)\n\nBuscar... \n\n[](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Felagora.dig"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "La CGT ratificó el paro: “Va a ser contundente y paralizará al país de punta a punta” – Página|12 [Omitir para ir al contenido principal](#main)\n\n* * *\n\n[![Pagina 12](/pf//resources/p12logo-50-anos-del-golpe-desktop.svg?d=91)](/ \"Pagina 12\")\n\n* * *\n\n* * *\n\n* * *\n\n[![Pagina 12](/pf//resources/p12logo-50-anos-del-golpe-desktop.svg?d=91)](/ \"Pagina 12\")\n\n[\n\nMIRÁ\n\n* * *\n\n\n\n](/argentina12)\n\nVolver\n\n*   [Edición Impresa](/edicion-impresa)\n*   [50 Años del Golpe](/50-anos-del-golpe)\n*   [El País](/el-p"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "Camioneros de granos en las rutas: lejos de un acuerdo, analizan nuevas medidas - Cba24n Cargando...\n\nX\n\nEconomía\n\n# Camioneros de granos en las rutas: lejos de un acuerdo, analizan nuevas medidas\n\n## Los transportistas realizan manifestaciones en diferentes puntos del país. La última reunión con las empresas no mostró avances. Se espera una cosecha récord, pero los camiones están parados.\n\nsábado 11 de abril de 2026 10:23[\n\nRedacción Cba24n\n\n\n\n\n\n](/redaccion-cba24n_p61311e4896ecc73053f4e544)\n\nL"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "Camioneros denuncian que trabajan a pérdida y esperan reajuste de la carta flete - Nacionales - ABC Color\n\n[ABC](https://www.abc.com.py/?utm_source=amp-menu-abc&utm_medium=abc-digital-amp&utm_campaign=abc-amp)\n\n*   [Ingresá / Registrate](https://www.abc.com.py/mi-cuenta/login/)\n*   [Nacionales](/nacionales/)\n*   [Mundo](/internacionales/)\n*   [Deportes](/deportes/)\n*   [Espectáculos](/espectaculos/)\n*   [ABC en el Este](/este/)\n*   [Tapa](/edicion-impresa/)\n*   [Epaper](https://ediciones.abc.com"
+      },
+      {
+        "title": "?",
+        "url": "?",
+        "text": "InstagramInstagramCloseMore optionsLoad more commentsLikeCommentShareSaveClipClipClipClipClipClipCarouselClipDown chevron icon  \n\n[\n\n](/)\n\n[Log In](/accounts/login/?next=%2Freel%2FDWfgrz1EZBP%2F&source=desktop_nav)\n\n[Sign Up](/accounts/emailsignup/)\n\n![](https://scontent-lga3-3.cdninstagram.com/v/t51.71878-15/656871590_783554684514242_6366367825111312492_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=108&ig_cache_key=Mzg2Mzk1MDc1MzM4NDIwNjQxNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6Inh"
+      }
+    ],
+    "rag_web_searches": {
+      "bcra_resoluciones": [
+        {
+          "title": "?",
+          "url": "?",
+          "text": "El Banco Central flexibiliza el cepo al dólar para personas y empresas | Perfil\n\nsábado 11 de abril de 2026\n\n*   [Business](https://www.perfil.com/seccion/bloomberg)\n*   [Noticias](https://noticias.perfil.com)\n*   [Caras](https://caras.perfil.com)\n*   [Exitoína](https://exitoina.perfil.com)\n*   [Perfil Brasil](https://brasil.perfil.com)\n\n[](/ \"Ir al inicio\")\n\n*   [Últimas Noticias](https://www.perfil.com/ultimo-momento)\n*   [Política](https://www.perfil.com/seccion/politica)\n*   [Opinión](https:"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "El BCRA eliminó el tope para retirar efectivo en el exterior con tarjetas argentinas - www.eLe-Ve.com.ar                  \n\n[![eLe-Ve](/dist/fast/logoe.png)](http://www.ele-ve.com.ar/)\n\nULTIMAS NOTICIAS\n\n[El BCRA eliminó el tope para retirar efectivo en el exterior con tarjetas argentinas](El-BCRA-elimino-el-tope-para-retirar-efectivo-en-el-exterior-con-tarjetas-argentinas.html)\n\n[La mora de las familias subió y ya roza el 30% en entidades no financieras](La-mora-de-las-familias-subio-y-ya-roza-"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "BOLETIN OFICIAL REPUBLICA ARGENTINA - BANCO CENTRAL DE LA REPÚBLICA ARGENTINA - Comunicación “B” 13147/2026\n\n![](/images/loader.gif)\n\n×\n\n[](/contacto)\n\n[![Instagram](/images/instagram.png)](https://www.instagram.com/boletinoficialarg)\n\n[![Twitter](/images/twitter.png)](https://twitter.com/boletin_oficial)\n\n* * *\n\n###### Edición del\n\n###### **10 de Abril de 2026**\n\n* * *\n\n###### **Ediciones Anteriores**\n\nBúsqueda avanzada\n\n![](/images/132-aniversario.png)\n\n##### Secciones\n\n*   [![](/images/sectio"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "BOLETIN OFICIAL REPUBLICA ARGENTINA - BANCO CENTRAL DE LA REPÚBLICA ARGENTINA - Comunicación “A” 8416/2026\n\n![](/images/loader.gif)\n\n×\n\n[](/contacto)\n\n[![Instagram](/images/instagram.png)](https://www.instagram.com/boletinoficialarg)\n\n[![Twitter](/images/twitter.png)](https://twitter.com/boletin_oficial)\n\n* * *\n\n###### Edición del\n\n###### **10 de Abril de 2026**\n\n* * *\n\n###### **Ediciones Anteriores**\n\nBúsqueda avanzada\n\n![](/images/132-aniversario.png)\n\n##### Secciones\n\n*   [![](/images/section"
+        },
+        {
+          "title": "?",
+          "url": "?",
+          "text": "Buscador de Comunicaciones | BCRA\n\n[Inicio](https://www.bcra.gob.ar/) » [Sistema Financiero](https://www.bcra.gob.ar/sistema-financiero/)\n\n[Inicio](https://www.bcra.gob.ar/) » [Sistema Financiero](https://www.bcra.gob.ar/sistema-financiero/)\n\n# Buscador de Comunicaciones\n\n*   Por tipo y número\n*   |     |     |\n    | --- | --- |\n    | A B C P | Buscar |\n    \n\n*   Por tipo y fecha\n*   A B C P desde  hasta  Buscar\n\n*   Por fecha\n*   desde  hasta  Buscar\n\n*   Por tipo y circular asociada\n*   A B C "
+        }
+      ]
+    },
+    "article_extractor": [
+      {
+        "title": "Créditos hipotecarios cayeron un 10% interanual",
+        "url": "https://www.ambito.com/real-estate/creditos-hipotecarios-cayeron-un-10-interanual-el-mercado-inmobiliario-duda-su-rebote-n6265281",
+        "date": "2026-04-11T20:26:00.000Z"
+      },
+      {
+        "title": "el tipo de cambio real se ubica en su menor nivel desde 2017, ¿cerca de un piso o irá por nuevos mínimos?",
+        "url": "https://www.ambito.com/finanzas/dolar-el-tipo-cambio-real-se-ubica-su-menor-nivel-2017-cerca-un-piso-o-ira-nuevos-minimos-n6264791",
+        "date": "2026-04-11T20:26:00.000Z"
+      },
+      {
+        "title": "los jóvenes que señaron el departamento son socios de la desarrolladora que construyó el edificio de la calle Miró",
+        "url": "https://www.ambito.com/politica/caso-adorni-los-jovenes-que-senaron-el-departamento-son-socios-la-desarrolladora-que-construyo-el-edificio-la-calle-miro-n6265017",
+        "date": "2026-04-11T20:26:00.000Z"
+      },
+      {
+        "title": "Los gobernadores blindan las reformas de Javier Milei pero crece la preocupación por el deterioro en las provincias",
+        "url": "https://www.ambito.com/ambito-nacional/los-gobernadores-blindan-las-reformas-javier-milei-pero-crece-la-preocupacion-el-deterioro-las-provincias-n6265272",
+        "date": "2026-04-11T20:26:00.000Z"
+      },
+      {
+        "title": "La misión Artemis 2 regresó con éxito a la Tierra tras su viaje a la Luna y amerizó en el Pacífico",
+        "url": "https://www.ambito.com/mundo/hoy-regresa-la-mision-artemis-2-la-tierra-que-hora-sera-y-como-seguirlo-vivo-n6265139",
+        "date": "2026-04-11T20:26:00.000Z"
+      }
+    ],
+    "website_crawler_ambito": [
+      {
+        "title": "?",
+        "url": "https://www.ambito.com/economia",
+        "text_preview": "Noticias de Economía | Ámbito\nSi tenés dudas comunicate\ncon nosotros a\nsuscripciones@ambito.com.ar\nLlamanos al (54) 11 4556-9147/48 o\nal (54) 11 4449-3256 de lunes a\nviernes de 10 a 18"
+      },
+      {
+        "title": "?",
+        "url": "https://www.ambito.com/economia/1",
+        "text_preview": "Noticias de Economía | Ámbito\nSi tenés dudas comunicate\ncon nosotros a\nsuscripciones@ambito.com.ar\nLlamanos al (54) 11 4556-9147/48 o\nal (54) 11 4449-3256 de lunes a\nviernes de 10 a 18"
+      },
+      {
+        "title": "?",
+        "url": "https://www.ambito.com/economia/dura-advertencia-del-economista-camilo-tiscornia-no-es-sostenible-que-la-inflacion-le-gane-al-tipo-cambio-n6265603",
+        "text_preview": "Dura advertencia del economista Camilo Tiscornia: No es sostenible que la inflación le gane al tipo de cambio\nEl director de C&T Consultores, sostuvo que no es sostenible que la inflación le gane al d"
+      },
+      {
+        "title": "?",
+        "url": "https://www.ambito.com/economia/todos-los-descuentos-cuenta-dni-disponibles-este-fin-semana-n6264316",
+        "text_preview": "Todos los descuentos de Cuenta DNI disponibles este fin de semana\nLa billetera digital Cuenta DNI se consolidó como una de las principales herramientas de ahorro para el consumo cotidiano de los argen"
+      }
+    ]
+  }
+}

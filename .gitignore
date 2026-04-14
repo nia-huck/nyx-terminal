@@ -1,0 +1,27 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Data (downloaded at runtime)
+info/
+
+# Database
+pgdata/
+
+# IDE / tools
+.claude/
+.vscode/
+
+# Logs
+*.log
+diaricat.log
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
