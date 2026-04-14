@@ -4,7 +4,7 @@
 
 Built for the [Anthropic MCP Hackathon](https://anthropic.com) using **Claude AI + Model Context Protocol (MCP) + Apify**.
 
-> **Live Demo:** [https://nyx-terminal.onrender.com](https://nyx-terminal.onrender.com)
+> **Live Demo:** [https://nia-huck.github.io/nyx-terminal/](https://nia-huck.github.io/nyx-terminal/)
 
 ---
 
