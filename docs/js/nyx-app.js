@@ -10,8 +10,9 @@
   var cache = {};
   var currentView = 'dashboard';
   var chartInstances = {};
-  var DEMO_MODE = false;
   var DEMO = window.NYX_DEMO_DATA || {};
+  // Auto-detect demo mode: if we have demo data and are NOT on localhost API
+  var DEMO_MODE = Object.keys(DEMO).length > 0 && !window.NYX_API;
 
   // ═══════════════════════════════════════════════════════════
   // I18N — Bilingual support (ES / EN)
@@ -261,20 +262,25 @@
   // ── Health check ──────────────────────────────────────────
   async function checkAPI() {
     var dot = $('#api-status');
+    if (DEMO_MODE) {
+      dot.classList.remove('offline');
+      dot.classList.add('demo');
+      dot.title = 'DEMO MODE \u2014 datos precargados';
+      dot.style.background = 'hsl(38, 92%, 50%)';
+      return true;
+    }
     try {
       var r = await fetch(API + '/', { signal: AbortSignal.timeout(3000) });
       var ok = r.ok;
-      DEMO_MODE = false;
       dot.classList.toggle('offline', !ok);
       dot.title = ok ? t('dyn.api_connected') : t('dyn.api_error');
       return ok;
     } catch {
-      // No API available — switch to demo mode
       if (Object.keys(DEMO).length > 0) {
         DEMO_MODE = true;
         dot.classList.remove('offline');
         dot.classList.add('demo');
-        dot.title = 'DEMO MODE — datos precargados';
+        dot.title = 'DEMO MODE \u2014 datos precargados';
         dot.style.background = 'hsl(38, 92%, 50%)';
         return true;
       }
@@ -284,7 +290,7 @@
     }
   }
   checkAPI();
-  setInterval(checkAPI, 30000);
+  setInterval(checkAPI, 60000);
 
   // ═══════════════════════════════════════════════════════════
   // NAVIGATION
@@ -842,6 +848,9 @@
           $('#kpi-reservas').textContent = 'USD ' + fmt(rsvVal / 1e9, 1) + 'B';
         } else if (rsvVal > 1e6) {
           $('#kpi-reservas').textContent = 'USD ' + fmt(rsvVal / 1e6, 0) + 'M';
+        } else if (rsvVal > 1e3) {
+          // BCRA reports in millions of USD
+          $('#kpi-reservas').textContent = 'USD ' + fmt(rsvVal / 1e3, 1) + 'B';
         } else {
           $('#kpi-reservas').textContent = fmt(rsvVal);
         }
