@@ -249,6 +249,9 @@
   // ── Load Events ───────────────────────────────────────────
   async function loadEvents() {
     var data = window.nyxCache && window.nyxCache.eventos;
+    if (!data && window.NYX_DEMO_DATA && window.NYX_DEMO_DATA['/eventos']) {
+      data = window.NYX_DEMO_DATA['/eventos'];
+    }
     if (!data) {
       try {
         var res = await fetch(API + '/eventos');

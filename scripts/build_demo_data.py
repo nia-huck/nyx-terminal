@@ -121,12 +121,28 @@ for source, articles in d.get("news", {}).items():
             a["_source"] = source
         news_all.extend(articles)
 
-# Province coordinates for realistic geo spread
-prov_coords = [
-    (-34.6, -58.4), (-31.4, -64.2), (-32.9, -60.7), (-34.9, -57.9),
-    (-26.8, -65.2), (-24.8, -65.4), (-31.5, -68.5), (-33.3, -66.3),
-    (-27.5, -59.0), (-38.0, -57.5), (-43.3, -65.3), (-36.6, -64.3),
-    (-29.4, -66.8), (-27.4, -55.9), (-38.9, -68.0), (-31.6, -60.7),
+# Province data: name, lat, lon
+provincias = [
+    ("Buenos Aires", -34.6, -58.4),
+    ("Cordoba", -31.4, -64.2),
+    ("Santa Fe", -32.9, -60.7),
+    ("CABA", -34.6, -58.4),
+    ("Tucuman", -26.8, -65.2),
+    ("Salta", -24.8, -65.4),
+    ("San Juan", -31.5, -68.5),
+    ("San Luis", -33.3, -66.3),
+    ("Chaco", -27.5, -59.0),
+    ("Buenos Aires", -38.0, -57.5),
+    ("Chubut", -43.3, -65.3),
+    ("La Pampa", -36.6, -64.3),
+    ("La Rioja", -29.4, -66.8),
+    ("Misiones", -27.4, -55.9),
+    ("Neuquen", -38.9, -68.0),
+    ("Entre Rios", -31.7, -60.5),
+    ("Mendoza", -32.9, -68.8),
+    ("Jujuy", -24.2, -65.3),
+    ("Santiago del Estero", -27.8, -64.3),
+    ("Corrientes", -27.5, -58.8),
 ]
 
 events = []
@@ -135,15 +151,17 @@ for i, n in enumerate(news_all[:25]):
     title = n.get("title", n.get("titulo", ""))
     if not title:
         continue
-    coord = prov_coords[i % len(prov_coords)]
+    prov = provincias[i % len(provincias)]
     events.append({
         "titulo": title,
         "tipo": tipos[i % len(tipos)],
         "urgencia": max(3, min(9, 5 + (i % 5))),
         "sector": "economia",
+        "provincia": prov[0],
         "fuente": n.get("_source", ""),
-        "lat": coord[0],
-        "lng": coord[1],
+        "lat": prov[1],
+        "lon": prov[2],
+        "resumen": (n.get("description", n.get("summary", "")) or "")[:200],
     })
 demo["/eventos"] = events
 
